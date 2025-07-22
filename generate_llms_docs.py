@@ -168,6 +168,11 @@ class DocumentationGenerator:
                     if 'api-reference/index.md' in str(file_path):
                         continue
                     
+                    # Skip all Java API reference files except index-all.html
+                    if ('api-reference/java/' in str(file_path) and 
+                        'index-all.html' not in str(file_path)):
+                        continue
+                    
                     file_content = self._extract_file_content(file_path)
                     if not file_content:
                         continue
@@ -241,24 +246,7 @@ class DocumentationGenerator:
                 # Add content with appropriate formatting
                 file_content = file_info['content']
                 
-                # Only truncate very large non-API files to avoid overwhelming output
-                # API reference files should be included in full for comprehensive documentation
-                is_api_reference = 'api-reference' in file_info['relative_path']
-                if not is_api_reference and len(file_content) > 5000:
-                    file_content = file_content[:5000] + f"\n\n*[Content truncated - file has {len(file_info['content'])} total characters]*"
-                elif is_api_reference and len(file_content) > 50000:
-                    # Even for API docs, truncate extremely large files but with higher limit
-                    file_content = file_content[:50000] + f"\n\n*[Content truncated - file has {len(file_info['content'])} total characters]*"
-                
-                # Add code blocks for code files
-                if file_info['type'] in ['.py', '.java', '.js', '.yaml', '.yml', '.json']:
-                    lang_name = {'.py': 'python', '.java': 'java', '.js': 'javascript', 
-                               '.yaml': 'yaml', '.yml': 'yaml', '.json': 'json'}.get(file_info['type'], '')
-                    doc.append(f"```{lang_name}\n")
-                    doc.append(file_content)
-                    doc.append("\n```\n")
-                else:
-                    doc.append(file_content)
+                doc.append(file_content)
                 
                 doc.append("\n---\n")
         

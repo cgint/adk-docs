@@ -461,8 +461,1648 @@ JavaScript is disabled on your browser.
 [Claude](com/google/adk/models/Claude.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
 :   Represents the Claude Generative AI model by Anthropic.
 
-[Claude(String, AnthropicClient)](com/google/adk/models/Claude.html#%3Cinit%3E(java.lang.String,com.anthropic.client.AnthropicClient)) - Constructor for class com.google.adk.models.[Claude](com/google/adk/models/
+[Claude(String, AnthropicClient)](com/google/adk/models/Claude.html#%3Cinit%3E(java.lang.String,com.anthropic.client.AnthropicClient)) - Constructor for class com.google.adk.models.[Claude](com/google/adk/models/Claude.html "class in com.google.adk.models")
+:   Constructs a new Claude instance.
 
-*[Content truncated - file has 224388 total characters]*
+[clear()](com/google/adk/sessions/State.html#clear()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[close()](com/google/adk/agents/LiveRequest.html#close()) - Method in class com.google.adk.agents.[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents")
+:   Returns whether the connection should be closed.
+
+[close()](com/google/adk/agents/LiveRequestQueue.html#close()) - Method in class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[close()](com/google/adk/flows/llmflows/audio/SpeechClientInterface.html#close()) - Method in interface com.google.adk.flows.llmflows.audio.[SpeechClientInterface](com/google/adk/flows/llmflows/audio/SpeechClientInterface.html "interface in com.google.adk.flows.llmflows.audio")
+:   Closes the client and releases any resources.
+
+[close()](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html#close()) - Method in class com.google.adk.flows.llmflows.audio.[VertexSpeechClient](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html "class in com.google.adk.flows.llmflows.audio")
+
+[close()](com/google/adk/models/BaseLlmConnection.html#close()) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Closes the connection.
+
+[close()](com/google/adk/models/GeminiLlmConnection.html#close()) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[close()](com/google/adk/network/ApiResponse.html#close()) - Method in class com.google.adk.network.[ApiResponse](com/google/adk/network/ApiResponse.html "class in com.google.adk.network")
+
+[close()](com/google/adk/network/HttpApiResponse.html#close()) - Method in class com.google.adk.network.[HttpApiResponse](com/google/adk/network/HttpApiResponse.html "class in com.google.adk.network")
+:   Closes the Http response.
+
+[close()](com/google/adk/sessions/ApiResponse.html#close()) - Method in class com.google.adk.sessions.[ApiResponse](com/google/adk/sessions/ApiResponse.html "class in com.google.adk.sessions")
+
+[close()](com/google/adk/sessions/HttpApiResponse.html#close()) - Method in class com.google.adk.sessions.[HttpApiResponse](com/google/adk/sessions/HttpApiResponse.html "class in com.google.adk.sessions")
+:   Closes the Http response.
+
+[close()](com/google/adk/tools/mcp/McpToolset.html#close()) - Method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Closes the connection to MCP Server.
+
+[close(Boolean)](com/google/adk/agents/LiveRequest.Builder.html#close(java.lang.Boolean)) - Method in class com.google.adk.agents.[LiveRequest.Builder](com/google/adk/agents/LiveRequest.Builder.html "class in com.google.adk.agents")
+
+[close(Throwable)](com/google/adk/models/BaseLlmConnection.html#close(java.lang.Throwable)) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Closes the connection with an error.
+
+[close(Throwable)](com/google/adk/models/GeminiLlmConnection.html#close(java.lang.Throwable)) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[close(Optional<Boolean>)](com/google/adk/agents/LiveRequest.Builder.html#close(java.util.Optional)) - Method in class com.google.adk.agents.[LiveRequest.Builder](com/google/adk/agents/LiveRequest.Builder.html "class in com.google.adk.agents")
+
+[closeSession(Session)](com/google/adk/sessions/BaseSessionService.html#closeSession(com.google.adk.sessions.Session)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Closes a session.
+
+[CollectionUtils](com/google/adk/CollectionUtils.html "class in com.google.adk") - Class in [com.google.adk](com/google/adk/package-summary.html)
+:   Frequently used code snippets for collections.
+
+[com.google.adk](com/google/adk/package-summary.html) - package com.google.adk
+
+[com.google.adk.agents](com/google/adk/agents/package-summary.html) - package com.google.adk.agents
+
+[com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html) - package com.google.adk.artifacts
+
+[com.google.adk.events](com/google/adk/events/package-summary.html) - package com.google.adk.events
+
+[com.google.adk.examples](com/google/adk/examples/package-summary.html) - package com.google.adk.examples
+
+[com.google.adk.exceptions](com/google/adk/exceptions/package-summary.html) - package com.google.adk.exceptions
+
+[com.google.adk.flows](com/google/adk/flows/package-summary.html) - package com.google.adk.flows
+
+[com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html) - package com.google.adk.flows.llmflows
+
+[com.google.adk.flows.llmflows.audio](com/google/adk/flows/llmflows/audio/package-summary.html) - package com.google.adk.flows.llmflows.audio
+
+[com.google.adk.models](com/google/adk/models/package-summary.html) - package com.google.adk.models
+
+[com.google.adk.network](com/google/adk/network/package-summary.html) - package com.google.adk.network
+
+[com.google.adk.runner](com/google/adk/runner/package-summary.html) - package com.google.adk.runner
+
+[com.google.adk.sessions](com/google/adk/sessions/package-summary.html) - package com.google.adk.sessions
+
+[com.google.adk.tools](com/google/adk/tools/package-summary.html) - package com.google.adk.tools
+
+[com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html) - package com.google.adk.tools.mcp
+
+[com.google.adk.tools.retrieval](com/google/adk/tools/retrieval/package-summary.html) - package com.google.adk.tools.retrieval
+
+[com.google.adk.utils](com/google/adk/utils/package-summary.html) - package com.google.adk.utils
+
+[config()](com/google/adk/models/LlmRequest.Builder.html#config()) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+
+[config()](com/google/adk/models/LlmRequest.html#config()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns the configuration for content generation.
+
+[config(GenerateContentConfig)](com/google/adk/models/LlmRequest.Builder.html#config(com.google.genai.types.GenerateContentConfig)) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+
+[connect(LlmRequest)](com/google/adk/models/BaseLlm.html#connect(com.google.adk.models.LlmRequest)) - Method in class com.google.adk.models.[BaseLlm](com/google/adk/models/BaseLlm.html "class in com.google.adk.models")
+:   Creates a live connection to the LLM.
+
+[connect(LlmRequest)](com/google/adk/models/Claude.html#connect(com.google.adk.models.LlmRequest)) - Method in class com.google.adk.models.[Claude](com/google/adk/models/Claude.html "class in com.google.adk.models")
+
+[connect(LlmRequest)](com/google/adk/models/Gemini.html#connect(com.google.adk.models.LlmRequest)) - Method in class com.google.adk.models.[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models")
+
+[containsKey(Object)](com/google/adk/sessions/State.html#containsKey(java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[containsValue(Object)](com/google/adk/sessions/State.html#containsValue(java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[content()](com/google/adk/agents/LiveRequest.html#content()) - Method in class com.google.adk.agents.[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents")
+:   Returns the content of the request.
+
+[content()](com/google/adk/events/Event.html#content()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[content()](com/google/adk/models/LlmResponse.html#content()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Returns the content of the first candidate in the response, if available.
+
+[content(Content)](com/google/adk/agents/LiveRequest.Builder.html#content(com.google.genai.types.Content)) - Method in class com.google.adk.agents.[LiveRequest.Builder](com/google/adk/agents/LiveRequest.Builder.html "class in com.google.adk.agents")
+
+[content(Content)](com/google/adk/agents/LiveRequestQueue.html#content(com.google.genai.types.Content)) - Method in class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[content(Content)](com/google/adk/events/Event.Builder.html#content(com.google.genai.types.Content)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[content(Content)](com/google/adk/models/LlmResponse.Builder.html#content(com.google.genai.types.Content)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[content(Optional<Content>)](com/google/adk/agents/LiveRequest.Builder.html#content(java.util.Optional)) - Method in class com.google.adk.agents.[LiveRequest.Builder](com/google/adk/agents/LiveRequest.Builder.html "class in com.google.adk.agents")
+
+[content(Optional<Content>)](com/google/adk/events/Event.Builder.html#content(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[contents()](com/google/adk/models/LlmRequest.html#contents()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns the list of content sent to the LLM.
+
+[contents(List<Content>)](com/google/adk/models/LlmRequest.Builder.html#contents(java.util.List)) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+
+[Contents](com/google/adk/flows/llmflows/Contents.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+:   `RequestProcessor` that populates content in request for LLM flows.
+
+[Contents()](com/google/adk/flows/llmflows/Contents.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.[Contents](com/google/adk/flows/llmflows/Contents.html "class in com.google.adk.flows.llmflows")
+
+[ConversionUtils](com/google/adk/tools/mcp/ConversionUtils.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Utility class for converting between different representations of MCP tools.
+
+[convertEventToJson(Event)](com/google/adk/sessions/VertexAiSessionService.html#convertEventToJson(com.google.adk.events.Event)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[copyOf(InvocationContext)](com/google/adk/agents/InvocationContext.html#copyOf(com.google.adk.agents.InvocationContext)) - Static method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[create(BaseAgent)](com/google/adk/tools/AgentTool.html#create(com.google.adk.agents.BaseAgent)) - Static method in class com.google.adk.tools.[AgentTool](com/google/adk/tools/AgentTool.html "class in com.google.adk.tools")
+
+[create(BaseAgent, boolean)](com/google/adk/tools/AgentTool.html#create(com.google.adk.agents.BaseAgent,boolean)) - Static method in class com.google.adk.tools.[AgentTool](com/google/adk/tools/AgentTool.html "class in com.google.adk.tools")
+
+[create(BaseSessionService, BaseArtifactService, BaseAgent, Session, LiveRequestQueue, RunConfig)](com/google/adk/agents/InvocationContext.html#create(com.google.adk.sessions.BaseSessionService,com.google.adk.artifacts.BaseArtifactService,com.google.adk.agents.BaseAgent,com.google.adk.sessions.Session,com.google.adk.agents.LiveRequestQueue,com.google.adk.agents.RunConfig)) - Static method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[create(BaseSessionService, BaseArtifactService, String, BaseAgent, Session, Content, RunConfig)](com/google/adk/agents/InvocationContext.html#create(com.google.adk.sessions.BaseSessionService,com.google.adk.artifacts.BaseArtifactService,java.lang.String,com.google.adk.agents.BaseAgent,com.google.adk.sessions.Session,com.google.genai.types.Content,com.google.adk.agents.RunConfig)) - Static method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[create(GenerateContentResponse)](com/google/adk/models/LlmResponse.html#create(com.google.genai.types.GenerateContentResponse)) - Static method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+
+[create(Class<?>, String)](com/google/adk/tools/FunctionTool.html#create(java.lang.Class,java.lang.String)) - Static method in class com.google.adk.tools.[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools")
+
+[create(Class<?>, String)](com/google/adk/tools/LongRunningFunctionTool.html#create(java.lang.Class,java.lang.String)) - Static method in class com.google.adk.tools.[LongRunningFunctionTool](com/google/adk/tools/LongRunningFunctionTool.html "class in com.google.adk.tools")
+
+[create(Method)](com/google/adk/tools/FunctionTool.html#create(java.lang.reflect.Method)) - Static method in class com.google.adk.tools.[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools")
+
+[create(Method)](com/google/adk/tools/LongRunningFunctionTool.html#create(java.lang.reflect.Method)) - Static method in class com.google.adk.tools.[LongRunningFunctionTool](com/google/adk/tools/LongRunningFunctionTool.html "class in com.google.adk.tools")
+
+[create(String)](com/google/adk/models/LlmRegistry.LlmFactory.html#create(java.lang.String)) - Method in interface com.google.adk.models.[LlmRegistry.LlmFactory](com/google/adk/models/LlmRegistry.LlmFactory.html "interface in com.google.adk.models")
+
+[create(List<Candidate>)](com/google/adk/models/LlmResponse.html#create(java.util.List)) - Static method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+
+[createSession()](com/google/adk/tools/mcp/McpSessionManager.html#createSession()) - Method in class com.google.adk.tools.mcp.[McpSessionManager](com/google/adk/tools/mcp/McpSessionManager.html "class in com.google.adk.tools.mcp")
+
+[createSession(String, String)](com/google/adk/sessions/BaseSessionService.html#createSession(java.lang.String,java.lang.String)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Creates a new session with the specified application name and user ID, using a default state
+    (null) and allowing the service to generate a unique session ID.
+
+[createSession(String, String, ConcurrentMap<String, Object>, String)](com/google/adk/sessions/InMemorySessionService.html#createSession(java.lang.String,java.lang.String,java.util.concurrent.ConcurrentMap,java.lang.String)) - Method in class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+
+[createSession(String, String, ConcurrentMap<String, Object>, String)](com/google/adk/sessions/BaseSessionService.html#createSession(java.lang.String,java.lang.String,java.util.concurrent.ConcurrentMap,java.lang.String)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Creates a new session with the specified parameters.
+
+[createSession(String, String, ConcurrentMap<String, Object>, String)](com/google/adk/sessions/VertexAiSessionService.html#createSession(java.lang.String,java.lang.String,java.util.concurrent.ConcurrentMap,java.lang.String)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[credentials()](com/google/adk/models/VertexCredentials.html#credentials()) - Method in class com.google.adk.models.[VertexCredentials](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models")
+
+## D
+
+[declaration()](com/google/adk/tools/AgentTool.html#declaration()) - Method in class com.google.adk.tools.[AgentTool](com/google/adk/tools/AgentTool.html "class in com.google.adk.tools")
+
+[declaration()](com/google/adk/tools/BaseTool.html#declaration()) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+:   Gets the `FunctionDeclaration` representation of this tool.
+
+[declaration()](com/google/adk/tools/FunctionTool.html#declaration()) - Method in class com.google.adk.tools.[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools")
+
+[declaration()](com/google/adk/tools/LoadArtifactsTool.html#declaration()) - Method in class com.google.adk.tools.[LoadArtifactsTool](com/google/adk/tools/LoadArtifactsTool.html "class in com.google.adk.tools")
+
+[declaration()](com/google/adk/tools/mcp/McpTool.html#declaration()) - Method in class com.google.adk.tools.mcp.[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp")
+
+[declaration()](com/google/adk/tools/retrieval/BaseRetrievalTool.html#declaration()) - Method in class com.google.adk.tools.retrieval.[BaseRetrievalTool](com/google/adk/tools/retrieval/BaseRetrievalTool.html "class in com.google.adk.tools.retrieval")
+
+[decodeContent(Content)](com/google/adk/sessions/SessionUtils.html#decodeContent(com.google.genai.types.Content)) - Static method in class com.google.adk.sessions.[SessionUtils](com/google/adk/sessions/SessionUtils.html "class in com.google.adk.sessions")
+
+[DEFAULT](com/google/adk/agents/LlmAgent.IncludeContents.html#DEFAULT) - Enum constant in enum class com.google.adk.agents.[LlmAgent.IncludeContents](com/google/adk/agents/LlmAgent.IncludeContents.html "enum class in com.google.adk.agents")
+
+[deleteArtifact(String, String, String, String)](com/google/adk/artifacts/BaseArtifactService.html#deleteArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in interface com.google.adk.artifacts.[BaseArtifactService](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts")
+:   Deletes an artifact.
+
+[deleteArtifact(String, String, String, String)](com/google/adk/artifacts/GcsArtifactService.html#deleteArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+
+[deleteArtifact(String, String, String, String)](com/google/adk/artifacts/InMemoryArtifactService.html#deleteArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[deleteSession(String, String, String)](com/google/adk/sessions/BaseSessionService.html#deleteSession(java.lang.String,java.lang.String,java.lang.String)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Deletes a specific session.
+
+[deleteSession(String, String, String)](com/google/adk/sessions/InMemorySessionService.html#deleteSession(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+
+[deleteSession(String, String, String)](com/google/adk/sessions/VertexAiSessionService.html#deleteSession(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[description()](com/google/adk/agents/BaseAgent.html#description()) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Gets the one-line description of the agent's capability.
+
+[description()](com/google/adk/tools/Annotations.Schema.html#description()) - Element in annotation interface com.google.adk.tools.[Annotations.Schema](com/google/adk/tools/Annotations.Schema.html "annotation interface in com.google.adk.tools")
+
+[description()](com/google/adk/tools/BaseTool.html#description()) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+
+[description(String)](com/google/adk/agents/LlmAgent.Builder.html#description(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[description(String)](com/google/adk/agents/LoopAgent.Builder.html#description(java.lang.String)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[description(String)](com/google/adk/agents/ParallelAgent.Builder.html#description(java.lang.String)) - Method in class com.google.adk.agents.[ParallelAgent.Builder](com/google/adk/agents/ParallelAgent.Builder.html "class in com.google.adk.agents")
+
+[description(String)](com/google/adk/agents/SequentialAgent.Builder.html#description(java.lang.String)) - Method in class com.google.adk.agents.[SequentialAgent.Builder](com/google/adk/agents/SequentialAgent.Builder.html "class in com.google.adk.agents")
+
+[disallowTransferToParent()](com/google/adk/agents/LlmAgent.html#disallowTransferToParent()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[disallowTransferToParent(boolean)](com/google/adk/agents/LlmAgent.Builder.html#disallowTransferToParent(boolean)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[disallowTransferToPeers()](com/google/adk/agents/LlmAgent.html#disallowTransferToPeers()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[disallowTransferToPeers(boolean)](com/google/adk/agents/LlmAgent.Builder.html#disallowTransferToPeers(boolean)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+## E
+
+[encodeContent(Content)](com/google/adk/sessions/SessionUtils.html#encodeContent(com.google.genai.types.Content)) - Static method in class com.google.adk.sessions.[SessionUtils](com/google/adk/sessions/SessionUtils.html "class in com.google.adk.sessions")
+
+[endInvocation()](com/google/adk/agents/InvocationContext.html#endInvocation()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[entrySet()](com/google/adk/sessions/State.html#entrySet()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[equals(Object)](com/google/adk/agents/InvocationContext.html#equals(java.lang.Object)) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[equals(Object)](com/google/adk/events/Event.html#equals(java.lang.Object)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[equals(Object)](com/google/adk/events/EventActions.html#equals(java.lang.Object)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[equals(Object)](com/google/adk/sessions/State.html#equals(java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[errorCode()](com/google/adk/events/Event.html#errorCode()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[errorCode()](com/google/adk/models/LlmResponse.html#errorCode()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Error code if the response is an error.
+
+[errorCode(FinishReason)](com/google/adk/events/Event.Builder.html#errorCode(com.google.genai.types.FinishReason)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[errorCode(FinishReason)](com/google/adk/models/LlmResponse.Builder.html#errorCode(com.google.genai.types.FinishReason)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[errorCode(Optional<FinishReason>)](com/google/adk/events/Event.Builder.html#errorCode(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[errorCode(Optional<FinishReason>)](com/google/adk/models/LlmResponse.Builder.html#errorCode(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[errorMessage()](com/google/adk/events/Event.html#errorMessage()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[errorMessage()](com/google/adk/models/LlmResponse.html#errorMessage()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Error message if the response is an error.
+
+[errorMessage(String)](com/google/adk/events/Event.Builder.html#errorMessage(java.lang.String)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[errorMessage(String)](com/google/adk/models/LlmResponse.Builder.html#errorMessage(java.lang.String)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[errorMessage(Optional<String>)](com/google/adk/events/Event.Builder.html#errorMessage(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[errorMessage(Optional<String>)](com/google/adk/models/LlmResponse.Builder.html#errorMessage(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[escalate()](com/google/adk/events/EventActions.html#escalate()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[escalate(boolean)](com/google/adk/events/EventActions.Builder.html#escalate(boolean)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[Event](com/google/adk/events/Event.html "class in com.google.adk.events") - Class in [com.google.adk.events](com/google/adk/events/package-summary.html)
+:   Represents an event in a session.
+
+[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events") - Class in [com.google.adk.events](com/google/adk/events/package-summary.html)
+:   Builder for [`Event`](com/google/adk/events/Event.html "class in com.google.adk.events").
+
+[eventActions](com/google/adk/agents/CallbackContext.html#eventActions) - Variable in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+
+[eventActions()](com/google/adk/agents/CallbackContext.html#eventActions()) - Method in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+:   Returns the EventActions associated with this context.
+
+[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events") - Class in [com.google.adk.events](com/google/adk/events/package-summary.html)
+:   Represents the actions attached to an event.
+
+[EventActions()](com/google/adk/events/EventActions.html#%3Cinit%3E()) - Constructor for class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+:   Default constructor for Jackson.
+
+[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events") - Class in [com.google.adk.events](com/google/adk/events/package-summary.html)
+:   Builder for [`EventActions`](com/google/adk/events/EventActions.html "class in com.google.adk.events").
+
+[events()](com/google/adk/sessions/ListEventsResponse.html#events()) - Method in class com.google.adk.sessions.[ListEventsResponse](com/google/adk/sessions/ListEventsResponse.html "class in com.google.adk.sessions")
+
+[events()](com/google/adk/sessions/Session.html#events()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[events(List<Event>)](com/google/adk/sessions/ListEventsResponse.Builder.html#events(java.util.List)) - Method in class com.google.adk.sessions.[ListEventsResponse.Builder](com/google/adk/sessions/ListEventsResponse.Builder.html "class in com.google.adk.sessions")
+
+[events(List<Event>)](com/google/adk/sessions/Session.Builder.html#events(java.util.List)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[EventStream](com/google/adk/events/EventStream.html "class in com.google.adk.events") - Class in [com.google.adk.events](com/google/adk/events/package-summary.html)
+
+[EventStream(Supplier<Event>)](com/google/adk/events/EventStream.html#%3Cinit%3E(java.util.function.Supplier)) - Constructor for class com.google.adk.events.[EventStream](com/google/adk/events/EventStream.html "class in com.google.adk.events")
+
+[Example](com/google/adk/examples/Example.html "class in com.google.adk.examples") - Class in [com.google.adk.examples](com/google/adk/examples/package-summary.html)
+:   Represents an few-shot example.
+
+[Example()](com/google/adk/examples/Example.html#%3Cinit%3E()) - Constructor for class com.google.adk.examples.[Example](com/google/adk/examples/Example.html "class in com.google.adk.examples")
+
+[Example.Builder](com/google/adk/examples/Example.Builder.html "class in com.google.adk.examples") - Class in [com.google.adk.examples](com/google/adk/examples/package-summary.html)
+:   Builder for constructing [`Example`](com/google/adk/examples/Example.html "class in com.google.adk.examples") instances.
+
+[exampleProvider()](com/google/adk/agents/LlmAgent.html#exampleProvider()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[exampleProvider(BaseExampleProvider)](com/google/adk/agents/LlmAgent.Builder.html#exampleProvider(com.google.adk.examples.BaseExampleProvider)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[exampleProvider(Example...)](com/google/adk/agents/LlmAgent.Builder.html#exampleProvider(com.google.adk.examples.Example...)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[exampleProvider(List<Example>)](com/google/adk/agents/LlmAgent.Builder.html#exampleProvider(java.util.List)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[Examples](com/google/adk/flows/llmflows/Examples.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+:   `RequestProcessor` that populates examples in LLM request.
+
+[Examples()](com/google/adk/flows/llmflows/Examples.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.[Examples](com/google/adk/flows/llmflows/Examples.html "class in com.google.adk.flows.llmflows")
+
+[ExampleUtils](com/google/adk/examples/ExampleUtils.html "class in com.google.adk.examples") - Class in [com.google.adk.examples](com/google/adk/examples/package-summary.html)
+:   Utility class for examples.
+
+[executor()](com/google/adk/agents/LlmAgent.html#executor()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[executor(Executor)](com/google/adk/agents/LlmAgent.Builder.html#executor(java.util.concurrent.Executor)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[exitLoop(ToolContext)](com/google/adk/tools/ExitLoopTool.html#exitLoop(com.google.adk.tools.ToolContext)) - Static method in class com.google.adk.tools.[ExitLoopTool](com/google/adk/tools/ExitLoopTool.html "class in com.google.adk.tools")
+
+[ExitLoopTool](com/google/adk/tools/ExitLoopTool.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   Exits the loop.
+
+## F
+
+[filenames()](com/google/adk/artifacts/ListArtifactsResponse.html#filenames()) - Method in class com.google.adk.artifacts.[ListArtifactsResponse](com/google/adk/artifacts/ListArtifactsResponse.html "class in com.google.adk.artifacts")
+
+[filenames(List<String>)](com/google/adk/artifacts/ListArtifactsResponse.Builder.html#filenames(java.util.List)) - Method in class com.google.adk.artifacts.[ListArtifactsResponse.Builder](com/google/adk/artifacts/ListArtifactsResponse.Builder.html "class in com.google.adk.artifacts")
+
+[finalResponse()](com/google/adk/events/Event.html#finalResponse()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[findAgent(String)](com/google/adk/agents/BaseAgent.html#findAgent(java.lang.String)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Finds an agent (this or descendant) by name.
+
+[findSubAgent(String)](com/google/adk/agents/BaseAgent.html#findSubAgent(java.lang.String)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Recursively search sub agent by name.
+
+[fromApiEvent(Map<String, Object>)](com/google/adk/sessions/VertexAiSessionService.html#fromApiEvent(java.util.Map)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[fromJson(String)](com/google/adk/events/Event.html#fromJson(java.lang.String)) - Static method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[fromJson(String)](com/google/adk/sessions/Session.html#fromJson(java.lang.String)) - Static method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[fromJsonNode(JsonNode, Class<T>)](com/google/adk/JsonBaseModel.html#fromJsonNode(com.fasterxml.jackson.databind.JsonNode,java.lang.Class)) - Static method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+:   Deserializes a JsonNode to an object of the given type.
+
+[fromJsonString(String)](com/google/adk/agents/LiveRequest.html#fromJsonString(java.lang.String)) - Static method in class com.google.adk.agents.[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents")
+:   Deserializes a Json string to a [`LiveRequest`](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents") object.
+
+[fromJsonString(String, Class<T>)](com/google/adk/JsonBaseModel.html#fromJsonString(java.lang.String,java.lang.Class)) - Static method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+:   Deserializes a Json string to an object of the given type.
+
+[fromServer(SseServerParameters)](com/google/adk/tools/mcp/McpToolset.html#fromServer(com.google.adk.tools.mcp.SseServerParameters)) - Static method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Retrieve all tools from the MCP connection using SSE server parameters and the ObjectMapper
+    used across the ADK.
+
+[fromServer(SseServerParameters, ObjectMapper)](com/google/adk/tools/mcp/McpToolset.html#fromServer(com.google.adk.tools.mcp.SseServerParameters,com.fasterxml.jackson.databind.ObjectMapper)) - Static method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Retrieve all tools from the MCP connection using SSE server parameters.
+
+[fromServer(ServerParameters)](com/google/adk/tools/mcp/McpToolset.html#fromServer(io.modelcontextprotocol.client.transport.ServerParameters)) - Static method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Retrieve all tools from the MCP connection using local server parameters and the ObjectMapper
+    used across the ADK.
+
+[fromServer(ServerParameters, ObjectMapper)](com/google/adk/tools/mcp/McpToolset.html#fromServer(io.modelcontextprotocol.client.transport.ServerParameters,com.fasterxml.jackson.databind.ObjectMapper)) - Static method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Retrieve all tools from the MCP connection using local server parameters.
+
+[functionCallId()](com/google/adk/tools/ToolContext.html#functionCallId()) - Method in class com.google.adk.tools.[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools")
+
+[functionCallId(String)](com/google/adk/tools/ToolContext.Builder.html#functionCallId(java.lang.String)) - Method in class com.google.adk.tools.[ToolContext.Builder](com/google/adk/tools/ToolContext.Builder.html "class in com.google.adk.tools")
+
+[functionCallId(String)](com/google/adk/tools/ToolContext.html#functionCallId(java.lang.String)) - Method in class com.google.adk.tools.[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools")
+
+[FunctionCallingUtils](com/google/adk/tools/FunctionCallingUtils.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   Utility class for function calling.
+
+[FunctionCallingUtils()](com/google/adk/tools/FunctionCallingUtils.html#%3Cinit%3E()) - Constructor for class com.google.adk.tools.[FunctionCallingUtils](com/google/adk/tools/FunctionCallingUtils.html "class in com.google.adk.tools")
+
+[functionCalls()](com/google/adk/events/Event.html#functionCalls()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[functionResponses()](com/google/adk/events/Event.html#functionResponses()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[Functions](com/google/adk/flows/llmflows/Functions.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+:   Utility class for handling function calls.
+
+[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   FunctionTool implements a customized function calling tool.
+
+[FunctionTool(Method, boolean)](com/google/adk/tools/FunctionTool.html#%3Cinit%3E(java.lang.reflect.Method,boolean)) - Constructor for class com.google.adk.tools.[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools")
+
+## G
+
+[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   An artifact service implementation using Google Cloud Storage (GCS).
+
+[GcsArtifactService(String, Storage)](com/google/adk/artifacts/GcsArtifactService.html#%3Cinit%3E(java.lang.String,com.google.cloud.storage.Storage)) - Constructor for class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+:   Initializes the GcsArtifactService.
+
+[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Represents the Gemini Generative AI model.
+
+[Gemini(String, VertexCredentials)](com/google/adk/models/Gemini.html#%3Cinit%3E(java.lang.String,com.google.adk.models.VertexCredentials)) - Constructor for class com.google.adk.models.[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models")
+:   Constructs a new Gemini instance with a Google Gemini API key.
+
+[Gemini(String, Client)](com/google/adk/models/Gemini.html#%3Cinit%3E(java.lang.String,com.google.genai.Client)) - Constructor for class com.google.adk.models.[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models")
+:   Constructs a new Gemini instance.
+
+[Gemini(String, String)](com/google/adk/models/Gemini.html#%3Cinit%3E(java.lang.String,java.lang.String)) - Constructor for class com.google.adk.models.[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models")
+:   Constructs a new Gemini instance with a Google Gemini API key.
+
+[Gemini.Builder](com/google/adk/models/Gemini.Builder.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Builder for [`Gemini`](com/google/adk/models/Gemini.html "class in com.google.adk.models").
+
+[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Manages a persistent, bidirectional connection to the Gemini model via WebSockets for real-time
+    interaction.
+
+[generateClientFunctionCallId()](com/google/adk/flows/llmflows/Functions.html#generateClientFunctionCallId()) - Static method in class com.google.adk.flows.llmflows.[Functions](com/google/adk/flows/llmflows/Functions.html "class in com.google.adk.flows.llmflows")
+:   Generates a unique ID for a function call.
+
+[generateContent(LlmRequest, boolean)](com/google/adk/models/BaseLlm.html#generateContent(com.google.adk.models.LlmRequest,boolean)) - Method in class com.google.adk.models.[BaseLlm](com/google/adk/models/BaseLlm.html "class in com.google.adk.models")
+:   Generates one content from the given LLM request and tools.
+
+[generateContent(LlmRequest, boolean)](com/google/adk/models/Claude.html#generateContent(com.google.adk.models.LlmRequest,boolean)) - Method in class com.google.adk.models.[Claude](com/google/adk/models/Claude.html "class in com.google.adk.models")
+
+[generateContent(LlmRequest, boolean)](com/google/adk/models/Gemini.html#generateContent(com.google.adk.models.LlmRequest,boolean)) - Method in class com.google.adk.models.[Gemini](com/google/adk/models/Gemini.html "class in com.google.adk.models")
+
+[generateContentConfig()](com/google/adk/agents/LlmAgent.html#generateContentConfig()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[generateContentConfig(GenerateContentConfig)](com/google/adk/agents/LlmAgent.Builder.html#generateContentConfig(com.google.genai.types.GenerateContentConfig)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[generateEventId()](com/google/adk/events/Event.html#generateEventId()) - Static method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[get()](com/google/adk/agents/LiveRequestQueue.html#get()) - Method in class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[get(Object)](com/google/adk/sessions/State.html#get(java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[getEntity()](com/google/adk/network/ApiResponse.html#getEntity()) - Method in class com.google.adk.network.[ApiResponse](com/google/adk/network/ApiResponse.html "class in com.google.adk.network")
+:   Gets the ResponseBody.
+
+[getEntity()](com/google/adk/network/HttpApiResponse.html#getEntity()) - Method in class com.google.adk.network.[HttpApiResponse](com/google/adk/network/HttpApiResponse.html "class in com.google.adk.network")
+:   Returns the ResponseBody from the response.
+
+[getExamples(String)](com/google/adk/examples/BaseExampleProvider.html#getExamples(java.lang.String)) - Method in interface com.google.adk.examples.[BaseExampleProvider](com/google/adk/examples/BaseExampleProvider.html "interface in com.google.adk.examples")
+
+[getFirstSystemInstruction()](com/google/adk/models/LlmRequest.html#getFirstSystemInstruction()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   returns the first system instruction text from the request if present.
+
+[getJsonResponse(ApiResponse)](com/google/adk/sessions/VertexAiSessionService.html#getJsonResponse(com.google.adk.sessions.ApiResponse)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[getLastUpdateTimeAsDouble()](com/google/adk/sessions/Session.html#getLastUpdateTimeAsDouble()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[getLlm(String)](com/google/adk/models/LlmRegistry.html#getLlm(java.lang.String)) - Static method in class com.google.adk.models.[LlmRegistry](com/google/adk/models/LlmRegistry.html "class in com.google.adk.models")
+
+[getLongRunningFunctionCalls(List<FunctionCall>, Map<String, BaseTool>)](com/google/adk/flows/llmflows/Functions.html#getLongRunningFunctionCalls(java.util.List,java.util.Map)) - Static method in class com.google.adk.flows.llmflows.[Functions](com/google/adk/flows/llmflows/Functions.html "class in com.google.adk.flows.llmflows")
+
+[getMapper()](com/google/adk/JsonBaseModel.html#getMapper()) - Static method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+
+[getResponseBody()](com/google/adk/sessions/ApiResponse.html#getResponseBody()) - Method in class com.google.adk.sessions.[ApiResponse](com/google/adk/sessions/ApiResponse.html "class in com.google.adk.sessions")
+:   Gets the HttpEntity.
+
+[getResponseBody()](com/google/adk/sessions/HttpApiResponse.html#getResponseBody()) - Method in class com.google.adk.sessions.[HttpApiResponse](com/google/adk/sessions/HttpApiResponse.html "class in com.google.adk.sessions")
+:   Returns the HttpEntity from the response.
+
+[getSession(String, String, String, Optional<GetSessionConfig>)](com/google/adk/sessions/BaseSessionService.html#getSession(java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Retrieves a specific session, optionally filtering the events included.
+
+[getSession(String, String, String, Optional<GetSessionConfig>)](com/google/adk/sessions/InMemorySessionService.html#getSession(java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+
+[getSession(String, String, String, Optional<GetSessionConfig>)](com/google/adk/sessions/VertexAiSessionService.html#getSession(java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[GetSessionConfig](com/google/adk/sessions/GetSessionConfig.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Configuration for getting a session.
+
+[GetSessionConfig()](com/google/adk/sessions/GetSessionConfig.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[GetSessionConfig](com/google/adk/sessions/GetSessionConfig.html "class in com.google.adk.sessions")
+
+[GetSessionConfig.Builder](com/google/adk/sessions/GetSessionConfig.Builder.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Builder for [`GetSessionConfig`](com/google/adk/sessions/GetSessionConfig.html "class in com.google.adk.sessions").
+
+[getSystemInstructions()](com/google/adk/models/LlmRequest.html#getSystemInstructions()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns all system instruction texts from the request as an immutable list.
+
+[getTools()](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html#getTools()) - Method in class com.google.adk.tools.mcp.[McpToolset.McpToolsAndToolsetResult](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html "class in com.google.adk.tools.mcp")
+
+[getToolset()](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html#getToolset()) - Method in class com.google.adk.tools.mcp.[McpToolset.McpToolsAndToolsetResult](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html "class in com.google.adk.tools.mcp")
+
+[getTracer()](com/google/adk/Telemetry.html#getTracer()) - Static method in class com.google.adk.[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk")
+:   Gets the tracer.
+
+[globalInstruction()](com/google/adk/agents/LlmAgent.html#globalInstruction()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[globalInstruction(String)](com/google/adk/agents/LlmAgent.Builder.html#globalInstruction(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[GoogleSearchTool](com/google/adk/tools/GoogleSearchTool.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   A built-in tool that is automatically invoked by Gemini 2 models to retrieve search results from
+    Google Search.
+
+[GoogleSearchTool()](com/google/adk/tools/GoogleSearchTool.html#%3Cinit%3E()) - Constructor for class com.google.adk.tools.[GoogleSearchTool](com/google/adk/tools/GoogleSearchTool.html "class in com.google.adk.tools")
+
+[groundingMetadata()](com/google/adk/events/Event.html#groundingMetadata()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   The grounding metadata of the event.
+
+[groundingMetadata()](com/google/adk/models/LlmResponse.html#groundingMetadata()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Returns the grounding metadata of the first candidate in the response, if available.
+
+[groundingMetadata(GroundingMetadata)](com/google/adk/events/Event.Builder.html#groundingMetadata(com.google.genai.types.GroundingMetadata)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[groundingMetadata(GroundingMetadata)](com/google/adk/models/LlmResponse.Builder.html#groundingMetadata(com.google.genai.types.GroundingMetadata)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[groundingMetadata(Optional<GroundingMetadata>)](com/google/adk/events/Event.Builder.html#groundingMetadata(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[groundingMetadata(Optional<GroundingMetadata>)](com/google/adk/models/LlmResponse.Builder.html#groundingMetadata(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+## H
+
+[handleFunctionCalls(InvocationContext, Event, Map<String, BaseTool>)](com/google/adk/flows/llmflows/Functions.html#handleFunctionCalls(com.google.adk.agents.InvocationContext,com.google.adk.events.Event,java.util.Map)) - Static method in class com.google.adk.flows.llmflows.[Functions](com/google/adk/flows/llmflows/Functions.html "class in com.google.adk.flows.llmflows")
+
+[hashCode()](com/google/adk/agents/InvocationContext.html#hashCode()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[hashCode()](com/google/adk/events/Event.html#hashCode()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[hashCode()](com/google/adk/events/EventActions.html#hashCode()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[hashCode()](com/google/adk/sessions/State.html#hashCode()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[headers()](com/google/adk/tools/mcp/SseServerParameters.html#headers()) - Method in class com.google.adk.tools.mcp.[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp")
+:   Optional headers to include in the SSE connection request.
+
+[headers(Map<String, Object>)](com/google/adk/tools/mcp/SseServerParameters.Builder.html#headers(java.util.Map)) - Method in class com.google.adk.tools.mcp.[SseServerParameters.Builder](com/google/adk/tools/mcp/SseServerParameters.Builder.html "class in com.google.adk.tools.mcp")
+:   Sets the headers for the SSE connection request.
+
+[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Base client for the HTTP APIs.
+
+[HttpApiResponse](com/google/adk/network/HttpApiResponse.html "class in com.google.adk.network") - Class in [com.google.adk.network](com/google/adk/network/package-summary.html)
+:   Wraps a real HTTP response to expose the methods needed by the GenAI SDK.
+
+[HttpApiResponse](com/google/adk/sessions/HttpApiResponse.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Wraps a real HTTP response to expose the methods needed by the GenAI SDK.
+
+[HttpApiResponse(Response)](com/google/adk/network/HttpApiResponse.html#%3Cinit%3E(okhttp3.Response)) - Constructor for class com.google.adk.network.[HttpApiResponse](com/google/adk/network/HttpApiResponse.html "class in com.google.adk.network")
+:   Constructs a HttpApiResponse instance with the response.
+
+[HttpApiResponse(Response)](com/google/adk/sessions/HttpApiResponse.html#%3Cinit%3E(okhttp3.Response)) - Constructor for class com.google.adk.sessions.[HttpApiResponse](com/google/adk/sessions/HttpApiResponse.html "class in com.google.adk.sessions")
+:   Constructs a HttpApiResponse instance with the response.
+
+## I
+
+[id()](com/google/adk/events/Event.html#id()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   The event id.
+
+[id()](com/google/adk/sessions/Session.html#id()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[id(String)](com/google/adk/events/Event.Builder.html#id(java.lang.String)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[id(String)](com/google/adk/sessions/Session.Builder.html#id(java.lang.String)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[Identity](com/google/adk/flows/llmflows/Identity.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+:   `RequestProcessor` that gives the agent identity from the framework
+
+[Identity()](com/google/adk/flows/llmflows/Identity.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.[Identity](com/google/adk/flows/llmflows/Identity.html "class in com.google.adk.flows.llmflows")
+
+[includeContents()](com/google/adk/agents/LlmAgent.html#includeContents()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[includeContents(LlmAgent.IncludeContents)](com/google/adk/agents/LlmAgent.Builder.html#includeContents(com.google.adk.agents.LlmAgent.IncludeContents)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[incrementLlmCallsCount()](com/google/adk/agents/InvocationContext.html#incrementLlmCallsCount()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[initializeSession(Object)](com/google/adk/tools/mcp/McpSessionManager.html#initializeSession(java.lang.Object)) - Static method in class com.google.adk.tools.mcp.[McpSessionManager](com/google/adk/tools/mcp/McpSessionManager.html "class in com.google.adk.tools.mcp")
+
+[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   An in-memory implementation of the [`BaseArtifactService`](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts").
+
+[InMemoryArtifactService()](com/google/adk/artifacts/InMemoryArtifactService.html#%3Cinit%3E()) - Constructor for class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[InMemoryRunner](com/google/adk/runner/InMemoryRunner.html "class in com.google.adk.runner") - Class in [com.google.adk.runner](com/google/adk/runner/package-summary.html)
+:   The class for the in-memory GenAi runner, using in-memory artifact and session services.
+
+[InMemoryRunner(BaseAgent)](com/google/adk/runner/InMemoryRunner.html#%3Cinit%3E(com.google.adk.agents.BaseAgent)) - Constructor for class com.google.adk.runner.[InMemoryRunner](com/google/adk/runner/InMemoryRunner.html "class in com.google.adk.runner")
+
+[InMemoryRunner(BaseAgent, String)](com/google/adk/runner/InMemoryRunner.html#%3Cinit%3E(com.google.adk.agents.BaseAgent,java.lang.String)) - Constructor for class com.google.adk.runner.[InMemoryRunner](com/google/adk/runner/InMemoryRunner.html "class in com.google.adk.runner")
+
+[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   An in-memory implementation of [`BaseSessionService`](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions") assuming [`Session`](com/google/adk/sessions/Session.html "class in com.google.adk.sessions") objects are
+    mutable regarding their state map, events list, and last update time.
+
+[InMemorySessionService()](com/google/adk/sessions/InMemorySessionService.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+:   Creates a new instance of the in-memory session service with empty storage.
+
+[input()](com/google/adk/examples/Example.html#input()) - Method in class com.google.adk.examples.[Example](com/google/adk/examples/Example.html "class in com.google.adk.examples")
+
+[input(Content)](com/google/adk/examples/Example.Builder.html#input(com.google.genai.types.Content)) - Method in class com.google.adk.examples.[Example.Builder](com/google/adk/examples/Example.Builder.html "class in com.google.adk.examples")
+
+[inputSchema()](com/google/adk/agents/LlmAgent.html#inputSchema()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[inputSchema(Schema)](com/google/adk/agents/LlmAgent.Builder.html#inputSchema(com.google.genai.types.Schema)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[instruction()](com/google/adk/agents/LlmAgent.html#instruction()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[instruction(String)](com/google/adk/agents/LlmAgent.Builder.html#instruction(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[Instructions](com/google/adk/flows/llmflows/Instructions.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+:   `RequestProcessor` that handles instructions and global instructions for LLM flows.
+
+[Instructions()](com/google/adk/flows/llmflows/Instructions.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.[Instructions](com/google/adk/flows/llmflows/Instructions.html "class in com.google.adk.flows.llmflows")
+
+[interrupted()](com/google/adk/events/Event.html#interrupted()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[interrupted()](com/google/adk/models/LlmResponse.html#interrupted()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Indicates that LLM was interrupted when generating the content.
+
+[interrupted(Boolean)](com/google/adk/events/Event.Builder.html#interrupted(java.lang.Boolean)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[interrupted(Boolean)](com/google/adk/models/LlmResponse.Builder.html#interrupted(java.lang.Boolean)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[interrupted(Optional<Boolean>)](com/google/adk/events/Event.Builder.html#interrupted(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[interrupted(Optional<Boolean>)](com/google/adk/models/LlmResponse.Builder.html#interrupted(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[invocationContext](com/google/adk/agents/ReadonlyContext.html#invocationContext) - Variable in class com.google.adk.agents.[ReadonlyContext](com/google/adk/agents/ReadonlyContext.html "class in com.google.adk.agents")
+
+[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   The context for an agent invocation.
+
+[invocationId()](com/google/adk/agents/InvocationContext.html#invocationId()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[invocationId()](com/google/adk/agents/ReadonlyContext.html#invocationId()) - Method in class com.google.adk.agents.[ReadonlyContext](com/google/adk/agents/ReadonlyContext.html "class in com.google.adk.agents")
+:   Returns the ID of the current invocation.
+
+[invocationId()](com/google/adk/events/Event.html#invocationId()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   Id of the invocation that this event belongs to.
+
+[invocationId(String)](com/google/adk/events/Event.Builder.html#invocationId(java.lang.String)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[isEmpty()](com/google/adk/sessions/State.html#isEmpty()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[isNullOrEmpty(Iterable<T>)](com/google/adk/CollectionUtils.html#isNullOrEmpty(java.lang.Iterable)) - Static method in class com.google.adk.[CollectionUtils](com/google/adk/CollectionUtils.html "class in com.google.adk")
+:   Checks if the given iterable is null or empty.
+
+[iterator()](com/google/adk/events/EventStream.html#iterator()) - Method in class com.google.adk.events.[EventStream](com/google/adk/events/EventStream.html "class in com.google.adk.events")
+
+## J
+
+[JAVA\_ADK\_VERSION](com/google/adk/Version.html#JAVA_ADK_VERSION) - Static variable in class com.google.adk.[Version](com/google/adk/Version.html "class in com.google.adk")
+
+[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk") - Class in [com.google.adk](com/google/adk/package-summary.html)
+:   The base class for the types that needs JSON serialization/deserialization capability.
+
+[JsonBaseModel()](com/google/adk/JsonBaseModel.html#%3Cinit%3E()) - Constructor for class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+
+## K
+
+[keySet()](com/google/adk/sessions/State.html#keySet()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+## L
+
+[lastUpdateTime()](com/google/adk/sessions/Session.html#lastUpdateTime()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[lastUpdateTime(Instant)](com/google/adk/sessions/Session.Builder.html#lastUpdateTime(java.time.Instant)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[lastUpdateTime(Instant)](com/google/adk/sessions/Session.html#lastUpdateTime(java.time.Instant)) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[lastUpdateTimeSeconds(double)](com/google/adk/sessions/Session.Builder.html#lastUpdateTimeSeconds(double)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[listArtifactKeys(String, String, String)](com/google/adk/artifacts/BaseArtifactService.html#listArtifactKeys(java.lang.String,java.lang.String,java.lang.String)) - Method in interface com.google.adk.artifacts.[BaseArtifactService](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts")
+:   Lists all the artifact filenames within a session.
+
+[listArtifactKeys(String, String, String)](com/google/adk/artifacts/GcsArtifactService.html#listArtifactKeys(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+
+[listArtifactKeys(String, String, String)](com/google/adk/artifacts/InMemoryArtifactService.html#listArtifactKeys(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[listArtifacts()](com/google/adk/tools/ToolContext.html#listArtifacts()) - Method in class com.google.adk.tools.[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools")
+:   Lists the filenames of the artifacts attached to the current session.
+
+[ListArtifactsResponse](com/google/adk/artifacts/ListArtifactsResponse.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   Response for listing artifacts.
+
+[ListArtifactsResponse()](com/google/adk/artifacts/ListArtifactsResponse.html#%3Cinit%3E()) - Constructor for class com.google.adk.artifacts.[ListArtifactsResponse](com/google/adk/artifacts/ListArtifactsResponse.html "class in com.google.adk.artifacts")
+
+[ListArtifactsResponse.Builder](com/google/adk/artifacts/ListArtifactsResponse.Builder.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   Builder for [`ListArtifactsResponse`](com/google/adk/artifacts/ListArtifactsResponse.html "class in com.google.adk.artifacts").
+
+[ListArtifactVersionsResponse](com/google/adk/artifacts/ListArtifactVersionsResponse.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   Response for listing artifact versions.
+
+[ListArtifactVersionsResponse()](com/google/adk/artifacts/ListArtifactVersionsResponse.html#%3Cinit%3E()) - Constructor for class com.google.adk.artifacts.[ListArtifactVersionsResponse](com/google/adk/artifacts/ListArtifactVersionsResponse.html "class in com.google.adk.artifacts")
+
+[ListArtifactVersionsResponse.Builder](com/google/adk/artifacts/ListArtifactVersionsResponse.Builder.html "class in com.google.adk.artifacts") - Class in [com.google.adk.artifacts](com/google/adk/artifacts/package-summary.html)
+:   Builder for [`ListArtifactVersionsResponse`](com/google/adk/artifacts/ListArtifactVersionsResponse.html "class in com.google.adk.artifacts").
+
+[listEvents(String, String, String)](com/google/adk/sessions/BaseSessionService.html#listEvents(java.lang.String,java.lang.String,java.lang.String)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Lists the events within a specific session.
+
+[listEvents(String, String, String)](com/google/adk/sessions/InMemorySessionService.html#listEvents(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+
+[listEvents(String, String, String)](com/google/adk/sessions/VertexAiSessionService.html#listEvents(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[ListEventsResponse](com/google/adk/sessions/ListEventsResponse.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Response for listing events.
+
+[ListEventsResponse()](com/google/adk/sessions/ListEventsResponse.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[ListEventsResponse](com/google/adk/sessions/ListEventsResponse.html "class in com.google.adk.sessions")
+
+[ListEventsResponse.Builder](com/google/adk/sessions/ListEventsResponse.Builder.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Builder for [`ListEventsResponse`](com/google/adk/sessions/ListEventsResponse.html "class in com.google.adk.sessions").
+
+[listSessions(String, String)](com/google/adk/sessions/BaseSessionService.html#listSessions(java.lang.String,java.lang.String)) - Method in interface com.google.adk.sessions.[BaseSessionService](com/google/adk/sessions/BaseSessionService.html "interface in com.google.adk.sessions")
+:   Lists sessions associated with a specific application and user.
+
+[listSessions(String, String)](com/google/adk/sessions/InMemorySessionService.html#listSessions(java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[InMemorySessionService](com/google/adk/sessions/InMemorySessionService.html "class in com.google.adk.sessions")
+
+[listSessions(String, String)](com/google/adk/sessions/VertexAiSessionService.html#listSessions(java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[ListSessionsResponse](com/google/adk/sessions/ListSessionsResponse.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Response for listing sessions.
+
+[ListSessionsResponse()](com/google/adk/sessions/ListSessionsResponse.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[ListSessionsResponse](com/google/adk/sessions/ListSessionsResponse.html "class in com.google.adk.sessions")
+
+[ListSessionsResponse.Builder](com/google/adk/sessions/ListSessionsResponse.Builder.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Builder for [`ListSessionsResponse`](com/google/adk/sessions/ListSessionsResponse.html "class in com.google.adk.sessions").
+
+[listVersions(String, String, String, String)](com/google/adk/artifacts/BaseArtifactService.html#listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in interface com.google.adk.artifacts.[BaseArtifactService](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts")
+:   Lists all the versions (as revision IDs) of an artifact.
+
+[listVersions(String, String, String, String)](com/google/adk/artifacts/GcsArtifactService.html#listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+
+[listVersions(String, String, String, String)](com/google/adk/artifacts/InMemoryArtifactService.html#listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[liveConnectConfig()](com/google/adk/models/LlmRequest.html#liveConnectConfig()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns the configuration for live connections.
+
+[liveConnectConfig(LiveConnectConfig)](com/google/adk/models/LlmRequest.Builder.html#liveConnectConfig(com.google.genai.types.LiveConnectConfig)) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+
+[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Represents a request to be sent to a live connection to the LLM model.
+
+[LiveRequest.Builder](com/google/adk/agents/LiveRequest.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for constructing [`LiveRequest`](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents") instances.
+
+[liveRequestQueue()](com/google/adk/agents/InvocationContext.html#liveRequestQueue()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   A queue of live requests to be sent to the model.
+
+[LiveRequestQueue()](com/google/adk/agents/LiveRequestQueue.html#%3Cinit%3E()) - Constructor for class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   The LLM-based agent.
+
+[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for [`LlmAgent`](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents").
+
+[LlmAgent.IncludeContents](com/google/adk/agents/LlmAgent.IncludeContents.html "enum class in com.google.adk.agents") - Enum Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Enum to define if contents of previous events should be included in requests to the underlying
+    LLM.
+
+[LlmCallsLimitExceededException](com/google/adk/exceptions/LlmCallsLimitExceededException.html "class in com.google.adk.exceptions") - Exception Class in [com.google.adk.exceptions](com/google/adk/exceptions/package-summary.html)
+:   An error indicating that the limit for calls to the LLM has been exceeded.
+
+[LlmCallsLimitExceededException(String)](com/google/adk/exceptions/LlmCallsLimitExceededException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.exceptions.[LlmCallsLimitExceededException](com/google/adk/exceptions/LlmCallsLimitExceededException.html "class in com.google.adk.exceptions")
+
+[LlmRegistry](com/google/adk/models/LlmRegistry.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+
+[LlmRegistry()](com/google/adk/models/LlmRegistry.html#%3Cinit%3E()) - Constructor for class com.google.adk.models.[LlmRegistry](com/google/adk/models/LlmRegistry.html "class in com.google.adk.models")
+
+[LlmRegistry.LlmFactory](com/google/adk/models/LlmRegistry.LlmFactory.html "interface in com.google.adk.models") - Interface in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   The factory interface for creating LLM instances.
+
+[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Represents a request to be sent to the LLM.
+
+[LlmRequest()](com/google/adk/models/LlmRequest.html#%3Cinit%3E()) - Constructor for class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+
+[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Builder for constructing [`LlmRequest`](com/google/adk/models/LlmRequest.html "class in com.google.adk.models") instances.
+
+[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Represents a response received from the LLM.
+
+[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Builder for constructing [`LlmResponse`](com/google/adk/models/LlmResponse.html "class in com.google.adk.models") instances.
+
+[loadArtifact(String, String, String, String, Optional<Integer>)](com/google/adk/artifacts/BaseArtifactService.html#loadArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in interface com.google.adk.artifacts.[BaseArtifactService](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts")
+:   Gets an artifact.
+
+[loadArtifact(String, String, String, String, Optional<Integer>)](com/google/adk/artifacts/GcsArtifactService.html#loadArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+
+[loadArtifact(String, String, String, String, Optional<Integer>)](com/google/adk/artifacts/InMemoryArtifactService.html#loadArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Optional)) - Method in class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[loadArtifact(String, Optional<Integer>)](com/google/adk/agents/CallbackContext.html#loadArtifact(java.lang.String,java.util.Optional)) - Method in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+:   Loads an artifact from the artifact service associated with the current session.
+
+[LoadArtifactsTool](com/google/adk/tools/LoadArtifactsTool.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   A tool that loads artifacts and adds them to the session.
+
+[LoadArtifactsTool()](com/google/adk/tools/LoadArtifactsTool.html#%3Cinit%3E()) - Constructor for class com.google.adk.tools.[LoadArtifactsTool](com/google/adk/tools/LoadArtifactsTool.html "class in com.google.adk.tools")
+
+[loadTools()](com/google/adk/tools/mcp/McpToolset.html#loadTools()) - Method in class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Loads all tools from the MCP Server.
+
+[location()](com/google/adk/models/VertexCredentials.html#location()) - Method in class com.google.adk.models.[VertexCredentials](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models")
+
+[location()](com/google/adk/sessions/HttpApiClient.html#location()) - Method in class com.google.adk.sessions.[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions")
+:   Returns the location for Vertex AI APIs.
+
+[longRunning()](com/google/adk/tools/BaseTool.html#longRunning()) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+
+[LongRunningFunctionTool](com/google/adk/tools/LongRunningFunctionTool.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   A function tool that returns the result asynchronously.
+
+[longRunningToolIds()](com/google/adk/events/Event.html#longRunningToolIds()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   Set of ids of the long running function calls.
+
+[longRunningToolIds(Optional<Set<String>>)](com/google/adk/events/Event.Builder.html#longRunningToolIds(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[longRunningToolIds(Set<String>)](com/google/adk/events/Event.Builder.html#longRunningToolIds(java.util.Set)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[LoopAgent](com/google/adk/agents/LoopAgent.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   An agent that runs its sub-agents sequentially in a loop.
+
+[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for [`LoopAgent`](com/google/adk/agents/LoopAgent.html "class in com.google.adk.agents").
+
+## M
+
+[maxIterations(int)](com/google/adk/agents/LoopAgent.Builder.html#maxIterations(int)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[maxIterations(Optional<Integer>)](com/google/adk/agents/LoopAgent.Builder.html#maxIterations(java.util.Optional)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[maxLlmCalls()](com/google/adk/agents/RunConfig.html#maxLlmCalls()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[McpInitializationException(String)](com/google/adk/tools/mcp/McpToolset.McpInitializationException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpInitializationException](com/google/adk/tools/mcp/McpToolset.McpInitializationException.html "class in com.google.adk.tools.mcp")
+
+[McpInitializationException(String, Throwable)](com/google/adk/tools/mcp/McpToolset.McpInitializationException.html#%3Cinit%3E(java.lang.String,java.lang.Throwable)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpInitializationException](com/google/adk/tools/mcp/McpToolset.McpInitializationException.html "class in com.google.adk.tools.mcp")
+
+[McpSessionManager](com/google/adk/tools/mcp/McpSessionManager.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Manages MCP client sessions.
+
+[McpSessionManager(Object)](com/google/adk/tools/mcp/McpSessionManager.html#%3Cinit%3E(java.lang.Object)) - Constructor for class com.google.adk.tools.mcp.[McpSessionManager](com/google/adk/tools/mcp/McpSessionManager.html "class in com.google.adk.tools.mcp")
+
+[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   """Initializes a MCPTool.
+
+[McpTool(McpSchema.Tool, McpSyncClient, McpSessionManager)](com/google/adk/tools/mcp/McpTool.html#%3Cinit%3E(io.modelcontextprotocol.spec.McpSchema.Tool,io.modelcontextprotocol.client.McpSyncClient,com.google.adk.tools.mcp.McpSessionManager)) - Constructor for class com.google.adk.tools.mcp.[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp")
+
+[McpTool(McpSchema.Tool, McpSyncClient, McpSessionManager, ObjectMapper)](com/google/adk/tools/mcp/McpTool.html#%3Cinit%3E(io.modelcontextprotocol.spec.McpSchema.Tool,io.modelcontextprotocol.client.McpSyncClient,com.google.adk.tools.mcp.McpSessionManager,com.fasterxml.jackson.databind.ObjectMapper)) - Constructor for class com.google.adk.tools.mcp.[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp")
+
+[McpToolLoadingException(String)](com/google/adk/tools/mcp/McpToolset.McpToolLoadingException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpToolLoadingException](com/google/adk/tools/mcp/McpToolset.McpToolLoadingException.html "class in com.google.adk.tools.mcp")
+
+[McpToolLoadingException(String, Throwable)](com/google/adk/tools/mcp/McpToolset.McpToolLoadingException.html#%3Cinit%3E(java.lang.String,java.lang.Throwable)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpToolLoadingException](com/google/adk/tools/mcp/McpToolset.McpToolLoadingException.html "class in com.google.adk.tools.mcp")
+
+[McpToolsAndToolsetResult(List<McpTool>, McpToolset)](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html#%3Cinit%3E(java.util.List,com.google.adk.tools.mcp.McpToolset)) - Constructor for class com.google.adk.tools.mcp.[McpToolset.McpToolsAndToolsetResult](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html "class in com.google.adk.tools.mcp")
+
+[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Connects to a MCP Server, and retrieves MCP Tools into ADK Tools.
+
+[McpToolset(SseServerParameters)](com/google/adk/tools/mcp/McpToolset.html#%3Cinit%3E(com.google.adk.tools.mcp.SseServerParameters)) - Constructor for class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Initializes the McpToolset with SSE server parameters, using the ObjectMapper used across the
+    ADK.
+
+[McpToolset(SseServerParameters, ObjectMapper)](com/google/adk/tools/mcp/McpToolset.html#%3Cinit%3E(com.google.adk.tools.mcp.SseServerParameters,com.fasterxml.jackson.databind.ObjectMapper)) - Constructor for class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Initializes the McpToolset with SSE server parameters.
+
+[McpToolset(ServerParameters)](com/google/adk/tools/mcp/McpToolset.html#%3Cinit%3E(io.modelcontextprotocol.client.transport.ServerParameters)) - Constructor for class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Initializes the McpToolset with local server parameters, using the ObjectMapper used across the
+    ADK.
+
+[McpToolset(ServerParameters, ObjectMapper)](com/google/adk/tools/mcp/McpToolset.html#%3Cinit%3E(io.modelcontextprotocol.client.transport.ServerParameters,com.fasterxml.jackson.databind.ObjectMapper)) - Constructor for class com.google.adk.tools.mcp.[McpToolset](com/google/adk/tools/mcp/McpToolset.html "class in com.google.adk.tools.mcp")
+:   Initializes the McpToolset with local server parameters.
+
+[McpToolset.McpInitializationException](com/google/adk/tools/mcp/McpToolset.McpInitializationException.html "class in com.google.adk.tools.mcp") - Exception Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Exception thrown when there's an error during MCP session initialization.
+
+[McpToolset.McpToolLoadingException](com/google/adk/tools/mcp/McpToolset.McpToolLoadingException.html "class in com.google.adk.tools.mcp") - Exception Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Exception thrown when there's an error during loading tools from the MCP server.
+
+[McpToolset.McpToolsAndToolsetResult](com/google/adk/tools/mcp/McpToolset.McpToolsAndToolsetResult.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Holds the result of loading tools, containing both the tools and the toolset instance.
+
+[McpToolset.McpToolsetException](com/google/adk/tools/mcp/McpToolset.McpToolsetException.html "class in com.google.adk.tools.mcp") - Exception Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Base exception for all errors originating from `McpToolset`.
+
+[McpToolsetException(String)](com/google/adk/tools/mcp/McpToolset.McpToolsetException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpToolsetException](com/google/adk/tools/mcp/McpToolset.McpToolsetException.html "class in com.google.adk.tools.mcp")
+
+[McpToolsetException(String, Throwable)](com/google/adk/tools/mcp/McpToolset.McpToolsetException.html#%3Cinit%3E(java.lang.String,java.lang.Throwable)) - Constructor for exception class com.google.adk.tools.mcp.[McpToolset.McpToolsetException](com/google/adk/tools/mcp/McpToolset.McpToolsetException.html "class in com.google.adk.tools.mcp")
+
+[MEDIA\_TYPE\_APPLICATION\_JSON](com/google/adk/sessions/HttpApiClient.html#MEDIA_TYPE_APPLICATION_JSON) - Static variable in class com.google.adk.sessions.[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions")
+
+[merge(EventActions)](com/google/adk/events/EventActions.Builder.html#merge(com.google.adk.events.EventActions)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[model()](com/google/adk/agents/LlmAgent.html#model()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[model()](com/google/adk/models/BaseLlm.html#model()) - Method in class com.google.adk.models.[BaseLlm](com/google/adk/models/BaseLlm.html "class in com.google.adk.models")
+:   Returns the name of the LLM model.
+
+[model()](com/google/adk/models/LlmRequest.html#model()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns the name of the LLM model to be used.
+
+[model()](com/google/adk/models/Model.html#model()) - Method in class com.google.adk.models.[Model](com/google/adk/models/Model.html "class in com.google.adk.models")
+
+[model(BaseLlm)](com/google/adk/agents/LlmAgent.Builder.html#model(com.google.adk.models.BaseLlm)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[model(BaseLlm)](com/google/adk/models/Model.Builder.html#model(com.google.adk.models.BaseLlm)) - Method in class com.google.adk.models.[Model.Builder](com/google/adk/models/Model.Builder.html "class in com.google.adk.models")
+
+[model(String)](com/google/adk/agents/LlmAgent.Builder.html#model(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[model(String)](com/google/adk/models/LlmRequest.Builder.html#model(java.lang.String)) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+
+[Model](com/google/adk/models/Model.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Represents a model by name or instance.
+
+[Model()](com/google/adk/models/Model.html#%3Cinit%3E()) - Constructor for class com.google.adk.models.[Model](com/google/adk/models/Model.html "class in com.google.adk.models")
+
+[Model.Builder](com/google/adk/models/Model.Builder.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Builder for [`Model`](com/google/adk/models/Model.html "class in com.google.adk.models").
+
+[modelName()](com/google/adk/models/Model.html#modelName()) - Method in class com.google.adk.models.[Model](com/google/adk/models/Model.html "class in com.google.adk.models")
+
+[modelName(String)](com/google/adk/models/Gemini.Builder.html#modelName(java.lang.String)) - Method in class com.google.adk.models.[Gemini.Builder](com/google/adk/models/Gemini.Builder.html "class in com.google.adk.models")
+:   Sets the name of the Gemini model to use.
+
+[modelName(String)](com/google/adk/models/Model.Builder.html#modelName(java.lang.String)) - Method in class com.google.adk.models.[Model.Builder](com/google/adk/models/Model.Builder.html "class in com.google.adk.models")
+
+## N
+
+[name()](com/google/adk/agents/BaseAgent.html#name()) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Gets the agent's unique name.
+
+[name()](com/google/adk/tools/Annotations.Schema.html#name()) - Element in annotation interface com.google.adk.tools.[Annotations.Schema](com/google/adk/tools/Annotations.Schema.html "annotation interface in com.google.adk.tools")
+
+[name()](com/google/adk/tools/BaseTool.html#name()) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+
+[name(String)](com/google/adk/agents/LlmAgent.Builder.html#name(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[name(String)](com/google/adk/agents/LoopAgent.Builder.html#name(java.lang.String)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[name(String)](com/google/adk/agents/ParallelAgent.Builder.html#name(java.lang.String)) - Method in class com.google.adk.agents.[ParallelAgent.Builder](com/google/adk/agents/ParallelAgent.Builder.html "class in com.google.adk.agents")
+
+[name(String)](com/google/adk/agents/SequentialAgent.Builder.html#name(java.lang.String)) - Method in class com.google.adk.agents.[SequentialAgent.Builder](com/google/adk/agents/SequentialAgent.Builder.html "class in com.google.adk.agents")
+
+[newInvocationContextId()](com/google/adk/agents/InvocationContext.html#newInvocationContextId()) - Static method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[nextPageToken()](com/google/adk/sessions/ListEventsResponse.html#nextPageToken()) - Method in class com.google.adk.sessions.[ListEventsResponse](com/google/adk/sessions/ListEventsResponse.html "class in com.google.adk.sessions")
+
+[nextPageToken(String)](com/google/adk/sessions/ListEventsResponse.Builder.html#nextPageToken(java.lang.String)) - Method in class com.google.adk.sessions.[ListEventsResponse.Builder](com/google/adk/sessions/ListEventsResponse.Builder.html "class in com.google.adk.sessions")
+
+[NONE](com/google/adk/agents/LlmAgent.IncludeContents.html#NONE) - Enum constant in enum class com.google.adk.agents.[LlmAgent.IncludeContents](com/google/adk/agents/LlmAgent.IncludeContents.html "enum class in com.google.adk.agents")
+
+[NONE](com/google/adk/agents/RunConfig.StreamingMode.html#NONE) - Enum constant in enum class com.google.adk.agents.[RunConfig.StreamingMode](com/google/adk/agents/RunConfig.StreamingMode.html "enum class in com.google.adk.agents")
+
+[numRecentEvents()](com/google/adk/sessions/GetSessionConfig.html#numRecentEvents()) - Method in class com.google.adk.sessions.[GetSessionConfig](com/google/adk/sessions/GetSessionConfig.html "class in com.google.adk.sessions")
+
+[numRecentEvents(int)](com/google/adk/sessions/GetSessionConfig.Builder.html#numRecentEvents(int)) - Method in class com.google.adk.sessions.[GetSessionConfig.Builder](com/google/adk/sessions/GetSessionConfig.Builder.html "class in com.google.adk.sessions")
+
+## O
+
+[of()](com/google/adk/utils/Pairs.html#of()) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new, empty `ConcurrentHashMap`.
+
+[of(K, V)](com/google/adk/utils/Pairs.html#of(K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing a single mapping.
+
+[of(K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing two mappings.
+
+[of(K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing three mappings.
+
+[of(K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing four mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing five mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing six mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing seven mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing eight mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing nine mappings.
+
+[of(K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V, K, V)](com/google/adk/utils/Pairs.html#of(K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V,K,V)) - Static method in class com.google.adk.utils.[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils")
+:   Returns a new `ConcurrentHashMap` containing ten mappings.
+
+[output()](com/google/adk/examples/Example.html#output()) - Method in class com.google.adk.examples.[Example](com/google/adk/examples/Example.html "class in com.google.adk.examples")
+
+[output(List<Content>)](com/google/adk/examples/Example.Builder.html#output(java.util.List)) - Method in class com.google.adk.examples.[Example.Builder](com/google/adk/examples/Example.Builder.html "class in com.google.adk.examples")
+
+[outputAudioTranscription()](com/google/adk/agents/RunConfig.html#outputAudioTranscription()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[outputKey()](com/google/adk/agents/LlmAgent.html#outputKey()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[outputKey(String)](com/google/adk/agents/LlmAgent.Builder.html#outputKey(java.lang.String)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[outputSchema()](com/google/adk/agents/LlmAgent.html#outputSchema()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[outputSchema(Schema)](com/google/adk/agents/LlmAgent.Builder.html#outputSchema(com.google.genai.types.Schema)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[outputSchema(Schema)](com/google/adk/models/LlmRequest.Builder.html#outputSchema(com.google.genai.types.Schema)) - Method in class com.google.adk.models.[LlmRequest.Builder](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models")
+:   Sets the output schema for the LLM response.
+
+## P
+
+[Pairs](com/google/adk/utils/Pairs.html "class in com.google.adk.utils") - Class in [com.google.adk.utils](com/google/adk/utils/package-summary.html)
+:   Utility class for creating ConcurrentHashMaps.
+
+[ParallelAgent](com/google/adk/agents/ParallelAgent.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   A shell agent that runs its sub-agents in parallel in isolated manner.
+
+[ParallelAgent.Builder](com/google/adk/agents/ParallelAgent.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for [`ParallelAgent`](com/google/adk/agents/ParallelAgent.html "class in com.google.adk.agents").
+
+[parentAgent()](com/google/adk/agents/BaseAgent.html#parentAgent()) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Retrieves the parent agent in the agent tree.
+
+[parentAgent(BaseAgent)](com/google/adk/agents/BaseAgent.html#parentAgent(com.google.adk.agents.BaseAgent)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Sets the parent agent.
+
+[parseReasoningEngineId(String)](com/google/adk/sessions/VertexAiSessionService.html#parseReasoningEngineId(java.lang.String)) - Static method in class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[partial()](com/google/adk/events/Event.html#partial()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   partial is true for incomplete chunks from the LLM streaming response.
+
+[partial()](com/google/adk/models/LlmResponse.html#partial()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Indicates whether the text content is part of a unfinished text stream.
+
+[partial(Boolean)](com/google/adk/events/Event.Builder.html#partial(java.lang.Boolean)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[partial(Boolean)](com/google/adk/models/LlmResponse.Builder.html#partial(java.lang.Boolean)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[partial(Optional<Boolean>)](com/google/adk/events/Event.Builder.html#partial(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[partial(Optional<Boolean>)](com/google/adk/models/LlmResponse.Builder.html#partial(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[planning()](com/google/adk/agents/LlmAgent.html#planning()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[planning(boolean)](com/google/adk/agents/LlmAgent.Builder.html#planning(boolean)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[populateClientFunctionCallId(Event)](com/google/adk/flows/llmflows/Functions.html#populateClientFunctionCallId(com.google.adk.events.Event)) - Static method in class com.google.adk.flows.llmflows.[Functions](com/google/adk/flows/llmflows/Functions.html "class in com.google.adk.flows.llmflows")
+:   Populates missing function call IDs in the provided event's content.
+
+[postprocess(InvocationContext, Event, LlmRequest, LlmResponse)](com/google/adk/flows/llmflows/BaseLlmFlow.html#postprocess(com.google.adk.agents.InvocationContext,com.google.adk.events.Event,com.google.adk.models.LlmRequest,com.google.adk.models.LlmResponse)) - Method in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+:   Post-processes the LLM response after receiving it from the LLM.
+
+[preprocess(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/BaseLlmFlow.html#preprocess(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+:   Pre-processes the LLM request before sending it to the LLM.
+
+[processLlmRequest(LlmRequest.Builder, ToolContext)](com/google/adk/tools/BaseTool.html#processLlmRequest(com.google.adk.models.LlmRequest.Builder,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+:   Processes the outgoing [`LlmRequest.Builder`](com/google/adk/models/LlmRequest.Builder.html "class in com.google.adk.models").
+
+[processLlmRequest(LlmRequest.Builder, ToolContext)](com/google/adk/tools/BuiltInCodeExecutionTool.html#processLlmRequest(com.google.adk.models.LlmRequest.Builder,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[BuiltInCodeExecutionTool](com/google/adk/tools/BuiltInCodeExecutionTool.html "class in com.google.adk.tools")
+
+[processLlmRequest(LlmRequest.Builder, ToolContext)](com/google/adk/tools/GoogleSearchTool.html#processLlmRequest(com.google.adk.models.LlmRequest.Builder,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[GoogleSearchTool](com/google/adk/tools/GoogleSearchTool.html "class in com.google.adk.tools")
+
+[processLlmRequest(LlmRequest.Builder, ToolContext)](com/google/adk/tools/LoadArtifactsTool.html#processLlmRequest(com.google.adk.models.LlmRequest.Builder,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[LoadArtifactsTool](com/google/adk/tools/LoadArtifactsTool.html "class in com.google.adk.tools")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/AgentTransfer.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[AgentTransfer](com/google/adk/flows/llmflows/AgentTransfer.html "class in com.google.adk.flows.llmflows")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/Basic.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[Basic](com/google/adk/flows/llmflows/Basic.html "class in com.google.adk.flows.llmflows")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/Contents.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[Contents](com/google/adk/flows/llmflows/Contents.html "class in com.google.adk.flows.llmflows")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/Examples.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[Examples](com/google/adk/flows/llmflows/Examples.html "class in com.google.adk.flows.llmflows")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/Identity.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[Identity](com/google/adk/flows/llmflows/Identity.html "class in com.google.adk.flows.llmflows")
+
+[processRequest(InvocationContext, LlmRequest)](com/google/adk/flows/llmflows/Instructions.html#processRequest(com.google.adk.agents.InvocationContext,com.google.adk.models.LlmRequest)) - Method in class com.google.adk.flows.llmflows.[Instructions](com/google/adk/flows/llmflows/Instructions.html "class in com.google.adk.flows.llmflows")
+
+[project()](com/google/adk/models/VertexCredentials.html#project()) - Method in class com.google.adk.models.[VertexCredentials](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models")
+
+[project()](com/google/adk/sessions/HttpApiClient.html#project()) - Method in class com.google.adk.sessions.[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions")
+:   Returns the project ID for Vertex AI APIs.
+
+[put(String, Object)](com/google/adk/sessions/State.html#put(java.lang.String,java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[putAll(Map<? extends String, ? extends Object>)](com/google/adk/sessions/State.html#putAll(java.util.Map)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[putIfAbsent(String, Object)](com/google/adk/sessions/State.html#putIfAbsent(java.lang.String,java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+## R
+
+[ReadonlyContext](com/google/adk/agents/ReadonlyContext.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Provides read-only access to the context of an agent run.
+
+[ReadonlyContext(InvocationContext)](com/google/adk/agents/ReadonlyContext.html#%3Cinit%3E(com.google.adk.agents.InvocationContext)) - Constructor for class com.google.adk.agents.[ReadonlyContext](com/google/adk/agents/ReadonlyContext.html "class in com.google.adk.agents")
+
+[realtime(Blob)](com/google/adk/agents/LiveRequestQueue.html#realtime(com.google.genai.types.Blob)) - Method in class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[receive()](com/google/adk/models/BaseLlmConnection.html#receive()) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Receives the model responses.
+
+[receive()](com/google/adk/models/GeminiLlmConnection.html#receive()) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[recognize(RecognitionConfig, RecognitionAudio)](com/google/adk/flows/llmflows/audio/SpeechClientInterface.html#recognize(com.google.cloud.speech.v1.RecognitionConfig,com.google.cloud.speech.v1.RecognitionAudio)) - Method in interface com.google.adk.flows.llmflows.audio.[SpeechClientInterface](com/google/adk/flows/llmflows/audio/SpeechClientInterface.html "interface in com.google.adk.flows.llmflows.audio")
+:   Performs synchronous speech recognition.
+
+[recognize(RecognitionConfig, RecognitionAudio)](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html#recognize(com.google.cloud.speech.v1.RecognitionConfig,com.google.cloud.speech.v1.RecognitionAudio)) - Method in class com.google.adk.flows.llmflows.audio.[VertexSpeechClient](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html "class in com.google.adk.flows.llmflows.audio")
+
+[registerLlm(String, LlmRegistry.LlmFactory)](com/google/adk/models/LlmRegistry.html#registerLlm(java.lang.String,com.google.adk.models.LlmRegistry.LlmFactory)) - Static method in class com.google.adk.models.[LlmRegistry](com/google/adk/models/LlmRegistry.html "class in com.google.adk.models")
+
+[remove(Object)](com/google/adk/sessions/State.html#remove(java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[remove(Object, Object)](com/google/adk/sessions/State.html#remove(java.lang.Object,java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[replace(String, Object)](com/google/adk/sessions/State.html#replace(java.lang.String,java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[replace(String, Object, Object)](com/google/adk/sessions/State.html#replace(java.lang.String,java.lang.Object,java.lang.Object)) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[request(String, String, String)](com/google/adk/sessions/HttpApiClient.html#request(java.lang.String,java.lang.String,java.lang.String)) - Method in class com.google.adk.sessions.[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions")
+:   Sends a Http request given the http method, path, and request json string.
+
+[REQUEST\_PROCESSORS](com/google/adk/flows/llmflows/SingleFlow.html#REQUEST_PROCESSORS) - Static variable in class com.google.adk.flows.llmflows.[SingleFlow](com/google/adk/flows/llmflows/SingleFlow.html "class in com.google.adk.flows.llmflows")
+
+[requestedAuthConfigs()](com/google/adk/events/EventActions.html#requestedAuthConfigs()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[requestedAuthConfigs(ConcurrentMap<String, ConcurrentMap<String, Object>>)](com/google/adk/events/EventActions.Builder.html#requestedAuthConfigs(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[requestProcessors](com/google/adk/flows/llmflows/BaseLlmFlow.html#requestProcessors) - Variable in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+
+[resolvedModel()](com/google/adk/agents/LlmAgent.html#resolvedModel()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[response(GenerateContentResponse)](com/google/adk/models/LlmResponse.Builder.html#response(com.google.genai.types.GenerateContentResponse)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[RESPONSE\_PROCESSORS](com/google/adk/flows/llmflows/SingleFlow.html#RESPONSE_PROCESSORS) - Static variable in class com.google.adk.flows.llmflows.[SingleFlow](com/google/adk/flows/llmflows/SingleFlow.html "class in com.google.adk.flows.llmflows")
+
+[responseModalities()](com/google/adk/agents/RunConfig.html#responseModalities()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[responseProcessors](com/google/adk/flows/llmflows/BaseLlmFlow.html#responseProcessors) - Variable in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+
+[rootAgent()](com/google/adk/agents/BaseAgent.html#rootAgent()) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+:   Returns the root agent for this agent by traversing up the parent chain.
+
+[run(InvocationContext)](com/google/adk/flows/BaseFlow.html#run(com.google.adk.agents.InvocationContext)) - Method in interface com.google.adk.flows.[BaseFlow](com/google/adk/flows/BaseFlow.html "interface in com.google.adk.flows")
+:   Run this flow.
+
+[run(InvocationContext)](com/google/adk/flows/llmflows/BaseLlmFlow.html#run(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+
+[runAsync(InvocationContext)](com/google/adk/agents/BaseAgent.html#runAsync(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+
+[runAsync(Session, Content, RunConfig)](com/google/adk/runner/Runner.html#runAsync(com.google.adk.sessions.Session,com.google.genai.types.Content,com.google.adk.agents.RunConfig)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+:   Runs the agent in the standard mode using a provided Session object.
+
+[runAsync(String, String, Content)](com/google/adk/runner/Runner.html#runAsync(java.lang.String,java.lang.String,com.google.genai.types.Content)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+:   Asynchronously runs the agent for a given user and session, processing a new message and using
+    a default [`RunConfig`](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents").
+
+[runAsync(String, String, Content, RunConfig)](com/google/adk/runner/Runner.html#runAsync(java.lang.String,java.lang.String,com.google.genai.types.Content,com.google.adk.agents.RunConfig)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+:   Runs the agent in the standard mode.
+
+[runAsync(Map<String, Object>, ToolContext)](com/google/adk/tools/AgentTool.html#runAsync(java.util.Map,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[AgentTool](com/google/adk/tools/AgentTool.html "class in com.google.adk.tools")
+
+[runAsync(Map<String, Object>, ToolContext)](com/google/adk/tools/BaseTool.html#runAsync(java.util.Map,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[BaseTool](com/google/adk/tools/BaseTool.html "class in com.google.adk.tools")
+:   Calls a tool.
+
+[runAsync(Map<String, Object>, ToolContext)](com/google/adk/tools/FunctionTool.html#runAsync(java.util.Map,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[FunctionTool](com/google/adk/tools/FunctionTool.html "class in com.google.adk.tools")
+
+[runAsync(Map<String, Object>, ToolContext)](com/google/adk/tools/LoadArtifactsTool.html#runAsync(java.util.Map,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.[LoadArtifactsTool](com/google/adk/tools/LoadArtifactsTool.html "class in com.google.adk.tools")
+
+[runAsync(Map<String, Object>, ToolContext)](com/google/adk/tools/mcp/McpTool.html#runAsync(java.util.Map,com.google.adk.tools.ToolContext)) - Method in class com.google.adk.tools.mcp.[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp")
+
+[runAsyncImpl(InvocationContext)](com/google/adk/agents/BaseAgent.html#runAsyncImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+
+[runAsyncImpl(InvocationContext)](com/google/adk/agents/LlmAgent.html#runAsyncImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[runAsyncImpl(InvocationContext)](com/google/adk/agents/LoopAgent.html#runAsyncImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[LoopAgent](com/google/adk/agents/LoopAgent.html "class in com.google.adk.agents")
+
+[runAsyncImpl(InvocationContext)](com/google/adk/agents/ParallelAgent.html#runAsyncImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[ParallelAgent](com/google/adk/agents/ParallelAgent.html "class in com.google.adk.agents")
+
+[runAsyncImpl(InvocationContext)](com/google/adk/agents/SequentialAgent.html#runAsyncImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[SequentialAgent](com/google/adk/agents/SequentialAgent.html "class in com.google.adk.agents")
+
+[runConfig()](com/google/adk/agents/InvocationContext.html#runConfig()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Configuration to modify an agent's LLM's underlying behavior.
+
+[RunConfig()](com/google/adk/agents/RunConfig.html#%3Cinit%3E()) - Constructor for class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for [`RunConfig`](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents").
+
+[RunConfig.StreamingMode](com/google/adk/agents/RunConfig.StreamingMode.html "enum class in com.google.adk.agents") - Enum Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Streaming mode for the runner.
+
+[runLive(InvocationContext)](com/google/adk/agents/BaseAgent.html#runLive(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+
+[runLive(InvocationContext)](com/google/adk/flows/BaseFlow.html#runLive(com.google.adk.agents.InvocationContext)) - Method in interface com.google.adk.flows.[BaseFlow](com/google/adk/flows/BaseFlow.html "interface in com.google.adk.flows")
+
+[runLive(InvocationContext)](com/google/adk/flows/llmflows/BaseLlmFlow.html#runLive(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.flows.llmflows.[BaseLlmFlow](com/google/adk/flows/llmflows/BaseLlmFlow.html "class in com.google.adk.flows.llmflows")
+
+[runLive(Session, LiveRequestQueue, RunConfig)](com/google/adk/runner/Runner.html#runLive(com.google.adk.sessions.Session,com.google.adk.agents.LiveRequestQueue,com.google.adk.agents.RunConfig)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+
+[runLive(String, String, LiveRequestQueue, RunConfig)](com/google/adk/runner/Runner.html#runLive(java.lang.String,java.lang.String,com.google.adk.agents.LiveRequestQueue,com.google.adk.agents.RunConfig)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+
+[runLiveImpl(InvocationContext)](com/google/adk/agents/BaseAgent.html#runLiveImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+
+[runLiveImpl(InvocationContext)](com/google/adk/agents/LlmAgent.html#runLiveImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[runLiveImpl(InvocationContext)](com/google/adk/agents/LoopAgent.html#runLiveImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[LoopAgent](com/google/adk/agents/LoopAgent.html "class in com.google.adk.agents")
+
+[runLiveImpl(InvocationContext)](com/google/adk/agents/ParallelAgent.html#runLiveImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[ParallelAgent](com/google/adk/agents/ParallelAgent.html "class in com.google.adk.agents")
+
+[runLiveImpl(InvocationContext)](com/google/adk/agents/SequentialAgent.html#runLiveImpl(com.google.adk.agents.InvocationContext)) - Method in class com.google.adk.agents.[SequentialAgent](com/google/adk/agents/SequentialAgent.html "class in com.google.adk.agents")
+
+[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner") - Class in [com.google.adk.runner](com/google/adk/runner/package-summary.html)
+:   The main class for the GenAI Agents runner.
+
+[Runner(BaseAgent, String, BaseArtifactService, BaseSessionService)](com/google/adk/runner/Runner.html#%3Cinit%3E(com.google.adk.agents.BaseAgent,java.lang.String,com.google.adk.artifacts.BaseArtifactService,com.google.adk.sessions.BaseSessionService)) - Constructor for class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+
+[runWithSessionId(String, Content, RunConfig)](com/google/adk/runner/Runner.html#runWithSessionId(java.lang.String,com.google.genai.types.Content,com.google.adk.agents.RunConfig)) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+
+## S
+
+[saveArtifact(String, Part)](com/google/adk/agents/CallbackContext.html#saveArtifact(java.lang.String,com.google.genai.types.Part)) - Method in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+:   Saves an artifact and records it as a delta for the current session.
+
+[saveArtifact(String, String, String, String, Part)](com/google/adk/artifacts/BaseArtifactService.html#saveArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.genai.types.Part)) - Method in interface com.google.adk.artifacts.[BaseArtifactService](com/google/adk/artifacts/BaseArtifactService.html "interface in com.google.adk.artifacts")
+:   Saves an artifact.
+
+[saveArtifact(String, String, String, String, Part)](com/google/adk/artifacts/GcsArtifactService.html#saveArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.genai.types.Part)) - Method in class com.google.adk.artifacts.[GcsArtifactService](com/google/adk/artifacts/GcsArtifactService.html "class in com.google.adk.artifacts")
+
+[saveArtifact(String, String, String, String, Part)](com/google/adk/artifacts/InMemoryArtifactService.html#saveArtifact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.genai.types.Part)) - Method in class com.google.adk.artifacts.[InMemoryArtifactService](com/google/adk/artifacts/InMemoryArtifactService.html "class in com.google.adk.artifacts")
+
+[saveInputBlobsAsArtifacts()](com/google/adk/agents/RunConfig.html#saveInputBlobsAsArtifacts()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[SchemaUtils](com/google/adk/SchemaUtils.html "class in com.google.adk") - Class in [com.google.adk](com/google/adk/package-summary.html)
+:   Utility class for validating schemas.
+
+[send(LiveRequest)](com/google/adk/agents/LiveRequestQueue.html#send(com.google.adk.agents.LiveRequest)) - Method in class com.google.adk.agents.[LiveRequestQueue](com/google/adk/agents/LiveRequestQueue.html "class in com.google.adk.agents")
+
+[sendContent(Content)](com/google/adk/models/BaseLlmConnection.html#sendContent(com.google.genai.types.Content)) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Sends a user content to the model.
+
+[sendContent(Content)](com/google/adk/models/GeminiLlmConnection.html#sendContent(com.google.genai.types.Content)) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[sendHistory(List<Content>)](com/google/adk/models/BaseLlmConnection.html#sendHistory(java.util.List)) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Sends the conversation history to the model.
+
+[sendHistory(List<Content>)](com/google/adk/models/GeminiLlmConnection.html#sendHistory(java.util.List)) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[sendRealtime(Blob)](com/google/adk/models/BaseLlmConnection.html#sendRealtime(com.google.genai.types.Blob)) - Method in interface com.google.adk.models.[BaseLlmConnection](com/google/adk/models/BaseLlmConnection.html "interface in com.google.adk.models")
+:   Sends a chunk of audio or a frame of video to the model in realtime.
+
+[sendRealtime(Blob)](com/google/adk/models/GeminiLlmConnection.html#sendRealtime(com.google.genai.types.Blob)) - Method in class com.google.adk.models.[GeminiLlmConnection](com/google/adk/models/GeminiLlmConnection.html "class in com.google.adk.models")
+
+[SequentialAgent](com/google/adk/agents/SequentialAgent.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   An agent that runs its sub-agents sequentially.
+
+[SequentialAgent.Builder](com/google/adk/agents/SequentialAgent.Builder.html "class in com.google.adk.agents") - Class in [com.google.adk.agents](com/google/adk/agents/package-summary.html)
+:   Builder for [`SequentialAgent`](com/google/adk/agents/SequentialAgent.html "class in com.google.adk.agents").
+
+[session()](com/google/adk/agents/InvocationContext.html#session()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   A [`Session`](com/google/adk/sessions/Session.html "class in com.google.adk.sessions") object that encapsulates the [`State`](com/google/adk/sessions/State.html "class in com.google.adk.sessions") and [`Event`](com/google/adk/events/Event.html "class in com.google.adk.events")s of a session.
+
+[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Builder for [`Session`](com/google/adk/sessions/Session.html "class in com.google.adk.sessions").
+
+[SessionException](com/google/adk/sessions/SessionException.html "class in com.google.adk.sessions") - Exception Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Represents a general error that occurred during session management operations.
+
+[SessionException(String)](com/google/adk/sessions/SessionException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.sessions.[SessionException](com/google/adk/sessions/SessionException.html "class in com.google.adk.sessions")
+
+[SessionException(String, Throwable)](com/google/adk/sessions/SessionException.html#%3Cinit%3E(java.lang.String,java.lang.Throwable)) - Constructor for exception class com.google.adk.sessions.[SessionException](com/google/adk/sessions/SessionException.html "class in com.google.adk.sessions")
+
+[SessionException(Throwable)](com/google/adk/sessions/SessionException.html#%3Cinit%3E(java.lang.Throwable)) - Constructor for exception class com.google.adk.sessions.[SessionException](com/google/adk/sessions/SessionException.html "class in com.google.adk.sessions")
+
+[sessionIds()](com/google/adk/sessions/ListSessionsResponse.html#sessionIds()) - Method in class com.google.adk.sessions.[ListSessionsResponse](com/google/adk/sessions/ListSessionsResponse.html "class in com.google.adk.sessions")
+
+[SessionNotFoundException](com/google/adk/sessions/SessionNotFoundException.html "class in com.google.adk.sessions") - Exception Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Indicates that a requested session could not be found.
+
+[SessionNotFoundException(String)](com/google/adk/sessions/SessionNotFoundException.html#%3Cinit%3E(java.lang.String)) - Constructor for exception class com.google.adk.sessions.[SessionNotFoundException](com/google/adk/sessions/SessionNotFoundException.html "class in com.google.adk.sessions")
+
+[SessionNotFoundException(String, Throwable)](com/google/adk/sessions/SessionNotFoundException.html#%3Cinit%3E(java.lang.String,java.lang.Throwable)) - Constructor for exception class com.google.adk.sessions.[SessionNotFoundException](com/google/adk/sessions/SessionNotFoundException.html "class in com.google.adk.sessions")
+
+[sessions()](com/google/adk/sessions/ListSessionsResponse.html#sessions()) - Method in class com.google.adk.sessions.[ListSessionsResponse](com/google/adk/sessions/ListSessionsResponse.html "class in com.google.adk.sessions")
+
+[sessions(List<Session>)](com/google/adk/sessions/ListSessionsResponse.Builder.html#sessions(java.util.List)) - Method in class com.google.adk.sessions.[ListSessionsResponse.Builder](com/google/adk/sessions/ListSessionsResponse.Builder.html "class in com.google.adk.sessions")
+
+[sessionService()](com/google/adk/agents/InvocationContext.html#sessionService()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[sessionService()](com/google/adk/runner/Runner.html#sessionService()) - Method in class com.google.adk.runner.[Runner](com/google/adk/runner/Runner.html "class in com.google.adk.runner")
+
+[SessionUtils](com/google/adk/sessions/SessionUtils.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   Utility functions for session service.
+
+[SessionUtils()](com/google/adk/sessions/SessionUtils.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[SessionUtils](com/google/adk/sessions/SessionUtils.html "class in com.google.adk.sessions")
+
+[setActions(EventActions)](com/google/adk/events/Event.html#setActions(com.google.adk.events.EventActions)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setActions(EventActions)](com/google/adk/tools/ToolContext.html#setActions(com.google.adk.events.EventActions)) - Method in class com.google.adk.tools.[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools")
+
+[setArtifactDelta(ConcurrentMap<String, Part>)](com/google/adk/events/EventActions.html#setArtifactDelta(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setAuthor(String)](com/google/adk/events/Event.html#setAuthor(java.lang.String)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setContent(Optional<Content>)](com/google/adk/events/Event.html#setContent(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setCredentials(GoogleCredentials)](com/google/adk/models/VertexCredentials.Builder.html#setCredentials(com.google.auth.oauth2.GoogleCredentials)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setCredentials(Optional<GoogleCredentials>)](com/google/adk/models/VertexCredentials.Builder.html#setCredentials(java.util.Optional)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setErrorCode(Optional<FinishReason>)](com/google/adk/events/Event.html#setErrorCode(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setErrorMessage(Optional<String>)](com/google/adk/events/Event.html#setErrorMessage(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setEscalate(boolean)](com/google/adk/events/EventActions.html#setEscalate(boolean)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setEscalate(Optional<Boolean>)](com/google/adk/events/EventActions.html#setEscalate(java.util.Optional)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setGroundingMetadata(Optional<GroundingMetadata>)](com/google/adk/events/Event.html#setGroundingMetadata(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setId(String)](com/google/adk/events/Event.html#setId(java.lang.String)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setInterrupted(Optional<Boolean>)](com/google/adk/events/Event.html#setInterrupted(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setInvocationId(String)](com/google/adk/events/Event.html#setInvocationId(java.lang.String)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setLocation(String)](com/google/adk/models/VertexCredentials.Builder.html#setLocation(java.lang.String)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setLocation(Optional<String>)](com/google/adk/models/VertexCredentials.Builder.html#setLocation(java.util.Optional)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setLongRunningToolIds(Optional<Set<String>>)](com/google/adk/events/Event.html#setLongRunningToolIds(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setMaxLlmCalls(int)](com/google/adk/agents/RunConfig.Builder.html#setMaxLlmCalls(int)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setOutputAudioTranscription(AudioTranscriptionConfig)](com/google/adk/agents/RunConfig.Builder.html#setOutputAudioTranscription(com.google.genai.types.AudioTranscriptionConfig)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setPartial(Optional<Boolean>)](com/google/adk/events/Event.html#setPartial(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setProject(String)](com/google/adk/models/VertexCredentials.Builder.html#setProject(java.lang.String)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setProject(Optional<String>)](com/google/adk/models/VertexCredentials.Builder.html#setProject(java.util.Optional)) - Method in class com.google.adk.models.[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models")
+
+[setRequestedAuthConfigs(ConcurrentMap<String, ConcurrentMap<String, Object>>)](com/google/adk/events/EventActions.html#setRequestedAuthConfigs(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setResponseModalities(Iterable<Modality>)](com/google/adk/agents/RunConfig.Builder.html#setResponseModalities(java.lang.Iterable)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setSaveInputBlobsAsArtifacts(boolean)](com/google/adk/agents/RunConfig.Builder.html#setSaveInputBlobsAsArtifacts(boolean)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setSkipSummarization(boolean)](com/google/adk/events/EventActions.html#setSkipSummarization(boolean)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setSkipSummarization(Boolean)](com/google/adk/events/EventActions.html#setSkipSummarization(java.lang.Boolean)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setSkipSummarization(Optional<Boolean>)](com/google/adk/events/EventActions.html#setSkipSummarization(java.util.Optional)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setSpeechConfig(SpeechConfig)](com/google/adk/agents/RunConfig.Builder.html#setSpeechConfig(com.google.genai.types.SpeechConfig)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setStateDelta(ConcurrentMap<String, Object>)](com/google/adk/events/EventActions.html#setStateDelta(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setStreamingMode(RunConfig.StreamingMode)](com/google/adk/agents/RunConfig.Builder.html#setStreamingMode(com.google.adk.agents.RunConfig.StreamingMode)) - Method in class com.google.adk.agents.[RunConfig.Builder](com/google/adk/agents/RunConfig.Builder.html "class in com.google.adk.agents")
+
+[setTimestamp(long)](com/google/adk/events/Event.html#setTimestamp(long)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[setTransferToAgent(String)](com/google/adk/events/EventActions.html#setTransferToAgent(java.lang.String)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setTransferToAgent(Optional<String>)](com/google/adk/events/EventActions.html#setTransferToAgent(java.util.Optional)) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[setTurnComplete(Optional<Boolean>)](com/google/adk/events/Event.html#setTurnComplete(java.util.Optional)) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[shouldClose()](com/google/adk/agents/LiveRequest.html#shouldClose()) - Method in class com.google.adk.agents.[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents")
+:   Extracts boolean value from the close field or returns false if unset.
+
+[SingleFlow](com/google/adk/flows/llmflows/SingleFlow.html "class in com.google.adk.flows.llmflows") - Class in [com.google.adk.flows.llmflows](com/google/adk/flows/llmflows/package-summary.html)
+
+[SingleFlow()](com/google/adk/flows/llmflows/SingleFlow.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.[SingleFlow](com/google/adk/flows/llmflows/SingleFlow.html "class in com.google.adk.flows.llmflows")
+
+[SingleFlow(List<RequestProcessor>, List<ResponseProcessor>)](com/google/adk/flows/llmflows/SingleFlow.html#%3Cinit%3E(java.util.List,java.util.List)) - Constructor for class com.google.adk.flows.llmflows.[SingleFlow](com/google/adk/flows/llmflows/SingleFlow.html "class in com.google.adk.flows.llmflows")
+
+[size()](com/google/adk/sessions/State.html#size()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[skipSummarization()](com/google/adk/events/EventActions.html#skipSummarization()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[skipSummarization(boolean)](com/google/adk/events/EventActions.Builder.html#skipSummarization(boolean)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[SpeechClientInterface](com/google/adk/flows/llmflows/audio/SpeechClientInterface.html "interface in com.google.adk.flows.llmflows.audio") - Interface in [com.google.adk.flows.llmflows.audio](com/google/adk/flows/llmflows/audio/package-summary.html)
+:   Interface for a speech-to-text client.
+
+[speechConfig()](com/google/adk/agents/RunConfig.html#speechConfig()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[SSE](com/google/adk/agents/RunConfig.StreamingMode.html#SSE) - Enum constant in enum class com.google.adk.agents.[RunConfig.StreamingMode](com/google/adk/agents/RunConfig.StreamingMode.html "enum class in com.google.adk.agents")
+
+[sseReadTimeout()](com/google/adk/tools/mcp/SseServerParameters.html#sseReadTimeout()) - Method in class com.google.adk.tools.mcp.[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp")
+:   The timeout for reading data from the SSE stream.
+
+[sseReadTimeout(Duration)](com/google/adk/tools/mcp/SseServerParameters.Builder.html#sseReadTimeout(java.time.Duration)) - Method in class com.google.adk.tools.mcp.[SseServerParameters.Builder](com/google/adk/tools/mcp/SseServerParameters.Builder.html "class in com.google.adk.tools.mcp")
+:   Sets the timeout for reading data from the SSE stream.
+
+[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Parameters for establishing a MCP Server-Sent Events (SSE) connection.
+
+[SseServerParameters()](com/google/adk/tools/mcp/SseServerParameters.html#%3Cinit%3E()) - Constructor for class com.google.adk.tools.mcp.[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp")
+
+[SseServerParameters.Builder](com/google/adk/tools/mcp/SseServerParameters.Builder.html "class in com.google.adk.tools.mcp") - Class in [com.google.adk.tools.mcp](com/google/adk/tools/mcp/package-summary.html)
+:   Builder for [`SseServerParameters`](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp").
+
+[state()](com/google/adk/agents/CallbackContext.html#state()) - Method in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+:   Returns the delta-aware state of the current callback.
+
+[state()](com/google/adk/agents/ReadonlyContext.html#state()) - Method in class com.google.adk.agents.[ReadonlyContext](com/google/adk/agents/ReadonlyContext.html "class in com.google.adk.agents")
+:   Returns a read-only view of the state of the current session.
+
+[state()](com/google/adk/sessions/Session.html#state()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[state(State)](com/google/adk/sessions/Session.Builder.html#state(com.google.adk.sessions.State)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[state(ConcurrentMap<String, Object>)](com/google/adk/sessions/Session.Builder.html#state(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   A [`State`](com/google/adk/sessions/State.html "class in com.google.adk.sessions") object that also keeps track of the changes to the state.
+
+[State(ConcurrentMap<String, Object>)](com/google/adk/sessions/State.html#%3Cinit%3E(java.util.concurrent.ConcurrentMap)) - Constructor for class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[State(ConcurrentMap<String, Object>, ConcurrentMap<String, Object>)](com/google/adk/sessions/State.html#%3Cinit%3E(java.util.concurrent.ConcurrentMap,java.util.concurrent.ConcurrentMap)) - Constructor for class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[stateDelta()](com/google/adk/events/EventActions.html#stateDelta()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[stateDelta(ConcurrentMap<String, Object>)](com/google/adk/events/EventActions.Builder.html#stateDelta(java.util.concurrent.ConcurrentMap)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[streamingMode()](com/google/adk/agents/RunConfig.html#streamingMode()) - Method in class com.google.adk.agents.[RunConfig](com/google/adk/agents/RunConfig.html "class in com.google.adk.agents")
+
+[stringifyContent()](com/google/adk/events/Event.html#stringifyContent()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[subAgents()](com/google/adk/agents/BaseAgent.html#subAgents()) - Method in class com.google.adk.agents.[BaseAgent](com/google/adk/agents/BaseAgent.html "class in com.google.adk.agents")
+
+[subAgents(BaseAgent...)](com/google/adk/agents/LlmAgent.Builder.html#subAgents(com.google.adk.agents.BaseAgent...)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(BaseAgent...)](com/google/adk/agents/LoopAgent.Builder.html#subAgents(com.google.adk.agents.BaseAgent...)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(BaseAgent...)](com/google/adk/agents/ParallelAgent.Builder.html#subAgents(com.google.adk.agents.BaseAgent...)) - Method in class com.google.adk.agents.[ParallelAgent.Builder](com/google/adk/agents/ParallelAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(BaseAgent...)](com/google/adk/agents/SequentialAgent.Builder.html#subAgents(com.google.adk.agents.BaseAgent...)) - Method in class com.google.adk.agents.[SequentialAgent.Builder](com/google/adk/agents/SequentialAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(List<? extends BaseAgent>)](com/google/adk/agents/LlmAgent.Builder.html#subAgents(java.util.List)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(List<? extends BaseAgent>)](com/google/adk/agents/LoopAgent.Builder.html#subAgents(java.util.List)) - Method in class com.google.adk.agents.[LoopAgent.Builder](com/google/adk/agents/LoopAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(List<? extends BaseAgent>)](com/google/adk/agents/ParallelAgent.Builder.html#subAgents(java.util.List)) - Method in class com.google.adk.agents.[ParallelAgent.Builder](com/google/adk/agents/ParallelAgent.Builder.html "class in com.google.adk.agents")
+
+[subAgents(List<? extends BaseAgent>)](com/google/adk/agents/SequentialAgent.Builder.html#subAgents(java.util.List)) - Method in class com.google.adk.agents.[SequentialAgent.Builder](com/google/adk/agents/SequentialAgent.Builder.html "class in com.google.adk.agents")
+
+## T
+
+[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk") - Class in [com.google.adk](com/google/adk/package-summary.html)
+:   Utility class for capturing and reporting telemetry data within the ADK.
+
+[TEMP\_PREFIX](com/google/adk/sessions/State.html#TEMP_PREFIX) - Static variable in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[timeout()](com/google/adk/tools/mcp/SseServerParameters.html#timeout()) - Method in class com.google.adk.tools.mcp.[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp")
+:   The timeout for the initial connection attempt.
+
+[timeout(Duration)](com/google/adk/tools/mcp/SseServerParameters.Builder.html#timeout(java.time.Duration)) - Method in class com.google.adk.tools.mcp.[SseServerParameters.Builder](com/google/adk/tools/mcp/SseServerParameters.Builder.html "class in com.google.adk.tools.mcp")
+:   Sets the timeout for the initial connection attempt.
+
+[timestamp()](com/google/adk/events/Event.html#timestamp()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+:   The timestamp of the event.
+
+[timestamp(long)](com/google/adk/events/Event.Builder.html#timestamp(long)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[timestamp(Optional<Long>)](com/google/adk/events/Event.Builder.html#timestamp(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[toBuilder()](com/google/adk/agents/LiveRequest.html#toBuilder()) - Method in class com.google.adk.agents.[LiveRequest](com/google/adk/agents/LiveRequest.html "class in com.google.adk.agents")
+
+[toBuilder()](com/google/adk/events/Event.html#toBuilder()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[toBuilder()](com/google/adk/events/EventActions.html#toBuilder()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[toBuilder()](com/google/adk/examples/Example.html#toBuilder()) - Method in class com.google.adk.examples.[Example](com/google/adk/examples/Example.html "class in com.google.adk.examples")
+
+[toBuilder()](com/google/adk/models/LlmRequest.html#toBuilder()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+
+[toBuilder()](com/google/adk/models/LlmResponse.html#toBuilder()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+
+[toBuilder()](com/google/adk/models/Model.html#toBuilder()) - Method in class com.google.adk.models.[Model](com/google/adk/models/Model.html "class in com.google.adk.models")
+
+[toBuilder()](com/google/adk/tools/ToolContext.html#toBuilder()) - Method in class com.google.adk.tools.[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools")
+
+[toGeminiSchema(McpSchema.JsonSchema)](com/google/adk/tools/mcp/McpTool.html#toGeminiSchema(io.modelcontextprotocol.spec.McpSchema.JsonSchema)) - Method in class com.google.adk.tools.mcp.[McpTool](com/google/adk/tools/mcp/McpTool.html "class in com.google.adk.tools.mcp")
+
+[toJson()](com/google/adk/JsonBaseModel.html#toJson()) - Method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+
+[toJsonNode(Object)](com/google/adk/JsonBaseModel.html#toJsonNode(java.lang.Object)) - Static method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+:   Serializes an object to a JsonNode.
+
+[toJsonString(Object)](com/google/adk/JsonBaseModel.html#toJsonString(java.lang.Object)) - Static method in class com.google.adk.[JsonBaseModel](com/google/adk/JsonBaseModel.html "class in com.google.adk")
+:   Serializes an object to a Json string.
+
+[ToolContext](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   ToolContext object provides a structured context for executing tools or functions.
+
+[ToolContext.Builder](com/google/adk/tools/ToolContext.Builder.html "class in com.google.adk.tools") - Class in [com.google.adk.tools](com/google/adk/tools/package-summary.html)
+:   Builder for [`ToolContext`](com/google/adk/tools/ToolContext.html "class in com.google.adk.tools").
+
+[tools()](com/google/adk/agents/LlmAgent.html#tools()) - Method in class com.google.adk.agents.[LlmAgent](com/google/adk/agents/LlmAgent.html "class in com.google.adk.agents")
+
+[tools()](com/google/adk/models/LlmRequest.html#tools()) - Method in class com.google.adk.models.[LlmRequest](com/google/adk/models/LlmRequest.html "class in com.google.adk.models")
+:   Returns a map of tools available to the LLM.
+
+[tools(BaseTool...)](com/google/adk/agents/LlmAgent.Builder.html#tools(com.google.adk.tools.BaseTool...)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[tools(List<? extends BaseTool>)](com/google/adk/agents/LlmAgent.Builder.html#tools(java.util.List)) - Method in class com.google.adk.agents.[LlmAgent.Builder](com/google/adk/agents/LlmAgent.Builder.html "class in com.google.adk.agents")
+
+[traceCallLlm(InvocationContext, String, LlmRequest, LlmResponse)](com/google/adk/Telemetry.html#traceCallLlm(com.google.adk.agents.InvocationContext,java.lang.String,com.google.adk.models.LlmRequest,com.google.adk.models.LlmResponse)) - Static method in class com.google.adk.[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk")
+:   Traces a call to the LLM.
+
+[traceSendData(InvocationContext, String, List<Content>)](com/google/adk/Telemetry.html#traceSendData(com.google.adk.agents.InvocationContext,java.lang.String,java.util.List)) - Static method in class com.google.adk.[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk")
+:   Traces the sending of data (history or new content) to the agent/model.
+
+[traceToolCall(Map<String, Object>)](com/google/adk/Telemetry.html#traceToolCall(java.util.Map)) - Static method in class com.google.adk.[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk")
+:   Traces tool call arguments.
+
+[traceToolResponse(InvocationContext, String, Event)](com/google/adk/Telemetry.html#traceToolResponse(com.google.adk.agents.InvocationContext,java.lang.String,com.google.adk.events.Event)) - Static method in class com.google.adk.[Telemetry](com/google/adk/Telemetry.html "class in com.google.adk")
+:   Traces tool response event.
+
+[transferToAgent()](com/google/adk/events/EventActions.html#transferToAgent()) - Method in class com.google.adk.events.[EventActions](com/google/adk/events/EventActions.html "class in com.google.adk.events")
+
+[transferToAgent(String)](com/google/adk/events/EventActions.Builder.html#transferToAgent(java.lang.String)) - Method in class com.google.adk.events.[EventActions.Builder](com/google/adk/events/EventActions.Builder.html "class in com.google.adk.events")
+
+[transferToAgent(String, ToolContext)](com/google/adk/flows/llmflows/AgentTransfer.html#transferToAgent(java.lang.String,com.google.adk.tools.ToolContext)) - Static method in class com.google.adk.flows.llmflows.[AgentTransfer](com/google/adk/flows/llmflows/AgentTransfer.html "class in com.google.adk.flows.llmflows")
+
+[turnComplete()](com/google/adk/events/Event.html#turnComplete()) - Method in class com.google.adk.events.[Event](com/google/adk/events/Event.html "class in com.google.adk.events")
+
+[turnComplete()](com/google/adk/models/LlmResponse.html#turnComplete()) - Method in class com.google.adk.models.[LlmResponse](com/google/adk/models/LlmResponse.html "class in com.google.adk.models")
+:   Indicates whether the response from the model is complete.
+
+[turnComplete(Boolean)](com/google/adk/events/Event.Builder.html#turnComplete(java.lang.Boolean)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[turnComplete(Boolean)](com/google/adk/models/LlmResponse.Builder.html#turnComplete(java.lang.Boolean)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+[turnComplete(Optional<Boolean>)](com/google/adk/events/Event.Builder.html#turnComplete(java.util.Optional)) - Method in class com.google.adk.events.[Event.Builder](com/google/adk/events/Event.Builder.html "class in com.google.adk.events")
+
+[turnComplete(Optional<Boolean>)](com/google/adk/models/LlmResponse.Builder.html#turnComplete(java.util.Optional)) - Method in class com.google.adk.models.[LlmResponse.Builder](com/google/adk/models/LlmResponse.Builder.html "class in com.google.adk.models")
+
+## U
+
+[url()](com/google/adk/tools/mcp/SseServerParameters.html#url()) - Method in class com.google.adk.tools.mcp.[SseServerParameters](com/google/adk/tools/mcp/SseServerParameters.html "class in com.google.adk.tools.mcp")
+:   The URL of the SSE server.
+
+[url(String)](com/google/adk/tools/mcp/SseServerParameters.Builder.html#url(java.lang.String)) - Method in class com.google.adk.tools.mcp.[SseServerParameters.Builder](com/google/adk/tools/mcp/SseServerParameters.Builder.html "class in com.google.adk.tools.mcp")
+:   Sets the URL of the SSE server.
+
+[USER\_PREFIX](com/google/adk/sessions/State.html#USER_PREFIX) - Static variable in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[userContent()](com/google/adk/agents/CallbackContext.html#userContent()) - Method in class com.google.adk.agents.[CallbackContext](com/google/adk/agents/CallbackContext.html "class in com.google.adk.agents")
+:   Returns the user content that initiated this invocation.
+
+[userContent()](com/google/adk/agents/InvocationContext.html#userContent()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[userId()](com/google/adk/agents/InvocationContext.html#userId()) - Method in class com.google.adk.agents.[InvocationContext](com/google/adk/agents/InvocationContext.html "class in com.google.adk.agents")
+
+[userId()](com/google/adk/sessions/Session.html#userId()) - Method in class com.google.adk.sessions.[Session](com/google/adk/sessions/Session.html "class in com.google.adk.sessions")
+
+[userId(String)](com/google/adk/sessions/Session.Builder.html#userId(java.lang.String)) - Method in class com.google.adk.sessions.[Session.Builder](com/google/adk/sessions/Session.Builder.html "class in com.google.adk.sessions")
+
+## V
+
+[validateMapOnSchema(Map<String, Object>, Schema, Boolean)](com/google/adk/SchemaUtils.html#validateMapOnSchema(java.util.Map,com.google.genai.types.Schema,java.lang.Boolean)) - Static method in class com.google.adk.[SchemaUtils](com/google/adk/SchemaUtils.html "class in com.google.adk")
+:   Validates a map against a schema.
+
+[validateOutputSchema(String, Schema)](com/google/adk/SchemaUtils.html#validateOutputSchema(java.lang.String,com.google.genai.types.Schema)) - Static method in class com.google.adk.[SchemaUtils](com/google/adk/SchemaUtils.html "class in com.google.adk")
+:   Validates an output string against a schema.
+
+[valueOf(String)](com/google/adk/agents/LlmAgent.IncludeContents.html#valueOf(java.lang.String)) - Static method in enum class com.google.adk.agents.[LlmAgent.IncludeContents](com/google/adk/agents/LlmAgent.IncludeContents.html "enum class in com.google.adk.agents")
+:   Returns the enum constant of this class with the specified name.
+
+[valueOf(String)](com/google/adk/agents/RunConfig.StreamingMode.html#valueOf(java.lang.String)) - Static method in enum class com.google.adk.agents.[RunConfig.StreamingMode](com/google/adk/agents/RunConfig.StreamingMode.html "enum class in com.google.adk.agents")
+:   Returns the enum constant of this class with the specified name.
+
+[values()](com/google/adk/agents/LlmAgent.IncludeContents.html#values()) - Static method in enum class com.google.adk.agents.[LlmAgent.IncludeContents](com/google/adk/agents/LlmAgent.IncludeContents.html "enum class in com.google.adk.agents")
+:   Returns an array containing the constants of this enum class, in
+    the order they are declared.
+
+[values()](com/google/adk/agents/RunConfig.StreamingMode.html#values()) - Static method in enum class com.google.adk.agents.[RunConfig.StreamingMode](com/google/adk/agents/RunConfig.StreamingMode.html "enum class in com.google.adk.agents")
+:   Returns an array containing the constants of this enum class, in
+    the order they are declared.
+
+[values()](com/google/adk/sessions/State.html#values()) - Method in class com.google.adk.sessions.[State](com/google/adk/sessions/State.html "class in com.google.adk.sessions")
+
+[Version](com/google/adk/Version.html "class in com.google.adk") - Class in [com.google.adk](com/google/adk/package-summary.html)
+:   Holding class for the version of the Java ADK.
+
+[versions()](com/google/adk/artifacts/ListArtifactVersionsResponse.html#versions()) - Method in class com.google.adk.artifacts.[ListArtifactVersionsResponse](com/google/adk/artifacts/ListArtifactVersionsResponse.html "class in com.google.adk.artifacts")
+
+[versions(List<Part>)](com/google/adk/artifacts/ListArtifactVersionsResponse.Builder.html#versions(java.util.List)) - Method in class com.google.adk.artifacts.[ListArtifactVersionsResponse.Builder](com/google/adk/artifacts/ListArtifactVersionsResponse.Builder.html "class in com.google.adk.artifacts")
+
+[vertexAI()](com/google/adk/sessions/HttpApiClient.html#vertexAI()) - Method in class com.google.adk.sessions.[HttpApiClient](com/google/adk/sessions/HttpApiClient.html "class in com.google.adk.sessions")
+:   Returns whether the client is using Vertex AI APIs.
+
+[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions") - Class in [com.google.adk.sessions](com/google/adk/sessions/package-summary.html)
+:   TODO: Use the genai HttpApiClient and ApiResponse methods once they are public.
+
+[VertexAiSessionService()](com/google/adk/sessions/VertexAiSessionService.html#%3Cinit%3E()) - Constructor for class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[VertexAiSessionService(String, String, HttpApiClient)](com/google/adk/sessions/VertexAiSessionService.html#%3Cinit%3E(java.lang.String,java.lang.String,com.google.adk.sessions.HttpApiClient)) - Constructor for class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+:   Creates a new instance of the Vertex AI Session Service with a custom ApiClient for testing.
+
+[VertexAiSessionService(String, String, Optional<GoogleCredentials>, Optional<HttpOptions>)](com/google/adk/sessions/VertexAiSessionService.html#%3Cinit%3E(java.lang.String,java.lang.String,java.util.Optional,java.util.Optional)) - Constructor for class com.google.adk.sessions.[VertexAiSessionService](com/google/adk/sessions/VertexAiSessionService.html "class in com.google.adk.sessions")
+
+[vertexCredentials(VertexCredentials)](com/google/adk/models/Gemini.Builder.html#vertexCredentials(com.google.adk.models.VertexCredentials)) - Method in class com.google.adk.models.[Gemini.Builder](com/google/adk/models/Gemini.Builder.html "class in com.google.adk.models")
+:   Sets the Vertex AI credentials.
+
+[VertexCredentials](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Credentials for accessing Gemini models through Vertex.
+
+[VertexCredentials()](com/google/adk/models/VertexCredentials.html#%3Cinit%3E()) - Constructor for class com.google.adk.models.[VertexCredentials](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models")
+
+[VertexCredentials.Builder](com/google/adk/models/VertexCredentials.Builder.html "class in com.google.adk.models") - Class in [com.google.adk.models](com/google/adk/models/package-summary.html)
+:   Builder for [`VertexCredentials`](com/google/adk/models/VertexCredentials.html "class in com.google.adk.models").
+
+[VertexSpeechClient](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html "class in com.google.adk.flows.llmflows.audio") - Class in [com.google.adk.flows.llmflows.audio](com/google/adk/flows/llmflows/audio/package-summary.html)
+:   Implementation of SpeechClientInterface using Vertex AI SpeechClient.
+
+[VertexSpeechClient()](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html#%3Cinit%3E()) - Constructor for class com.google.adk.flows.llmflows.audio.[VertexSpeechClient](com/google/adk/flows/llmflows/audio/VertexSpeechClient.html "class in com.google.adk.flows.llmflows.audio")
+:   Constructs a VertexSpeechClient, initializing the underlying Google Cloud SpeechClient.
+
+[A](#I:A) [B](#I:B) [C](#I:C) [D](#I:D) [E](#I:E) [F](#I:F) [G](#I:G) [H](#I:H) [I](#I:I) [J](#I:J) [K](#I:K) [L](#I:L) [M](#I:M) [N](#I:N) [O](#I:O) [P](#I:P) [R](#I:R) [S](#I:S) [T](#I:T) [U](#I:U) [V](#I:V)   
+[All Classes and Interfaces](allclasses-index.html)|[All Packages](allpackages-index.html)|[Constant Field Values](constant-values.html)|[Serialized Form](serialized-form.html)
+
+---
+
+Copyright © 2025. All rights reserved.
 
 ---
