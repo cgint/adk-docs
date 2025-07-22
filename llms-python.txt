@@ -1,0 +1,2430 @@
+# Agent Development Kit (ADK) - Python
+
+*Python-specific documentation and examples from repository*
+
+
+## Directory: docs/api-reference/python
+
+
+### Index
+
+*File: docs/api-reference/python/genindex.html*
+
+Index - Agent Development Kit documentation
+
+body {
+--color-code-background: #f8f8f8;
+--color-code-foreground: black;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: black;
+--color-brand-content: black;
+}
+@media not print {
+body[data-theme="dark"] {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+}
+}
+
+document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+
+Contents
+
+Menu
+
+Expand
+
+Light mode
+
+Dark mode
+
+Auto light/dark, in light mode
+
+Auto light/dark, in dark mode
+
+Hide navigation sidebar
+
+Hide table of contents sidebar
+
+[Skip to content](#furo-main-content)
+
+Toggle site navigation sidebar
+
+[Agent Development Kit documentation](index.html)
+
+
+
+Toggle table of contents sidebar
+
+[Agent Development Kit documentation](index.html)
+
+- [Submodules](google-adk.html)
+- [google.adk.agents module](google-adk.html#module-google.adk.agents)
+- [google.adk.artifacts module](google-adk.html#module-google.adk.artifacts)
+- [google.adk.code\_executors module](google-adk.html#module-google.adk.code_executors)
+- [google.adk.evaluation module](google-adk.html#module-google.adk.evaluation)
+- [google.adk.events module](google-adk.html#module-google.adk.events)
+- [google.adk.examples module](google-adk.html#module-google.adk.examples)
+- [google.adk.memory module](google-adk.html#module-google.adk.memory)
+- [google.adk.models module](google-adk.html#module-google.adk.models)
+- [google.adk.planners module](google-adk.html#module-google.adk.planners)
+- [google.adk.runners module](google-adk.html#module-google.adk.runners)
+- [google.adk.sessions module](google-adk.html#module-google.adk.sessions)
+- [google.adk.tools package](google-adk.html#module-google.adk.tools)
+
+[
+
+
+
+Toggle table of contents sidebar
+
+# Index
+
+[**A**](#A) | [**B**](#B) | [**C**](#C) | [**D**](#D) | [**E**](#E) | [**F**](#F) | [**G**](#G) | [**H**](#H) | [**I**](#I) | [**L**](#L) | [**M**](#M) | [**N**](#N) | [**O**](#O) | [**P**](#P) | [**R**](#R) | [**S**](#S) | [**T**](#T) | [**U**](#U) | [**V**](#V)
+
+## A
+
+|  |  |
+| --- | --- |
+| - [actions (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.actions), [[1]](google-adk.html#id17)   - [(google.adk.tools.ToolContext property)](google-adk.html#google.adk.tools.ToolContext.actions) - [add\_input\_files() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.add_input_files) - [add\_processed\_file\_names() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.add_processed_file_names) - [add\_session\_to\_memory() (google.adk.memory.BaseMemoryService method)](google-adk.html#google.adk.memory.BaseMemoryService.add_session_to_memory)   - [(google.adk.memory.InMemoryMemoryService method)](google-adk.html#google.adk.memory.InMemoryMemoryService.add_session_to_memory)   - [(google.adk.memory.VertexAiRagMemoryService method)](google-adk.html#google.adk.memory.VertexAiRagMemoryService.add_session_to_memory) - [adk\_to\_mcp\_tool\_type() (in module google.adk.tools.mcp\_tool)](google-adk.html#google.adk.tools.mcp_tool.adk_to_mcp_tool_type) - [after\_agent\_callback (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.after_agent_callback) - [after\_model\_callback (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.after_model_callback) - [after\_tool\_callback (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.after_tool_callback) - [agent (google.adk.runners.InMemoryRunner attribute)](google-adk.html#google.adk.runners.InMemoryRunner.agent)   - [(google.adk.runners.Runner attribute)](google-adk.html#google.adk.runners.Runner.agent), [[1]](google-adk.html#id31) - [Agent (in module google.adk.agents)](google-adk.html#google.adk.agents.Agent) - [AgentEvaluator (class in google.adk.evaluation)](google-adk.html#google.adk.evaluation.AgentEvaluator) - [api\_client (google.adk.models.Gemini property)](google-adk.html#google.adk.models.Gemini.api_client) | - [APIHubToolset (class in google.adk.tools)](google-adk.html#google.adk.tools.APIHubToolset) - [app\_name (google.adk.runners.InMemoryRunner attribute)](google-adk.html#google.adk.runners.InMemoryRunner.app_name)   - [(google.adk.runners.Runner attribute)](google-adk.html#google.adk.runners.Runner.app_name), [[1]](google-adk.html#id32)   - [(google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.app_name), [[1]](google-adk.html#id36) - [APP\_PREFIX (google.adk.sessions.State attribute)](google-adk.html#google.adk.sessions.State.APP_PREFIX) - [append\_event() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.append_event)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.append_event)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.append_event)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.append_event) - [ApplicationIntegrationToolset (class in google.adk.tools.application\_integration\_tool)](google-adk.html#google.adk.tools.application_integration_tool.ApplicationIntegrationToolset) - [apply\_thinking\_config() (google.adk.planners.BuiltInPlanner method)](google-adk.html#google.adk.planners.BuiltInPlanner.apply_thinking_config) - [artifact\_delta (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.artifact_delta) - [artifact\_service (google.adk.runners.Runner attribute)](google-adk.html#google.adk.runners.Runner.artifact_service), [[1]](google-adk.html#id33) - [artifacts (google.adk.artifacts.InMemoryArtifactService attribute)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.artifacts) - [auth\_config (google.adk.tools.AuthToolArguments attribute)](google-adk.html#google.adk.tools.AuthToolArguments.auth_config) - [author (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.author), [[1]](google-adk.html#id18) |
+
+## B
+
+|  |  |
+| --- | --- |
+| - [base\_url (google.adk.code\_executors.ContainerCodeExecutor attribute)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.base_url), [[1]](google-adk.html#id13) - [BaseArtifactService (class in google.adk.artifacts)](google-adk.html#google.adk.artifacts.BaseArtifactService) - [BaseExampleProvider (class in google.adk.examples)](google-adk.html#google.adk.examples.BaseExampleProvider) - [BaseMemoryService (class in google.adk.memory)](google-adk.html#google.adk.memory.BaseMemoryService) - [BasePlanner (class in google.adk.planners)](google-adk.html#google.adk.planners.BasePlanner) - [BaseRetrievalTool (class in google.adk.tools.retrieval)](google-adk.html#google.adk.tools.retrieval.BaseRetrievalTool) - [BaseSessionService (class in google.adk.sessions)](google-adk.html#google.adk.sessions.BaseSessionService) - [BaseTool (class in google.adk.tools)](google-adk.html#google.adk.tools.BaseTool) | - [before\_agent\_callback (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.before_agent_callback) - [before\_model\_callback (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.before_model_callback) - [before\_tool\_callback (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.before_tool_callback) - [branch (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.branch), [[1]](google-adk.html#id19) - [build\_planning\_instruction() (google.adk.planners.BasePlanner method)](google-adk.html#google.adk.planners.BasePlanner.build_planning_instruction)   - [(google.adk.planners.BuiltInPlanner method)](google-adk.html#google.adk.planners.BuiltInPlanner.build_planning_instruction)   - [(google.adk.planners.PlanReActPlanner method)](google-adk.html#google.adk.planners.PlanReActPlanner.build_planning_instruction) - [BuiltInPlanner (class in google.adk.planners)](google-adk.html#google.adk.planners.BuiltInPlanner) |
+
+## C
+
+|  |  |
+| --- | --- |
+| - [call() (google.adk.tools.openapi\_tool.RestApiTool method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.call) - [canonical\_after\_model\_callbacks (google.adk.agents.LlmAgent property)](google-adk.html#google.adk.agents.LlmAgent.canonical_after_model_callbacks) - [canonical\_before\_model\_callbacks (google.adk.agents.LlmAgent property)](google-adk.html#google.adk.agents.LlmAgent.canonical_before_model_callbacks) - [canonical\_global\_instruction() (google.adk.agents.LlmAgent method)](google-adk.html#google.adk.agents.LlmAgent.canonical_global_instruction) - [canonical\_instruction() (google.adk.agents.LlmAgent method)](google-adk.html#google.adk.agents.LlmAgent.canonical_instruction) - [canonical\_model (google.adk.agents.LlmAgent property)](google-adk.html#google.adk.agents.LlmAgent.canonical_model) - [canonical\_tools (google.adk.agents.LlmAgent property)](google-adk.html#google.adk.agents.LlmAgent.canonical_tools) - [clear\_input\_files() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.clear_input_files) - [close\_session() (google.adk.runners.Runner method)](google-adk.html#google.adk.runners.Runner.close_session)   - [(google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.close_session) - [code\_block\_delimiters (google.adk.code\_executors.BaseCodeExecutor attribute)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.code_block_delimiters), [[1]](google-adk.html#id0) | - [code\_executor (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.code_executor) - [CodeExecutorContext (class in google.adk.code\_executors)](google-adk.html#google.adk.code_executors.CodeExecutorContext) - [configure\_auth\_credential() (google.adk.tools.openapi\_tool.RestApiTool method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.configure_auth_credential) - [configure\_auth\_scheme() (google.adk.tools.openapi\_tool.RestApiTool method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.configure_auth_scheme) - [connect() (google.adk.models.BaseLlm method)](google-adk.html#google.adk.models.BaseLlm.connect)   - [(google.adk.models.Gemini method)](google-adk.html#google.adk.models.Gemini.connect) - [connection\_params (google.adk.tools.mcp\_tool.MCPToolset attribute)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.connection_params) - [create\_session() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.create_session)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.create_session)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.create_session)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.create_session) |
+
+## D
+
+|  |  |
+| --- | --- |
+| - [data\_store\_id (google.adk.tools.VertexAiSearchTool attribute)](google-adk.html#google.adk.tools.VertexAiSearchTool.data_store_id) - [DatabaseSessionService (class in google.adk.sessions)](google-adk.html#google.adk.sessions.DatabaseSessionService) - [delete\_artifact() (google.adk.artifacts.BaseArtifactService method)](google-adk.html#google.adk.artifacts.BaseArtifactService.delete_artifact)   - [(google.adk.artifacts.GcsArtifactService method)](google-adk.html#google.adk.artifacts.GcsArtifactService.delete_artifact)   - [(google.adk.artifacts.InMemoryArtifactService method)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.delete_artifact) - [delete\_session() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.delete_session)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.delete_session)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.delete_session)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.delete_session) | - [description (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.description)   - [(google.adk.tools.BaseTool attribute)](google-adk.html#google.adk.tools.BaseTool.description) - [disallow\_transfer\_to\_parent (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.disallow_transfer_to_parent) - [disallow\_transfer\_to\_peers (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.disallow_transfer_to_peers) - [docker\_path (google.adk.code\_executors.ContainerCodeExecutor attribute)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.docker_path), [[1]](google-adk.html#id14) |
+
+## E
+
+|  |  |
+| --- | --- |
+| - [error\_retry\_attempts (google.adk.code\_executors.BaseCodeExecutor attribute)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.error_retry_attempts), [[1]](google-adk.html#id9) - [escalate (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.escalate) - [evaluate() (google.adk.evaluation.AgentEvaluator static method)](google-adk.html#google.adk.evaluation.AgentEvaluator.evaluate) - [event\_actions (google.adk.tools.ToolContext attribute)](google-adk.html#google.adk.tools.ToolContext.event_actions) - [events (google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.events), [[1]](google-adk.html#id37) - [examples (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.examples)   - [(google.adk.tools.ExampleTool attribute)](google-adk.html#google.adk.tools.ExampleTool.examples) - [ExampleTool (class in google.adk.tools)](google-adk.html#google.adk.tools.ExampleTool) | - [EXCLUDE\_FIELDS (google.adk.tools.application\_integration\_tool.IntegrationConnectorTool attribute)](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.EXCLUDE_FIELDS) - [execute\_code() (google.adk.code\_executors.BaseCodeExecutor method)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.execute_code)   - [(google.adk.code\_executors.ContainerCodeExecutor method)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.execute_code)   - [(google.adk.code\_executors.UnsafeLocalCodeExecutor method)](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.execute_code)   - [(google.adk.code\_executors.VertexAiCodeExecutor method)](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.execute_code) - [execution\_result\_delimiters (google.adk.code\_executors.BaseCodeExecutor attribute)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.execution_result_delimiters), [[1]](google-adk.html#id10) - [exit\_loop() (in module google.adk.tools)](google-adk.html#google.adk.tools.exit_loop) - [exit\_stack (google.adk.tools.mcp\_tool.MCPToolset attribute)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.exit_stack) |
+
+## F
+
+|  |  |
+| --- | --- |
+| - [FilesRetrieval (class in google.adk.tools.retrieval)](google-adk.html#google.adk.tools.retrieval.FilesRetrieval) - [find\_agent() (google.adk.agents.BaseAgent method)](google-adk.html#google.adk.agents.BaseAgent.find_agent) - [find\_config\_for\_test\_file() (google.adk.evaluation.AgentEvaluator static method)](google-adk.html#google.adk.evaluation.AgentEvaluator.find_config_for_test_file) - [find\_sub\_agent() (google.adk.agents.BaseAgent method)](google-adk.html#google.adk.agents.BaseAgent.find_sub_agent) - [from\_parsed\_operation() (google.adk.tools.openapi\_tool.RestApiTool class method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.from_parsed_operation) | - [from\_parsed\_operation\_str() (google.adk.tools.openapi\_tool.RestApiTool class method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.from_parsed_operation_str) - [from\_server() (google.adk.tools.mcp\_tool.MCPToolset class method)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.from_server) - [func (google.adk.tools.FunctionTool attribute)](google-adk.html#google.adk.tools.FunctionTool.func) - [function\_call\_id (google.adk.tools.AuthToolArguments attribute)](google-adk.html#google.adk.tools.AuthToolArguments.function_call_id)   - [(google.adk.tools.ToolContext attribute)](google-adk.html#google.adk.tools.ToolContext.function_call_id) - [FunctionTool (class in google.adk.tools)](google-adk.html#google.adk.tools.FunctionTool) |
+
+## G
+
+|  |  |
+| --- | --- |
+| - [GcsArtifactService (class in google.adk.artifacts)](google-adk.html#google.adk.artifacts.GcsArtifactService) - [gemini\_to\_json\_schema() (in module google.adk.tools.mcp\_tool)](google-adk.html#google.adk.tools.mcp_tool.gemini_to_json_schema) - [generate\_content\_async() (google.adk.models.BaseLlm method)](google-adk.html#google.adk.models.BaseLlm.generate_content_async)   - [(google.adk.models.Gemini method)](google-adk.html#google.adk.models.Gemini.generate_content_async) - [generate\_content\_config (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.generate_content_config) - [get() (google.adk.sessions.State method)](google-adk.html#google.adk.sessions.State.get) - [get\_auth\_response() (google.adk.tools.ToolContext method)](google-adk.html#google.adk.tools.ToolContext.get_auth_response) - [get\_error\_count() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_error_count) - [get\_examples() (google.adk.examples.BaseExampleProvider method)](google-adk.html#google.adk.examples.BaseExampleProvider.get_examples)   - [(google.adk.examples.VertexAiExampleStore method)](google-adk.html#google.adk.examples.VertexAiExampleStore.get_examples) - [get\_execution\_id() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_execution_id) - [get\_function\_calls (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.get_function_calls) - [get\_function\_calls() (google.adk.events.Event method)](google-adk.html#id24) - [get\_function\_responses() (google.adk.events.Event method)](google-adk.html#google.adk.events.Event.get_function_responses) - [get\_input\_files() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_input_files) - [get\_processed\_file\_names() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_processed_file_names) - [get\_session() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.get_session)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.get_session)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.get_session)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.get_session) - [get\_state\_delta() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_state_delta) - [get\_tool() (google.adk.tools.APIHubToolset method)](google-adk.html#google.adk.tools.APIHubToolset.get_tool)   - [(google.adk.tools.openapi\_tool.OpenAPIToolset method)](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset.get_tool) - [get\_tools() (google.adk.tools.APIHubToolset method)](google-adk.html#google.adk.tools.APIHubToolset.get_tools)   - [(google.adk.tools.application\_integration\_tool.ApplicationIntegrationToolset method)](google-adk.html#google.adk.tools.application_integration_tool.ApplicationIntegrationToolset.get_tools)   - [(google.adk.tools.openapi\_tool.OpenAPIToolset method)](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset.get_tools) - [global\_instruction (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.global_instruction) - google.adk.agents   - [module](google-adk.html#module-google.adk.agents) - google.adk.artifacts   - [module](google-adk.html#module-google.adk.artifacts) | - google.adk.code\_executors   - [module](google-adk.html#module-google.adk.code_executors) - google.adk.evaluation   - [module](google-adk.html#module-google.adk.evaluation) - google.adk.events   - [module](google-adk.html#module-google.adk.events) - google.adk.examples   - [module](google-adk.html#module-google.adk.examples) - google.adk.memory   - [module](google-adk.html#module-google.adk.memory) - google.adk.models   - [module](google-adk.html#module-google.adk.models) - google.adk.planners   - [module](google-adk.html#module-google.adk.planners) - google.adk.runners   - [module](google-adk.html#module-google.adk.runners) - google.adk.sessions   - [module](google-adk.html#module-google.adk.sessions) - google.adk.tools   - [module](google-adk.html#module-google.adk.tools) - google.adk.tools.application\_integration\_tool   - [module](google-adk.html#module-google.adk.tools.application_integration_tool) - google.adk.tools.google\_api\_tool   - [module](google-adk.html#module-google.adk.tools.google_api_tool) - google.adk.tools.mcp\_tool   - [module](google-adk.html#module-google.adk.tools.mcp_tool) - google.adk.tools.openapi\_tool   - [module](google-adk.html#module-google.adk.tools.openapi_tool) - google.adk.tools.retrieval   - [module](google-adk.html#module-google.adk.tools.retrieval) |
+
+## H
+
+|  |  |
+| --- | --- |
+| - [has\_delta() (google.adk.sessions.State method)](google-adk.html#google.adk.sessions.State.has_delta) | - [has\_trailing\_code\_execution\_result() (google.adk.events.Event method)](google-adk.html#google.adk.events.Event.has_trailing_code_execution_result) |
+
+## I
+
+|  |  |
+| --- | --- |
+| - [id (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.id), [[1]](google-adk.html#id20)   - [(google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.id), [[1]](google-adk.html#id38) - [image (google.adk.code\_executors.ContainerCodeExecutor attribute)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.image), [[1]](google-adk.html#id15) - [include\_contents (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.include_contents) - [increment\_error\_count() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.increment_error_count) - [InMemoryMemoryService (class in google.adk.memory)](google-adk.html#google.adk.memory.InMemoryMemoryService) - [InMemoryRunner (class in google.adk.runners)](google-adk.html#google.adk.runners.InMemoryRunner) - [InMemorySessionService (class in google.adk.sessions)](google-adk.html#google.adk.sessions.InMemorySessionService) - [input (google.adk.examples.Example attribute)](google-adk.html#google.adk.examples.Example.input), [[1]](google-adk.html#id26) | - [input\_schema (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.input_schema) - [instruction (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.instruction) - [IntegrationConnectorTool (class in google.adk.tools.application\_integration\_tool)](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool) - [invocation\_context (google.adk.tools.ToolContext attribute)](google-adk.html#google.adk.tools.ToolContext.invocation_context) - [invocation\_id (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.invocation_id), [[1]](google-adk.html#id21) - [is\_final\_response (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.is_final_response) - [is\_final\_response() (google.adk.events.Event method)](google-adk.html#id25) - [is\_long\_running (google.adk.tools.BaseTool attribute)](google-adk.html#google.adk.tools.BaseTool.is_long_running)   - [(google.adk.tools.LongRunningFunctionTool attribute)](google-adk.html#google.adk.tools.LongRunningFunctionTool.is_long_running) |
+
+## L
+
+|  |  |
+| --- | --- |
+| - [last\_update\_time (google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.last_update_time), [[1]](google-adk.html#id39) - [list\_artifact\_keys() (google.adk.artifacts.BaseArtifactService method)](google-adk.html#google.adk.artifacts.BaseArtifactService.list_artifact_keys)   - [(google.adk.artifacts.GcsArtifactService method)](google-adk.html#google.adk.artifacts.GcsArtifactService.list_artifact_keys)   - [(google.adk.artifacts.InMemoryArtifactService method)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.list_artifact_keys) - [list\_artifacts() (google.adk.tools.ToolContext method)](google-adk.html#google.adk.tools.ToolContext.list_artifacts) - [list\_events() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.list_events)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.list_events)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.list_events)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.list_events) - [list\_sessions() (google.adk.sessions.BaseSessionService method)](google-adk.html#google.adk.sessions.BaseSessionService.list_sessions)   - [(google.adk.sessions.DatabaseSessionService method)](google-adk.html#google.adk.sessions.DatabaseSessionService.list_sessions)   - [(google.adk.sessions.InMemorySessionService method)](google-adk.html#google.adk.sessions.InMemorySessionService.list_sessions)   - [(google.adk.sessions.VertexAiSessionService method)](google-adk.html#google.adk.sessions.VertexAiSessionService.list_sessions) | - [list\_versions() (google.adk.artifacts.BaseArtifactService method)](google-adk.html#google.adk.artifacts.BaseArtifactService.list_versions)   - [(google.adk.artifacts.GcsArtifactService method)](google-adk.html#google.adk.artifacts.GcsArtifactService.list_versions)   - [(google.adk.artifacts.InMemoryArtifactService method)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.list_versions) - [LlamaIndexRetrieval (class in google.adk.tools.retrieval)](google-adk.html#google.adk.tools.retrieval.LlamaIndexRetrieval) - [LLMRegistry (class in google.adk.models)](google-adk.html#google.adk.models.LLMRegistry) - [load\_artifact() (google.adk.artifacts.BaseArtifactService method)](google-adk.html#google.adk.artifacts.BaseArtifactService.load_artifact)   - [(google.adk.artifacts.GcsArtifactService method)](google-adk.html#google.adk.artifacts.GcsArtifactService.load_artifact)   - [(google.adk.artifacts.InMemoryArtifactService method)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.load_artifact) - [load\_tools() (google.adk.tools.mcp\_tool.MCPToolset method)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.load_tools) - [long\_running\_tool\_ids (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.long_running_tool_ids), [[1]](google-adk.html#id22) - [LongRunningFunctionTool (class in google.adk.tools)](google-adk.html#google.adk.tools.LongRunningFunctionTool) |
+
+## M
+
+|  |
+| --- |
+| - [max\_iterations (google.adk.agents.LoopAgent attribute)](google-adk.html#google.adk.agents.LoopAgent.max_iterations) - [MCPTool (class in google.adk.tools.mcp\_tool)](google-adk.html#google.adk.tools.mcp_tool.MCPTool) - [MCPToolset (class in google.adk.tools.mcp\_tool)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset) - [memory\_service (google.adk.runners.Runner attribute)](google-adk.html#google.adk.runners.Runner.memory_service), [[1]](google-adk.html#id34) - [model (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.model)   - [(google.adk.models.BaseLlm attribute)](google-adk.html#google.adk.models.BaseLlm.model), [[1]](google-adk.html#id28)   - [(google.adk.models.Gemini attribute)](google-adk.html#google.adk.models.Gemini.model), [[1]](google-adk.html#id29) - [model\_post\_init() (google.adk.agents.BaseAgent method)](google-adk.html#google.adk.agents.BaseAgent.model_post_init)   - [(google.adk.code\_executors.ContainerCodeExecutor method)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.model_post_init)   - [(google.adk.code\_executors.VertexAiCodeExecutor method)](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.model_post_init)   - [(google.adk.events.Event method)](google-adk.html#google.adk.events.Event.model_post_init) - module   - [google.adk.agents](google-adk.html#module-google.adk.agents)   - [google.adk.artifacts](google-adk.html#module-google.adk.artifacts)   - [google.adk.code\_executors](google-adk.html#module-google.adk.code_executors)   - [google.adk.evaluation](google-adk.html#module-google.adk.evaluation)   - [google.adk.events](google-adk.html#module-google.adk.events)   - [google.adk.examples](google-adk.html#module-google.adk.examples)   - [google.adk.memory](google-adk.html#module-google.adk.memory)   - [google.adk.models](google-adk.html#module-google.adk.models)   - [google.adk.planners](google-adk.html#module-google.adk.planners)   - [google.adk.runners](google-adk.html#module-google.adk.runners)   - [google.adk.sessions](google-adk.html#module-google.adk.sessions)   - [google.adk.tools](google-adk.html#module-google.adk.tools)   - [google.adk.tools.application\_integration\_tool](google-adk.html#module-google.adk.tools.application_integration_tool)   - [google.adk.tools.google\_api\_tool](google-adk.html#module-google.adk.tools.google_api_tool)   - [google.adk.tools.mcp\_tool](google-adk.html#module-google.adk.tools.mcp_tool)   - [google.adk.tools.openapi\_tool](google-adk.html#module-google.adk.tools.openapi_tool)   - [google.adk.tools.retrieval](google-adk.html#module-google.adk.tools.retrieval) |
+
+## N
+
+|  |  |
+| --- | --- |
+| - [name (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.name)   - [(google.adk.tools.BaseTool attribute)](google-adk.html#google.adk.tools.BaseTool.name) | - [new\_id() (google.adk.events.Event static method)](google-adk.html#google.adk.events.Event.new_id) - [new\_llm() (google.adk.models.LLMRegistry static method)](google-adk.html#google.adk.models.LLMRegistry.new_llm) |
+
+## O
+
+|  |  |
+| --- | --- |
+| - [OpenAPIToolset (class in google.adk.tools.openapi\_tool)](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset) - [optimize\_data\_file (google.adk.code\_executors.BaseCodeExecutor attribute)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.optimize_data_file), [[1]](google-adk.html#id11)   - [(google.adk.code\_executors.ContainerCodeExecutor attribute)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.optimize_data_file)   - [(google.adk.code\_executors.UnsafeLocalCodeExecutor attribute)](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.optimize_data_file) | - [OPTIONAL\_FIELDS (google.adk.tools.application\_integration\_tool.IntegrationConnectorTool attribute)](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.OPTIONAL_FIELDS) - [output (google.adk.examples.Example attribute)](google-adk.html#google.adk.examples.Example.output), [[1]](google-adk.html#id27) - [output\_key (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.output_key) - [output\_schema (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.output_schema) |
+
+## P
+
+|  |  |
+| --- | --- |
+| - [parent\_agent (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.parent_agent) - [planner (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.planner) - [PlanReActPlanner (class in google.adk.planners)](google-adk.html#google.adk.planners.PlanReActPlanner) - [process\_llm\_request() (google.adk.tools.BaseTool method)](google-adk.html#google.adk.tools.BaseTool.process_llm_request)   - [(google.adk.tools.ExampleTool method)](google-adk.html#google.adk.tools.ExampleTool.process_llm_request)   - [(google.adk.tools.retrieval.VertexAiRagRetrieval method)](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval.process_llm_request)   - [(google.adk.tools.VertexAiSearchTool method)](google-adk.html#google.adk.tools.VertexAiSearchTool.process_llm_request) | - [process\_planning\_response() (google.adk.planners.BasePlanner method)](google-adk.html#google.adk.planners.BasePlanner.process_planning_response)   - [(google.adk.planners.BuiltInPlanner method)](google-adk.html#google.adk.planners.BuiltInPlanner.process_planning_response)   - [(google.adk.planners.PlanReActPlanner method)](google-adk.html#google.adk.planners.PlanReActPlanner.process_planning_response) |
+
+## R
+
+|  |  |
+| --- | --- |
+| - [register() (google.adk.models.LLMRegistry static method)](google-adk.html#google.adk.models.LLMRegistry.register) - [request\_credential() (google.adk.tools.ToolContext method)](google-adk.html#google.adk.tools.ToolContext.request_credential) - [requested\_auth\_configs (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.requested_auth_configs) - [reset\_error\_count() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.reset_error_count) - [resolve() (google.adk.models.LLMRegistry static method)](google-adk.html#google.adk.models.LLMRegistry.resolve) - [resource\_name (google.adk.code\_executors.VertexAiCodeExecutor attribute)](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.resource_name), [[1]](google-adk.html#id16) - [RestApiTool (class in google.adk.tools.openapi\_tool)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool) - [root\_agent (google.adk.agents.BaseAgent property)](google-adk.html#google.adk.agents.BaseAgent.root_agent) - [run() (google.adk.runners.Runner method)](google-adk.html#google.adk.runners.Runner.run) - [run\_async() (google.adk.agents.BaseAgent method)](google-adk.html#google.adk.agents.BaseAgent.run_async)   - [(google.adk.runners.Runner method)](google-adk.html#google.adk.runners.Runner.run_async)   - [(google.adk.tools.application\_integration\_tool.IntegrationConnectorTool method)](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.run_async)   - [(google.adk.tools.BaseTool method)](google-adk.html#google.adk.tools.BaseTool.run_async)   - [(google.adk.tools.FunctionTool method)](google-adk.html#google.adk.tools.FunctionTool.run_async)   - [(google.adk.tools.mcp\_tool.MCPTool method)](google-adk.html#google.adk.tools.mcp_tool.MCPTool.run_async)   - [(google.adk.tools.openapi\_tool.RestApiTool method)](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.run_async)   - [(google.adk.tools.retrieval.LlamaIndexRetrieval method)](google-adk.html#google.adk.tools.retrieval.LlamaIndexRetrieval.run_async)   - [(google.adk.tools.retrieval.VertexAiRagRetrieval method)](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval.run_async) | - [run\_live() (google.adk.agents.BaseAgent method)](google-adk.html#google.adk.agents.BaseAgent.run_live)   - [(google.adk.runners.Runner method)](google-adk.html#google.adk.runners.Runner.run_live) - [Runner (class in google.adk.runners)](google-adk.html#google.adk.runners.Runner) |
+
+## S
+
+|  |  |
+| --- | --- |
+| - [save\_artifact() (google.adk.artifacts.BaseArtifactService method)](google-adk.html#google.adk.artifacts.BaseArtifactService.save_artifact)   - [(google.adk.artifacts.GcsArtifactService method)](google-adk.html#google.adk.artifacts.GcsArtifactService.save_artifact)   - [(google.adk.artifacts.InMemoryArtifactService method)](google-adk.html#google.adk.artifacts.InMemoryArtifactService.save_artifact) - [search\_engine\_id (google.adk.tools.VertexAiSearchTool attribute)](google-adk.html#google.adk.tools.VertexAiSearchTool.search_engine_id) - [search\_memory() (google.adk.memory.BaseMemoryService method)](google-adk.html#google.adk.memory.BaseMemoryService.search_memory)   - [(google.adk.memory.InMemoryMemoryService method)](google-adk.html#google.adk.memory.InMemoryMemoryService.search_memory)   - [(google.adk.memory.VertexAiRagMemoryService method)](google-adk.html#google.adk.memory.VertexAiRagMemoryService.search_memory)   - [(google.adk.tools.ToolContext method)](google-adk.html#google.adk.tools.ToolContext.search_memory) - [session (google.adk.tools.mcp\_tool.MCPToolset attribute)](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.session) - [session\_events (google.adk.memory.InMemoryMemoryService attribute)](google-adk.html#google.adk.memory.InMemoryMemoryService.session_events) - [session\_service (google.adk.runners.Runner attribute)](google-adk.html#google.adk.runners.Runner.session_service), [[1]](google-adk.html#id35) | - [set\_execution\_id() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.set_execution_id) - [skip\_summarization (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.skip_summarization) - [State (class in google.adk.sessions)](google-adk.html#google.adk.sessions.State) - [state (google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.state), [[1]](google-adk.html#id40) - [state\_delta (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.state_delta) - [stateful (google.adk.code\_executors.BaseCodeExecutor attribute)](google-adk.html#google.adk.code_executors.BaseCodeExecutor.stateful), [[1]](google-adk.html#id12)   - [(google.adk.code\_executors.ContainerCodeExecutor attribute)](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.stateful)   - [(google.adk.code\_executors.UnsafeLocalCodeExecutor attribute)](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.stateful) - [sub\_agents (google.adk.agents.BaseAgent attribute)](google-adk.html#google.adk.agents.BaseAgent.sub_agents) - [supported\_models() (google.adk.models.BaseLlm class method)](google-adk.html#google.adk.models.BaseLlm.supported_models)   - [(google.adk.models.Gemini static method)](google-adk.html#google.adk.models.Gemini.supported_models) |
+
+## T
+
+|  |  |
+| --- | --- |
+| - [TEMP\_PREFIX (google.adk.sessions.State attribute)](google-adk.html#google.adk.sessions.State.TEMP_PREFIX) - [thinking\_config (google.adk.planners.BuiltInPlanner attribute)](google-adk.html#google.adk.planners.BuiltInPlanner.thinking_config), [[1]](google-adk.html#id30) - [timestamp (google.adk.events.Event attribute)](google-adk.html#google.adk.events.Event.timestamp), [[1]](google-adk.html#id23) - [to\_dict() (google.adk.sessions.State method)](google-adk.html#google.adk.sessions.State.to_dict) | - [ToolContext (class in google.adk.tools)](google-adk.html#google.adk.tools.ToolContext) - [tools (google.adk.agents.LlmAgent attribute)](google-adk.html#google.adk.agents.LlmAgent.tools) - [transfer\_to\_agent (google.adk.events.EventActions attribute)](google-adk.html#google.adk.events.EventActions.transfer_to_agent) - [transfer\_to\_agent() (in module google.adk.tools)](google-adk.html#google.adk.tools.transfer_to_agent) |
+
+## U
+
+|  |  |
+| --- | --- |
+| - [update() (google.adk.sessions.State method)](google-adk.html#google.adk.sessions.State.update) - [update\_code\_execution\_result() (google.adk.code\_executors.CodeExecutorContext method)](google-adk.html#google.adk.code_executors.CodeExecutorContext.update_code_execution_result) | - [user\_id (google.adk.sessions.Session attribute)](google-adk.html#google.adk.sessions.Session.user_id), [[1]](google-adk.html#id41) - [USER\_PREFIX (google.adk.sessions.State attribute)](google-adk.html#google.adk.sessions.State.USER_PREFIX) |
+
+## V
+
+|  |  |
+| --- | --- |
+| - [VertexAiExampleStore (class in google.adk.examples)](google-adk.html#google.adk.examples.VertexAiExampleStore) - [VertexAiRagMemoryService (class in google.adk.memory)](google-adk.html#google.adk.memory.VertexAiRagMemoryService) | - [VertexAiRagRetrieval (class in google.adk.tools.retrieval)](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval) - [VertexAiSearchTool (class in google.adk.tools)](google-adk.html#google.adk.tools.VertexAiSearchTool) - [VertexAiSessionService (class in google.adk.sessions)](google-adk.html#google.adk.sessions.VertexAiSessionService) |
+
+Copyright © 2025, Google
+
+Made with [Sphinx](https://www.sphinx-doc.org/) and [@pradyunsg](https://pradyunsg.me)'s
+[Furo](https://github.com/pradyunsg/furo)
+
+---
+
+
+### Submodules[¶](#submodules "Link to this heading")
+
+*File: docs/api-reference/python/google-adk.html*
+
+Submodules - Agent Development Kit documentation
+
+body {
+--color-code-background: #f8f8f8;
+--color-code-foreground: black;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: black;
+--color-brand-content: black;
+}
+@media not print {
+body[data-theme="dark"] {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+}
+}
+
+document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+
+Contents
+
+Menu
+
+Expand
+
+Light mode
+
+Dark mode
+
+Auto light/dark, in light mode
+
+Auto light/dark, in dark mode
+
+Hide navigation sidebar
+
+Hide table of contents sidebar
+
+[Skip to content](#furo-main-content)
+
+Toggle site navigation sidebar
+
+[Agent Development Kit documentation](index.html)
+
+
+
+Toggle table of contents sidebar
+
+[Agent Development Kit documentation](index.html)
+
+- [Submodules](#)
+- [google.adk.agents module](#module-google.adk.agents)
+- [google.adk.artifacts module](#module-google.adk.artifacts)
+- [google.adk.code\_executors module](#module-google.adk.code_executors)
+- [google.adk.evaluation module](#module-google.adk.evaluation)
+- [google.adk.events module](#module-google.adk.events)
+- [google.adk.examples module](#module-google.adk.examples)
+- [google.adk.memory module](#module-google.adk.memory)
+- [google.adk.models module](#module-google.adk.models)
+- [google.adk.planners module](#module-google.adk.planners)
+- [google.adk.runners module](#module-google.adk.runners)
+- [google.adk.sessions module](#module-google.adk.sessions)
+- [google.adk.tools package](#module-google.adk.tools)
+
+[
+
+[
+
+
+
+Toggle table of contents sidebar
+
+# Submodules[¶](#submodules "Link to this heading")
+
+# google.adk.agents module[¶](#module-google.adk.agents "Link to this heading")
+
+google.adk.agents.Agent[¶](#google.adk.agents.Agent "Link to this definition")
+:   alias of [`LlmAgent`](#google.adk.agents.LlmAgent "google.adk.agents.llm_agent.LlmAgent")
+
+*pydantic model* google.adk.agents.BaseAgent[¶](#google.adk.agents.BaseAgent "Link to this definition")
+:   Bases: `BaseModel`
+
+    Base class for all agents in Agent Development Kit.
+
+    Show JSON schema
+
+    ```
+    {
+       "title": "BaseAgent",
+       "type": "object",
+       "properties": {
+          "name": {
+             "title": "Name",
+             "type": "string"
+          },
+          "description": {
+             "default": "",
+             "title": "Description",
+             "type": "string"
+          },
+          "parent_agent": {
+             "default": null,
+             "title": "Parent Agent"
+          },
+          "sub_agents": {
+             "default": null,
+             "title": "Sub Agents"
+          },
+          "before_agent_callback": {
+             "default": null,
+             "title": "Before Agent Callback"
+          },
+          "after_agent_callback": {
+             "default": null,
+             "title": "After Agent Callback"
+          }
+       },
+       "additionalProperties": false,
+       "required": [
+          "name"
+       ]
+    }
+
+    ```
+
+    Fields:
+    :   - `after_agent_callback (Callable[[google.adk.agents.callback_context.CallbackContext], Awaitable[google.genai.types.Content | None] | google.genai.types.Content | None] | None)`
+        - `before_agent_callback (Callable[[google.adk.agents.callback_context.CallbackContext], Awaitable[google.genai.types.Content | None] | google.genai.types.Content | None] | None)`
+        - `description (str)`
+        - `name (str)`
+        - `parent_agent (google.adk.agents.base_agent.BaseAgent | None)`
+        - `sub_agents (list[google.adk.agents.base_agent.BaseAgent])`
+
+    Validators:
+    :   - `__validate_name` » `name`
+
+    *field* after\_agent\_callback*: Optional[AfterAgentCallback]* *= None*[¶](#google.adk.agents.BaseAgent.after_agent_callback "Link to this definition")
+    :   Callback signature that is invoked after the agent run.
+
+        Parameters:
+        :   **callback\_context** – MUST be named ‘callback\_context’ (enforced).
+
+        Returns:
+        :   The content to return to the user.
+            :   When the content is present, the provided content will be used as agent
+                response and appended to event history as agent response.
+
+        Return type:
+        :   Optional[types.Content]
+
+    *field* before\_agent\_callback*: Optional[BeforeAgentCallback]* *= None*[¶](#google.adk.agents.BaseAgent.before_agent_callback "Link to this definition")
+    :   Callback signature that is invoked before the agent run.
+
+        Parameters:
+        :   **callback\_context** – MUST be named ‘callback\_context’ (enforced).
+
+        Returns:
+        :   The content to return to the user.
+            :   When the content is present, the agent run will be skipped and the
+                provided content will be returned to user.
+
+        Return type:
+        :   Optional[types.Content]
+
+    *field* description*: str* *= ''*[¶](#google.adk.agents.BaseAgent.description "Link to this definition")
+    :   Description about the agent’s capability.
+
+        The model uses this to determine whether to delegate control to the agent.
+        One-line description is enough and preferred.
+
+    *field* name*: str* *[Required]*[¶](#google.adk.agents.BaseAgent.name "Link to this definition")
+    :   The agent’s name.
+
+        Agent name must be a Python identifier and unique within the agent tree.
+        Agent name cannot be “user”, since it’s reserved for end-user’s input.
+
+        Validated by:
+        :   - `__validate_name`
+
+    *field* parent\_agent*: Optional[BaseAgent]* *= None*[¶](#google.adk.agents.BaseAgent.parent_agent "Link to this definition")
+    :   The parent agent of this agent.
+
+        Note that an agent can ONLY be added as sub-agent once.
+
+        If you want to add one agent twice as sub-agent, consider to create two agent
+        instances with identical config, but with different name and add them to the
+        agent tree.
+
+    *field* sub\_agents*: list[BaseAgent]* *[Optional]*[¶](#google.adk.agents.BaseAgent.sub_agents "Link to this definition")
+    :   The sub-agents of this agent.
+
+    find\_agent(*name*)[¶](#google.adk.agents.BaseAgent.find_agent "Link to this definition")
+    :   Finds the agent with the given name in this agent and its descendants.
+
+        Return type:
+        :   `Optional`[[`BaseAgent`](#google.adk.agents.BaseAgent "google.adk.agents.base_agent.BaseAgent")]
+
+        Parameters:
+        :   **name** – The name of the agent to find.
+
+        Returns:
+        :   The agent with the matching name, or None if no such agent is found.
+
+    find\_sub\_agent(*name*)[¶](#google.adk.agents.BaseAgent.find_sub_agent "Link to this definition")
+    :   Finds the agent with the given name in this agent’s descendants.
+
+        Return type:
+        :   `Optional`[[`BaseAgent`](#google.adk.agents.BaseAgent "google.adk.agents.base_agent.BaseAgent")]
+
+        Parameters:
+        :   **name** – The name of the agent to find.
+
+        Returns:
+        :   The agent with the matching name, or None if no such agent is found.
+
+    model\_post\_init(*\_BaseAgent\_\_context*)[¶](#google.adk.agents.BaseAgent.model_post_init "Link to this definition")
+    :   Override this method to perform additional initialization after \_\_init\_\_ and model\_construct.
+        This is useful if you want to do some validation that requires the entire model to be initialized.
+
+        Return type:
+        :   `None`
+
+    *async* run\_async(*parent\_context*)[¶](#google.adk.agents.BaseAgent.run_async "Link to this definition")
+    :   Entry method to run an agent via text-based conversation.
+
+        Return type:
+        :   `AsyncGenerator`[[`Event`](#google.adk.events.Event "google.adk.events.event.Event"), `None`]
+
+        Parameters:
+        :   **parent\_context** – InvocationContext, the invocation context of the parent
+            agent.
+
+        Yields:
+        :   *Event* – the events generated by the agent.
+
+    *async* run\_live(*parent\_context*)[¶](#google.adk.agents.BaseAgent.run_live "Link to this definition")
+    :   Entry method to run an agent via video/audio-based conversation.
+
+        Return type:
+        :   `AsyncGenerator`[[`Event`](#google.adk.events.Event "google.adk.events.event.Event"), `None`]
+
+        Parameters:
+        :   **parent\_context** – InvocationContext, the invocation context of the parent
+            agent.
+
+        Yields:
+        :   *Event* – the events generated by the agent.
+
+    *property* root\_agent*: [BaseAgent](#google.adk.agents.BaseAgent "google.adk.agents.base_agent.BaseAgent")*[¶](#google.adk.agents.BaseAgent.root_agent "Link to this definition")
+    :   Gets the root agent of this agent.
+
+*pydantic model* google.adk.agents.LlmAgent[¶](#google.adk.agents.LlmAgent "Link to this definition")
+:   Bases: [`BaseAgent`](#google.adk.agents.BaseAgent "google.adk.agents.base_agent.BaseAgent")
+
+    LLM-based Agent.
+
+    Show JSON schema
+
+    ```
+    {
+       "title": "LlmAgent",
+       "type": "object",
+       "properties": {
+          "name": {
+             "title": "Name",
+             "type": "string"
+          },
+          "description": {
+             "default": "",
+             "title": "Description",
+             "type": "string"
+          },
+          "parent_agent": {
+             "default": null,
+             "title": "Parent Agent"
+          },
+          "sub_agents": {
+             "default": null,
+             "title": "Sub Agents"
+          },
+          "before_agent_callback": {
+             "default": null,
+             "title": "Before Agent Callback"
+          },
+          "after_agent_callback": {
+             "default": null,
+             "title": "After Agent Callback"
+          },
+          "model": {
+             "anyOf": [
+                {
+                   "type": "string"
+                },
+                {
+                   "$ref": "#/$defs/BaseLlm"
+                }
+             ],
+             "default": "",
+             "title": "Model"
+          },
+          "instruction": {
+             "default": "",
+             "title": "Instruction",
+             "type": "string"
+          },
+          "global_instruction": {
+             "default": "",
+             "title": "Global Instruction",
+             "type": "string"
+          },
+          "tools": {
+             "items": {
+                "anyOf": []
+             },
+             "title": "Tools",
+             "type": "array"
+          },
+          "generate_content_config": {
+             "anyOf": [
+                {
+                   "$ref": "#/$defs/GenerateContentConfig"
+                },
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null
+          },
+          "disallow_transfer_to_parent": {
+             "default": false,
+             "title": "Disallow Transfer To Parent",
+             "type": "boolean"
+          },
+          "disallow_transfer_to_peers": {
+             "default": false,
+             "title": "Disallow Transfer To Peers",
+             "type": "boolean"
+          },
+          "include_contents": {
+             "default": "default",
+             "enum": [
+                "default",
+                "none"
+             ],
+             "title": "Include Contents",
+             "type": "string"
+          },
+          "input_schema": {
+             "anyOf": [
+                {},
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null,
+             "title": "Input Schema"
+          },
+          "output_schema": {
+             "anyOf": [
+                {},
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null,
+             "title": "Output Schema"
+          },
+          "output_key": {
+             "anyOf": [
+                {
+                   "type": "string"
+                },
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null,
+             "title": "Output Key"
+          },
+          "planner": {
+             "default": null,
+             "title": "Planner"
+          },
+          "code_executor": {
+             "anyOf": [
+                {
+                   "$ref": "#/$defs/BaseCodeExecutor"
+                },
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null
+          },
+          "examples": {
+             "anyOf": [
+                {
+                   "items": {
+                      "$ref": "#/$defs/Example"
+                   },
+                   "type": "array"
+                },
+                {
+                   "type": "null"
+                }
+             ],
+             "default": null,
+             "title": "Examples"
+          },
+          "before_model_callback": {
+             "default": null,
+             "title": "Before Model Callback",
+             "type": "null"
+          },
+          "after_model_callback": {
+             "default": null,
+             "title": "After Model Callback",
+             "type": "null"
+          },
+          "before_tool_callback": {
+             "default": null,
+             "title": "Before Tool Callback"
+          },
+          "after_tool_callback": {
+             "default": null,
+             "title": "After Tool Callback"
+          }
+       },
+       "$defs": {
+          "AutomaticFunctionCallingConfig": {
+             "additionalProperties": false,
+             "description": "The configuration for automatic function calling.",
+             "properties": {
+                "disable": {
+                   "anyOf": [
+                      {
+                         "type": "boolean"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Whether to disable automatic function calling.\n      If not set or set to False, will enable automatic function calling.\n      If set to True, will disable automatic function calling.\n      ",
+                   "title": "Disable"
+                },
+                "maximumRemoteCalls": {
+                   "anyOf": [
+                      {
+                         "type": "integer"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": 10,
+                   "description": "If automatic function calling is enabled,\n      maximum number of remote calls for automatic function calling.\n      This number should be a positive integer.\n      If not set, SDK will set maximum number of remote calls to 10.\n      ",
+                   "title": "Maximumremotecalls"
+                },
+                "ignoreCallHistory": {
+                   "anyOf": [
+                      {
+                         "type": "boolean"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "If automatic function calling is enabled,\n      whether to ignore call history to the response.\n      If not set, SDK will set ignore_call_history to false,\n      and will append the call history to\n      GenerateContentResponse.automatic_function_calling_history.\n      ",
+                   "title": "Ignorecallhistory"
+                }
+             },
+             "title": "AutomaticFunctionCallingConfig",
+             "type": "object"
+          },
+          "BaseCodeExecutor": {
+             "description": "Abstract base class for all code executors.\n\nThe code executor allows the agent to execute code blocks from model responses\nand incorporate the execution results into the final response.\n\nAttributes:\n  optimize_data_file: If true, extract and process data files from the model\n    request and attach them to the code executor. Supported data file\n    MimeTypes are [text/csv]. Default to False.\n  stateful: Whether the code executor is stateful. Default to False.\n  error_retry_attempts: The number of attempts to retry on consecutive code\n    execution errors. Default to 2.\n  code_block_delimiters: The list of the enclosing delimiters to identify the\n    code blocks.\n  execution_result_delimiters: The delimiters to format the code execution\n    result.",
+             "properties": {
+                "optimize_data_file": {
+                   "default": false,
+                   "title": "Optimize Data File",
+                   "type": "boolean"
+                },
+                "stateful": {
+                   "default": false,
+                   "title": "Stateful",
+                   "type": "boolean"
+                },
+                "error_retry_attempts": {
+                   "default": 2,
+                   "title": "Error Retry Attempts",
+                   "type": "integer"
+                },
+                "code_block_delimiters": {
+                   "default": [
+                      [
+                         "```tool_code\n",
+                         "\n```"
+                      ],
+                      [
+                         "```python\n",
+                         "\n```"
+                      ]
+                   ],
+                   "items": {
+                      "maxItems": 2,
+                      "minItems": 2,
+                      "prefixItems": [
+                         {
+                            "type": "string"
+                         },
+                         {
+                            "type": "string"
+                         }
+                      ],
+                      "type": "array"
+                   },
+                   "title": "Code Block Delimiters",
+                   "type": "array"
+                },
+                "execution_result_delimiters": {
+                   "default": [
+                      "```tool_output\n",
+                      "\n```"
+                   ],
+                   "maxItems": 2,
+                   "minItems": 2,
+                   "prefixItems": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "string"
+                      }
+                   ],
+                   "title": "Execution Result Delimiters",
+                   "type": "array"
+                }
+             },
+             "title": "BaseCodeExecutor",
+             "type": "object"
+          },
+          "BaseLlm": {
+             "description": "The BaseLLM class.\n\nAttributes:\n  model: The name of the LLM, e.g. gemini-1.5-flash or gemini-1.5-flash-001.",
+             "properties": {
+                "model": {
+                   "title": "Model",
+                   "type": "string"
+                }
+             },
+             "required": [
+                "model"
+             ],
+             "title": "BaseLlm",
+             "type": "object"
+          },
+          "Blob": {
+             "additionalProperties": false,
+             "description": "Content blob.",
+             "properties": {
+                "data": {
+                   "anyOf": [
+                      {
+                         "format": "base64url",
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. Raw bytes.",
+                   "title": "Data"
+                },
+                "mimeType": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The IANA standard MIME type of the source data.",
+                   "title": "Mimetype"
+                }
+             },
+             "title": "Blob",
+             "type": "object"
+          },
+          "CodeExecutionResult": {
+             "additionalProperties": false,
+             "description": "Result of executing the [ExecutableCode].\n\nAlways follows a `part` containing the [ExecutableCode].",
+             "properties": {
+                "outcome": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/Outcome"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. Outcome of the code execution."
+                },
+                "output": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Contains stdout when code execution is successful, stderr or other description otherwise.",
+                   "title": "Output"
+                }
+             },
+             "title": "CodeExecutionResult",
+             "type": "object"
+          },
+          "Content": {
+             "additionalProperties": false,
+             "description": "Contains the multi-part content of a message.",
+             "properties": {
+                "parts": {
+                   "anyOf": [
+                      {
+                         "items": {
+                            "$ref": "#/$defs/Part"
+                         },
+                         "type": "array"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "List of parts that constitute a single message. Each part may have\n      a different IANA MIME type.",
+                   "title": "Parts"
+                },
+                "role": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. The producer of the content. Must be either 'user' or\n      'model'. Useful to set for multi-turn conversations, otherwise can be\n      empty. If role is not specified, SDK will determine the role.",
+                   "title": "Role"
+                }
+             },
+             "title": "Content",
+             "type": "object"
+          },
+          "DynamicRetrievalConfig": {
+             "additionalProperties": false,
+             "description": "Describes the options to customize dynamic retrieval.",
+             "properties": {
+                "mode": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/DynamicRetrievalConfigMode"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "The mode of the predictor to be used in dynamic retrieval."
+                },
+                "dynamicThreshold": {
+                   "anyOf": [
+                      {
+                         "type": "number"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. The threshold to be used in dynamic retrieval. If not set, a system default value is used.",
+                   "title": "Dynamicthreshold"
+                }
+             },
+             "title": "DynamicRetrievalConfig",
+             "type": "object"
+          },
+          "DynamicRetrievalConfigMode": {
+             "description": "Config for the dynamic retrieval config mode.",
+             "enum": [
+                "MODE_UNSPECIFIED",
+                "MODE_DYNAMIC"
+             ],
+             "title": "DynamicRetrievalConfigMode",
+             "type": "string"
+          },
+          "Example": {
+             "description": "A few-shot example.\n\nAttributes:\n  input: The input content for the example.\n  output: The expected output content for the example.",
+             "properties": {
+                "input": {
+                   "$ref": "#/$defs/Content"
+                },
+                "output": {
+                   "items": {
+                      "$ref": "#/$defs/Content"
+                   },
+                   "title": "Output",
+                   "type": "array"
+                }
+             },
+             "required": [
+                "input",
+                "output"
+             ],
+             "title": "Example",
+             "type": "object"
+          },
+          "ExecutableCode": {
+             "additionalProperties": false,
+             "description": "Code generated by the model that is meant to be executed, and the result returned to the model.\n\nGenerated when using the [FunctionDeclaration] tool and\n[FunctionCallingConfig] mode is set to [Mode.CODE].",
+             "properties": {
+                "code": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The code to be executed.",
+                   "title": "Code"
+                },
+                "language": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/Language"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. Programming language of the `code`."
+                }
+             },
+             "title": "ExecutableCode",
+             "type": "object"
+          },
+          "FeatureSelectionPreference": {
+             "description": "Options for feature selection preference.",
+             "enum": [
+                "FEATURE_SELECTION_PREFERENCE_UNSPECIFIED",
+                "PRIORITIZE_QUALITY",
+                "BALANCED",
+                "PRIORITIZE_COST"
+             ],
+             "title": "FeatureSelectionPreference",
+             "type": "string"
+          },
+          "File": {
+             "additionalProperties": false,
+             "description": "A file uploaded to the API.",
+             "properties": {
+                "name": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "The `File` resource name. The ID (name excluding the \"files/\" prefix) can contain up to 40 characters that are lowercase alphanumeric or dashes (-). The ID cannot start or end with a dash. If the name is empty on create, a unique name will be generated. Example: `files/123-456`",
+                   "title": "Name"
+                },
+                "displayName": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. The human-readable display name for the `File`. The display name must be no more than 512 characters in length, including spaces. Example: 'Welcome Image'",
+                   "title": "Displayname"
+                },
+                "mimeType": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. MIME type of the file.",
+                   "title": "Mimetype"
+                },
+                "sizeBytes": {
+                   "anyOf": [
+                      {
+                         "type": "integer"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. Size of the file in bytes.",
+                   "title": "Sizebytes"
+                },
+                "createTime": {
+                   "anyOf": [
+                      {
+                         "format": "date-time",
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The timestamp of when the `File` was created.",
+                   "title": "Createtime"
+                },
+                "expirationTime": {
+                   "anyOf": [
+                      {
+                         "format": "date-time",
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The timestamp of when the `File` will be deleted. Only set if the `File` is scheduled to expire.",
+                   "title": "Expirationtime"
+                },
+                "updateTime": {
+                   "anyOf": [
+                      {
+                         "format": "date-time",
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The timestamp of when the `File` was last updated.",
+                   "title": "Updatetime"
+                },
+                "sha256Hash": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. SHA-256 hash of the uploaded bytes. The hash value is encoded in base64 format.",
+                   "title": "Sha256Hash"
+                },
+                "uri": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The URI of the `File`.",
+                   "title": "Uri"
+                },
+                "downloadUri": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The URI of the `File`, only set for downloadable (generated) files.",
+                   "title": "Downloaduri"
+                },
+                "state": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/FileState"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. Processing state of the File."
+                },
+                "source": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/FileSource"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. The source of the `File`."
+                },
+                "videoMetadata": {
+                   "anyOf": [
+                      {
+                         "additionalProperties": true,
+                         "type": "object"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. Metadata for a video.",
+                   "title": "Videometadata"
+                },
+                "error": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/FileStatus"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Output only. Error status if File processing failed."
+                }
+             },
+             "title": "File",
+             "type": "object"
+          },
+          "FileData": {
+             "additionalProperties": false,
+             "description": "URI based data.",
+             "properties": {
+                "fileUri": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. URI.",
+                   "title": "Fileuri"
+                },
+                "mimeType": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The IANA standard MIME type of the source data.",
+                   "title": "Mimetype"
+                }
+             },
+             "title": "FileData",
+             "type": "object"
+          },
+          "FileSource": {
+             "description": "Source of the File.",
+             "enum": [
+                "SOURCE_UNSPECIFIED",
+                "UPLOADED",
+                "GENERATED"
+             ],
+             "title": "FileSource",
+             "type": "string"
+          },
+          "FileState": {
+             "description": "State for the lifecycle of a File.",
+             "enum": [
+                "STATE_UNSPECIFIED",
+                "PROCESSING",
+                "ACTIVE",
+                "FAILED"
+             ],
+             "title": "FileState",
+             "type": "string"
+          },
+          "FileStatus": {
+             "additionalProperties": false,
+             "description": "Status of a File that uses a common error model.",
+             "properties": {
+                "details": {
+                   "anyOf": [
+                      {
+                         "items": {
+                            "additionalProperties": true,
+                            "type": "object"
+                         },
+                         "type": "array"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "A list of messages that carry the error details. There is a common set of message types for APIs to use.",
+                   "title": "Details"
+                },
+                "message": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "A list of messages that carry the error details. There is a common set of message types for APIs to use.",
+                   "title": "Message"
+                },
+                "code": {
+                   "anyOf": [
+                      {
+                         "type": "integer"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "The status code. 0 for OK, 1 for CANCELLED",
+                   "title": "Code"
+                }
+             },
+             "title": "FileStatus",
+             "type": "object"
+          },
+          "FunctionCall": {
+             "additionalProperties": false,
+             "description": "A function call.",
+             "properties": {
+                "id": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "The unique id of the function call. If populated, the client to execute the\n   `function_call` and return the response with the matching `id`.",
+                   "title": "Id"
+                },
+                "args": {
+                   "anyOf": [
+                      {
+                         "additionalProperties": true,
+                         "type": "object"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Required. The function parameters and values in JSON object format. See [FunctionDeclaration.parameters] for parameter details.",
+                   "title": "Args"
+                },
+                "name": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The name of the function to call. Matches [FunctionDeclaration.name].",
+                   "title": "Name"
+                }
+             },
+             "title": "FunctionCall",
+             "type": "object"
+          },
+          "FunctionCallingConfig": {
+             "additionalProperties": false,
+             "description": "Function calling config.",
+             "properties": {
+                "mode": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/FunctionCallingConfigMode"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Function calling mode."
+                },
+                "allowedFunctionNames": {
+                   "anyOf": [
+                      {
+                         "items": {
+                            "type": "string"
+                         },
+                         "type": "array"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Function names to call. Only set when the Mode is ANY. Function names should match [FunctionDeclaration.name]. With mode set to ANY, model will predict a function call from the set of function names provided.",
+                   "title": "Allowedfunctionnames"
+                }
+             },
+             "title": "FunctionCallingConfig",
+             "type": "object"
+          },
+          "FunctionCallingConfigMode": {
+             "description": "Config for the function calling config mode.",
+             "enum": [
+                "MODE_UNSPECIFIED",
+                "AUTO",
+                "ANY",
+                "NONE"
+             ],
+             "title": "FunctionCallingConfigMode",
+             "type": "string"
+          },
+          "FunctionDeclaration": {
+             "additionalProperties": false,
+             "description": "Structured representation of a function declaration as defined by the [OpenAPI 3.0 specification](https://spec.openapis.org/oas/v3.0.3).\n\nIncluded in this declaration are the function name, description, parameters\nand response type. This FunctionDeclaration is a representation of a block of\ncode that can be used as a `Tool` by the model and executed by the client.",
+             "properties": {
+                "description": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Description and purpose of the function. Model uses it to decide how and whether to call the function.",
+                   "title": "Description"
+                },
+                "name": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The name of the function to call. Must start with a letter or an underscore. Must be a-z, A-Z, 0-9, or contain underscores, dots and dashes, with a maximum length of 64.",
+                   "title": "Name"
+                },
+                "parameters": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/Schema"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Describes the parameters to this function in JSON Schema Object format. Reflects the Open API 3.03 Parameter Object. string Key: the name of the parameter. Parameter names are case sensitive. Schema Value: the Schema defining the type used for the parameter. For function with no parameters, this can be left unset. Parameter names must start with a letter or an underscore and must only contain chars a-z, A-Z, 0-9, or underscores with a maximum length of 64. Example with 1 required and 1 optional parameter: type: OBJECT properties: param1: type: STRING param2: type: INTEGER required: - param1"
+                },
+                "response": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/Schema"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Optional. Describes the output from this function in JSON Schema format. Reflects the Open API 3.03 Response Object. The Schema defines the type used for the response value of the function."
+                }
+             },
+             "title": "FunctionDeclaration",
+             "type": "object"
+          },
+          "FunctionResponse": {
+             "additionalProperties": false,
+             "description": "A function response.",
+             "properties": {
+                "id": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "The id of the function call this response is for. Populated by the client\n   to match the corresponding function call `id`.",
+                   "title": "Id"
+                },
+                "name": {
+                   "anyOf": [
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The name of the function to call. Matches [FunctionDeclaration.name] and [FunctionCall.name].",
+                   "title": "Name"
+                },
+                "response": {
+                   "anyOf": [
+                      {
+                         "additionalProperties": true,
+                         "type": "object"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Required. The function response in JSON object format. Use \"output\" key to specify function output and \"error\" key to specify error details (if any). If \"output\" and \"error\" keys are not specified, then whole \"response\" is treated as function output.",
+                   "title": "Response"
+                }
+             },
+             "title": "FunctionResponse",
+             "type": "object"
+          },
+          "GenerateContentConfig": {
+             "additionalProperties": false,
+             "description": "Optional model configuration parameters.\n\nFor more information, see `Content generation parameters\n<https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/content-generation-parameters>`_.",
+             "properties": {
+                "httpOptions": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/HttpOptions"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Used to override HTTP request options."
+                },
+                "systemInstruction": {
+                   "anyOf": [
+                      {
+                         "$ref": "#/$defs/Content"
+                      },
+                      {
+                         "items": {
+                            "anyOf": [
+                               {
+                                  "$ref": "#/$defs/File"
+                               },
+                               {
+                                  "$ref": "#/$defs/Part"
+                               },
+                               {
+                                  "type": "string"
+                               }
+                            ]
+                         },
+                         "type": "array"
+                      },
+                      {
+                         "$ref": "#/$defs/File"
+                      },
+                      {
+                         "$ref": "#/$defs/Part"
+                      },
+                      {
+                         "type": "string"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Instructions for the model to steer it toward better performance.\n      For example, \"Answer as concisely as possible\" or \"Don't use technical\n      terms in your response\".\n      ",
+                   "title": "Systeminstruction"
+                },
+                "temperature": {
+                   "anyOf": [
+                      {
+                         "type": "number"
+                      },
+                      {
+                         "type": "null"
+                      }
+                   ],
+                   "default": null,
+                   "description": "Value that controls the degree of randomness in token selection.\n      Lower temperatures are good for prompts that require a less open-ended or\n      creative response, while higher temperatures can lead to more diverse or\n      creative results.\n      ",
+                   "title": "Temp
+
+*[Content truncated - file has 488782 total characters]*
+
+---
+
+
+### google[¶](#google "Link to this heading")
+
+*File: docs/api-reference/python/index.html*
+
+Agent Development Kit documentation
+
+body {
+--color-code-background: #f8f8f8;
+--color-code-foreground: black;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: black;
+--color-brand-content: black;
+}
+@media not print {
+body[data-theme="dark"] {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+}
+}
+
+document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+
+Contents
+
+Menu
+
+Expand
+
+Light mode
+
+Dark mode
+
+Auto light/dark, in light mode
+
+Auto light/dark, in dark mode
+
+Hide navigation sidebar
+
+Hide table of contents sidebar
+
+[Skip to content](#furo-main-content)
+
+Toggle site navigation sidebar
+
+[Agent Development Kit documentation](#)
+
+
+
+Toggle table of contents sidebar
+
+[Agent Development Kit documentation](#)
+
+- [Submodules](google-adk.html)
+- [google.adk.agents module](google-adk.html#module-google.adk.agents)
+- [google.adk.artifacts module](google-adk.html#module-google.adk.artifacts)
+- [google.adk.code\_executors module](google-adk.html#module-google.adk.code_executors)
+- [google.adk.evaluation module](google-adk.html#module-google.adk.evaluation)
+- [google.adk.events module](google-adk.html#module-google.adk.events)
+- [google.adk.examples module](google-adk.html#module-google.adk.examples)
+- [google.adk.memory module](google-adk.html#module-google.adk.memory)
+- [google.adk.models module](google-adk.html#module-google.adk.models)
+- [google.adk.planners module](google-adk.html#module-google.adk.planners)
+- [google.adk.runners module](google-adk.html#module-google.adk.runners)
+- [google.adk.sessions module](google-adk.html#module-google.adk.sessions)
+- [google.adk.tools package](google-adk.html#module-google.adk.tools)
+
+[
+
+[
+
+
+
+Toggle table of contents sidebar
+
+# google[¶](#google "Link to this heading")
+
+- [Submodules](google-adk.html)
+- [google.adk.agents module](google-adk.html#module-google.adk.agents)
+  - [`Agent`](google-adk.html#google.adk.agents.Agent)
+  - [`BaseAgent`](google-adk.html#google.adk.agents.BaseAgent)
+    - [`BaseAgent.after_agent_callback`](google-adk.html#google.adk.agents.BaseAgent.after_agent_callback)
+    - [`BaseAgent.before_agent_callback`](google-adk.html#google.adk.agents.BaseAgent.before_agent_callback)
+    - [`BaseAgent.description`](google-adk.html#google.adk.agents.BaseAgent.description)
+    - [`BaseAgent.name`](google-adk.html#google.adk.agents.BaseAgent.name)
+    - [`BaseAgent.parent_agent`](google-adk.html#google.adk.agents.BaseAgent.parent_agent)
+    - [`BaseAgent.sub_agents`](google-adk.html#google.adk.agents.BaseAgent.sub_agents)
+    - [`BaseAgent.find_agent()`](google-adk.html#google.adk.agents.BaseAgent.find_agent)
+    - [`BaseAgent.find_sub_agent()`](google-adk.html#google.adk.agents.BaseAgent.find_sub_agent)
+    - [`BaseAgent.model_post_init()`](google-adk.html#google.adk.agents.BaseAgent.model_post_init)
+    - [`BaseAgent.run_async()`](google-adk.html#google.adk.agents.BaseAgent.run_async)
+    - [`BaseAgent.run_live()`](google-adk.html#google.adk.agents.BaseAgent.run_live)
+    - [`BaseAgent.root_agent`](google-adk.html#google.adk.agents.BaseAgent.root_agent)
+  - [`LlmAgent`](google-adk.html#google.adk.agents.LlmAgent)
+    - [`LlmAgent.after_model_callback`](google-adk.html#google.adk.agents.LlmAgent.after_model_callback)
+    - [`LlmAgent.after_tool_callback`](google-adk.html#google.adk.agents.LlmAgent.after_tool_callback)
+    - [`LlmAgent.before_model_callback`](google-adk.html#google.adk.agents.LlmAgent.before_model_callback)
+    - [`LlmAgent.before_tool_callback`](google-adk.html#google.adk.agents.LlmAgent.before_tool_callback)
+    - [`LlmAgent.code_executor`](google-adk.html#google.adk.agents.LlmAgent.code_executor)
+    - [`LlmAgent.disallow_transfer_to_parent`](google-adk.html#google.adk.agents.LlmAgent.disallow_transfer_to_parent)
+    - [`LlmAgent.disallow_transfer_to_peers`](google-adk.html#google.adk.agents.LlmAgent.disallow_transfer_to_peers)
+    - [`LlmAgent.examples`](google-adk.html#google.adk.agents.LlmAgent.examples)
+    - [`LlmAgent.generate_content_config`](google-adk.html#google.adk.agents.LlmAgent.generate_content_config)
+    - [`LlmAgent.global_instruction`](google-adk.html#google.adk.agents.LlmAgent.global_instruction)
+    - [`LlmAgent.include_contents`](google-adk.html#google.adk.agents.LlmAgent.include_contents)
+    - [`LlmAgent.input_schema`](google-adk.html#google.adk.agents.LlmAgent.input_schema)
+    - [`LlmAgent.instruction`](google-adk.html#google.adk.agents.LlmAgent.instruction)
+    - [`LlmAgent.model`](google-adk.html#google.adk.agents.LlmAgent.model)
+    - [`LlmAgent.output_key`](google-adk.html#google.adk.agents.LlmAgent.output_key)
+    - [`LlmAgent.output_schema`](google-adk.html#google.adk.agents.LlmAgent.output_schema)
+    - [`LlmAgent.planner`](google-adk.html#google.adk.agents.LlmAgent.planner)
+    - [`LlmAgent.tools`](google-adk.html#google.adk.agents.LlmAgent.tools)
+    - [`LlmAgent.canonical_global_instruction()`](google-adk.html#google.adk.agents.LlmAgent.canonical_global_instruction)
+    - [`LlmAgent.canonical_instruction()`](google-adk.html#google.adk.agents.LlmAgent.canonical_instruction)
+    - [`LlmAgent.canonical_after_model_callbacks`](google-adk.html#google.adk.agents.LlmAgent.canonical_after_model_callbacks)
+    - [`LlmAgent.canonical_before_model_callbacks`](google-adk.html#google.adk.agents.LlmAgent.canonical_before_model_callbacks)
+    - [`LlmAgent.canonical_model`](google-adk.html#google.adk.agents.LlmAgent.canonical_model)
+    - [`LlmAgent.canonical_tools`](google-adk.html#google.adk.agents.LlmAgent.canonical_tools)
+  - [`LoopAgent`](google-adk.html#google.adk.agents.LoopAgent)
+    - [`LoopAgent.max_iterations`](google-adk.html#google.adk.agents.LoopAgent.max_iterations)
+  - [`ParallelAgent`](google-adk.html#google.adk.agents.ParallelAgent)
+  - [`SequentialAgent`](google-adk.html#google.adk.agents.SequentialAgent)
+- [google.adk.artifacts module](google-adk.html#module-google.adk.artifacts)
+  - [`BaseArtifactService`](google-adk.html#google.adk.artifacts.BaseArtifactService)
+    - [`BaseArtifactService.delete_artifact()`](google-adk.html#google.adk.artifacts.BaseArtifactService.delete_artifact)
+    - [`BaseArtifactService.list_artifact_keys()`](google-adk.html#google.adk.artifacts.BaseArtifactService.list_artifact_keys)
+    - [`BaseArtifactService.list_versions()`](google-adk.html#google.adk.artifacts.BaseArtifactService.list_versions)
+    - [`BaseArtifactService.load_artifact()`](google-adk.html#google.adk.artifacts.BaseArtifactService.load_artifact)
+    - [`BaseArtifactService.save_artifact()`](google-adk.html#google.adk.artifacts.BaseArtifactService.save_artifact)
+  - [`GcsArtifactService`](google-adk.html#google.adk.artifacts.GcsArtifactService)
+    - [`GcsArtifactService.delete_artifact()`](google-adk.html#google.adk.artifacts.GcsArtifactService.delete_artifact)
+    - [`GcsArtifactService.list_artifact_keys()`](google-adk.html#google.adk.artifacts.GcsArtifactService.list_artifact_keys)
+    - [`GcsArtifactService.list_versions()`](google-adk.html#google.adk.artifacts.GcsArtifactService.list_versions)
+    - [`GcsArtifactService.load_artifact()`](google-adk.html#google.adk.artifacts.GcsArtifactService.load_artifact)
+    - [`GcsArtifactService.save_artifact()`](google-adk.html#google.adk.artifacts.GcsArtifactService.save_artifact)
+  - [`InMemoryArtifactService`](google-adk.html#google.adk.artifacts.InMemoryArtifactService)
+    - [`InMemoryArtifactService.artifacts`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.artifacts)
+    - [`InMemoryArtifactService.delete_artifact()`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.delete_artifact)
+    - [`InMemoryArtifactService.list_artifact_keys()`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.list_artifact_keys)
+    - [`InMemoryArtifactService.list_versions()`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.list_versions)
+    - [`InMemoryArtifactService.load_artifact()`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.load_artifact)
+    - [`InMemoryArtifactService.save_artifact()`](google-adk.html#google.adk.artifacts.InMemoryArtifactService.save_artifact)
+- [google.adk.code\_executors module](google-adk.html#module-google.adk.code_executors)
+  - [`BaseCodeExecutor`](google-adk.html#google.adk.code_executors.BaseCodeExecutor)
+    - [`BaseCodeExecutor.optimize_data_file`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.optimize_data_file)
+    - [`BaseCodeExecutor.stateful`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.stateful)
+    - [`BaseCodeExecutor.error_retry_attempts`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.error_retry_attempts)
+    - [`BaseCodeExecutor.code_block_delimiters`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.code_block_delimiters)
+    - [`BaseCodeExecutor.execution_result_delimiters`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.execution_result_delimiters)
+    - [`BaseCodeExecutor.code_block_delimiters`](google-adk.html#id0)
+    - [`BaseCodeExecutor.error_retry_attempts`](google-adk.html#id9)
+    - [`BaseCodeExecutor.execution_result_delimiters`](google-adk.html#id10)
+    - [`BaseCodeExecutor.optimize_data_file`](google-adk.html#id11)
+    - [`BaseCodeExecutor.stateful`](google-adk.html#id12)
+    - [`BaseCodeExecutor.execute_code()`](google-adk.html#google.adk.code_executors.BaseCodeExecutor.execute_code)
+  - [`CodeExecutorContext`](google-adk.html#google.adk.code_executors.CodeExecutorContext)
+    - [`CodeExecutorContext.add_input_files()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.add_input_files)
+    - [`CodeExecutorContext.add_processed_file_names()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.add_processed_file_names)
+    - [`CodeExecutorContext.clear_input_files()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.clear_input_files)
+    - [`CodeExecutorContext.get_error_count()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_error_count)
+    - [`CodeExecutorContext.get_execution_id()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_execution_id)
+    - [`CodeExecutorContext.get_input_files()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_input_files)
+    - [`CodeExecutorContext.get_processed_file_names()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_processed_file_names)
+    - [`CodeExecutorContext.get_state_delta()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.get_state_delta)
+    - [`CodeExecutorContext.increment_error_count()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.increment_error_count)
+    - [`CodeExecutorContext.reset_error_count()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.reset_error_count)
+    - [`CodeExecutorContext.set_execution_id()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.set_execution_id)
+    - [`CodeExecutorContext.update_code_execution_result()`](google-adk.html#google.adk.code_executors.CodeExecutorContext.update_code_execution_result)
+  - [`ContainerCodeExecutor`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor)
+    - [`ContainerCodeExecutor.base_url`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.base_url)
+    - [`ContainerCodeExecutor.image`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.image)
+    - [`ContainerCodeExecutor.docker_path`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.docker_path)
+    - [`ContainerCodeExecutor.base_url`](google-adk.html#id13)
+    - [`ContainerCodeExecutor.docker_path`](google-adk.html#id14)
+    - [`ContainerCodeExecutor.image`](google-adk.html#id15)
+    - [`ContainerCodeExecutor.optimize_data_file`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.optimize_data_file)
+    - [`ContainerCodeExecutor.stateful`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.stateful)
+    - [`ContainerCodeExecutor.execute_code()`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.execute_code)
+    - [`ContainerCodeExecutor.model_post_init()`](google-adk.html#google.adk.code_executors.ContainerCodeExecutor.model_post_init)
+  - [`UnsafeLocalCodeExecutor`](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor)
+    - [`UnsafeLocalCodeExecutor.optimize_data_file`](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.optimize_data_file)
+    - [`UnsafeLocalCodeExecutor.stateful`](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.stateful)
+    - [`UnsafeLocalCodeExecutor.execute_code()`](google-adk.html#google.adk.code_executors.UnsafeLocalCodeExecutor.execute_code)
+  - [`VertexAiCodeExecutor`](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor)
+    - [`VertexAiCodeExecutor.resource_name`](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.resource_name)
+    - [`VertexAiCodeExecutor.resource_name`](google-adk.html#id16)
+    - [`VertexAiCodeExecutor.execute_code()`](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.execute_code)
+    - [`VertexAiCodeExecutor.model_post_init()`](google-adk.html#google.adk.code_executors.VertexAiCodeExecutor.model_post_init)
+- [google.adk.evaluation module](google-adk.html#module-google.adk.evaluation)
+  - [`AgentEvaluator`](google-adk.html#google.adk.evaluation.AgentEvaluator)
+    - [`AgentEvaluator.evaluate()`](google-adk.html#google.adk.evaluation.AgentEvaluator.evaluate)
+    - [`AgentEvaluator.find_config_for_test_file()`](google-adk.html#google.adk.evaluation.AgentEvaluator.find_config_for_test_file)
+- [google.adk.events module](google-adk.html#module-google.adk.events)
+  - [`Event`](google-adk.html#google.adk.events.Event)
+    - [`Event.invocation_id`](google-adk.html#google.adk.events.Event.invocation_id)
+    - [`Event.author`](google-adk.html#google.adk.events.Event.author)
+    - [`Event.actions`](google-adk.html#google.adk.events.Event.actions)
+    - [`Event.long_running_tool_ids`](google-adk.html#google.adk.events.Event.long_running_tool_ids)
+    - [`Event.branch`](google-adk.html#google.adk.events.Event.branch)
+    - [`Event.id`](google-adk.html#google.adk.events.Event.id)
+    - [`Event.timestamp`](google-adk.html#google.adk.events.Event.timestamp)
+    - [`Event.is_final_response`](google-adk.html#google.adk.events.Event.is_final_response)
+    - [`Event.get_function_calls`](google-adk.html#google.adk.events.Event.get_function_calls)
+    - [`Event.actions`](google-adk.html#id17)
+    - [`Event.author`](google-adk.html#id18)
+    - [`Event.branch`](google-adk.html#id19)
+    - [`Event.id`](google-adk.html#id20)
+    - [`Event.invocation_id`](google-adk.html#id21)
+    - [`Event.long_running_tool_ids`](google-adk.html#id22)
+    - [`Event.timestamp`](google-adk.html#id23)
+    - [`Event.new_id()`](google-adk.html#google.adk.events.Event.new_id)
+    - [`Event.get_function_calls()`](google-adk.html#id24)
+    - [`Event.get_function_responses()`](google-adk.html#google.adk.events.Event.get_function_responses)
+    - [`Event.has_trailing_code_execution_result()`](google-adk.html#google.adk.events.Event.has_trailing_code_execution_result)
+    - [`Event.is_final_response()`](google-adk.html#id25)
+    - [`Event.model_post_init()`](google-adk.html#google.adk.events.Event.model_post_init)
+  - [`EventActions`](google-adk.html#google.adk.events.EventActions)
+    - [`EventActions.artifact_delta`](google-adk.html#google.adk.events.EventActions.artifact_delta)
+    - [`EventActions.escalate`](google-adk.html#google.adk.events.EventActions.escalate)
+    - [`EventActions.requested_auth_configs`](google-adk.html#google.adk.events.EventActions.requested_auth_configs)
+    - [`EventActions.skip_summarization`](google-adk.html#google.adk.events.EventActions.skip_summarization)
+    - [`EventActions.state_delta`](google-adk.html#google.adk.events.EventActions.state_delta)
+    - [`EventActions.transfer_to_agent`](google-adk.html#google.adk.events.EventActions.transfer_to_agent)
+- [google.adk.examples module](google-adk.html#module-google.adk.examples)
+  - [`BaseExampleProvider`](google-adk.html#google.adk.examples.BaseExampleProvider)
+    - [`BaseExampleProvider.get_examples()`](google-adk.html#google.adk.examples.BaseExampleProvider.get_examples)
+  - [`Example`](google-adk.html#google.adk.examples.Example)
+    - [`Example.input`](google-adk.html#google.adk.examples.Example.input)
+    - [`Example.output`](google-adk.html#google.adk.examples.Example.output)
+    - [`Example.input`](google-adk.html#id26)
+    - [`Example.output`](google-adk.html#id27)
+  - [`VertexAiExampleStore`](google-adk.html#google.adk.examples.VertexAiExampleStore)
+    - [`VertexAiExampleStore.get_examples()`](google-adk.html#google.adk.examples.VertexAiExampleStore.get_examples)
+- [google.adk.memory module](google-adk.html#module-google.adk.memory)
+  - [`BaseMemoryService`](google-adk.html#google.adk.memory.BaseMemoryService)
+    - [`BaseMemoryService.add_session_to_memory()`](google-adk.html#google.adk.memory.BaseMemoryService.add_session_to_memory)
+    - [`BaseMemoryService.search_memory()`](google-adk.html#google.adk.memory.BaseMemoryService.search_memory)
+  - [`InMemoryMemoryService`](google-adk.html#google.adk.memory.InMemoryMemoryService)
+    - [`InMemoryMemoryService.add_session_to_memory()`](google-adk.html#google.adk.memory.InMemoryMemoryService.add_session_to_memory)
+    - [`InMemoryMemoryService.search_memory()`](google-adk.html#google.adk.memory.InMemoryMemoryService.search_memory)
+    - [`InMemoryMemoryService.session_events`](google-adk.html#google.adk.memory.InMemoryMemoryService.session_events)
+  - [`VertexAiRagMemoryService`](google-adk.html#google.adk.memory.VertexAiRagMemoryService)
+    - [`VertexAiRagMemoryService.add_session_to_memory()`](google-adk.html#google.adk.memory.VertexAiRagMemoryService.add_session_to_memory)
+    - [`VertexAiRagMemoryService.search_memory()`](google-adk.html#google.adk.memory.VertexAiRagMemoryService.search_memory)
+- [google.adk.models module](google-adk.html#module-google.adk.models)
+  - [`BaseLlm`](google-adk.html#google.adk.models.BaseLlm)
+    - [`BaseLlm.model`](google-adk.html#google.adk.models.BaseLlm.model)
+    - [`BaseLlm.model`](google-adk.html#id28)
+    - [`BaseLlm.supported_models()`](google-adk.html#google.adk.models.BaseLlm.supported_models)
+    - [`BaseLlm.connect()`](google-adk.html#google.adk.models.BaseLlm.connect)
+    - [`BaseLlm.generate_content_async()`](google-adk.html#google.adk.models.BaseLlm.generate_content_async)
+  - [`Gemini`](google-adk.html#google.adk.models.Gemini)
+    - [`Gemini.model`](google-adk.html#google.adk.models.Gemini.model)
+    - [`Gemini.model`](google-adk.html#id29)
+    - [`Gemini.supported_models()`](google-adk.html#google.adk.models.Gemini.supported_models)
+    - [`Gemini.connect()`](google-adk.html#google.adk.models.Gemini.connect)
+    - [`Gemini.generate_content_async()`](google-adk.html#google.adk.models.Gemini.generate_content_async)
+    - [`Gemini.api_client`](google-adk.html#google.adk.models.Gemini.api_client)
+  - [`LLMRegistry`](google-adk.html#google.adk.models.LLMRegistry)
+    - [`LLMRegistry.new_llm()`](google-adk.html#google.adk.models.LLMRegistry.new_llm)
+    - [`LLMRegistry.register()`](google-adk.html#google.adk.models.LLMRegistry.register)
+    - [`LLMRegistry.resolve()`](google-adk.html#google.adk.models.LLMRegistry.resolve)
+- [google.adk.planners module](google-adk.html#module-google.adk.planners)
+  - [`BasePlanner`](google-adk.html#google.adk.planners.BasePlanner)
+    - [`BasePlanner.build_planning_instruction()`](google-adk.html#google.adk.planners.BasePlanner.build_planning_instruction)
+    - [`BasePlanner.process_planning_response()`](google-adk.html#google.adk.planners.BasePlanner.process_planning_response)
+  - [`BuiltInPlanner`](google-adk.html#google.adk.planners.BuiltInPlanner)
+    - [`BuiltInPlanner.thinking_config`](google-adk.html#google.adk.planners.BuiltInPlanner.thinking_config)
+    - [`BuiltInPlanner.apply_thinking_config()`](google-adk.html#google.adk.planners.BuiltInPlanner.apply_thinking_config)
+    - [`BuiltInPlanner.build_planning_instruction()`](google-adk.html#google.adk.planners.BuiltInPlanner.build_planning_instruction)
+    - [`BuiltInPlanner.process_planning_response()`](google-adk.html#google.adk.planners.BuiltInPlanner.process_planning_response)
+    - [`BuiltInPlanner.thinking_config`](google-adk.html#id30)
+  - [`PlanReActPlanner`](google-adk.html#google.adk.planners.PlanReActPlanner)
+    - [`PlanReActPlanner.build_planning_instruction()`](google-adk.html#google.adk.planners.PlanReActPlanner.build_planning_instruction)
+    - [`PlanReActPlanner.process_planning_response()`](google-adk.html#google.adk.planners.PlanReActPlanner.process_planning_response)
+- [google.adk.runners module](google-adk.html#module-google.adk.runners)
+  - [`InMemoryRunner`](google-adk.html#google.adk.runners.InMemoryRunner)
+    - [`InMemoryRunner.agent`](google-adk.html#google.adk.runners.InMemoryRunner.agent)
+    - [`InMemoryRunner.app_name`](google-adk.html#google.adk.runners.InMemoryRunner.app_name)
+  - [`Runner`](google-adk.html#google.adk.runners.Runner)
+    - [`Runner.app_name`](google-adk.html#google.adk.runners.Runner.app_name)
+    - [`Runner.agent`](google-adk.html#google.adk.runners.Runner.agent)
+    - [`Runner.artifact_service`](google-adk.html#google.adk.runners.Runner.artifact_service)
+    - [`Runner.session_service`](google-adk.html#google.adk.runners.Runner.session_service)
+    - [`Runner.memory_service`](google-adk.html#google.adk.runners.Runner.memory_service)
+    - [`Runner.agent`](google-adk.html#id31)
+    - [`Runner.app_name`](google-adk.html#id32)
+    - [`Runner.artifact_service`](google-adk.html#id33)
+    - [`Runner.close_session()`](google-adk.html#google.adk.runners.Runner.close_session)
+    - [`Runner.memory_service`](google-adk.html#id34)
+    - [`Runner.run()`](google-adk.html#google.adk.runners.Runner.run)
+    - [`Runner.run_async()`](google-adk.html#google.adk.runners.Runner.run_async)
+    - [`Runner.run_live()`](google-adk.html#google.adk.runners.Runner.run_live)
+    - [`Runner.session_service`](google-adk.html#id35)
+- [google.adk.sessions module](google-adk.html#module-google.adk.sessions)
+  - [`BaseSessionService`](google-adk.html#google.adk.sessions.BaseSessionService)
+    - [`BaseSessionService.append_event()`](google-adk.html#google.adk.sessions.BaseSessionService.append_event)
+    - [`BaseSessionService.close_session()`](google-adk.html#google.adk.sessions.BaseSessionService.close_session)
+    - [`BaseSessionService.create_session()`](google-adk.html#google.adk.sessions.BaseSessionService.create_session)
+    - [`BaseSessionService.delete_session()`](google-adk.html#google.adk.sessions.BaseSessionService.delete_session)
+    - [`BaseSessionService.get_session()`](google-adk.html#google.adk.sessions.BaseSessionService.get_session)
+    - [`BaseSessionService.list_events()`](google-adk.html#google.adk.sessions.BaseSessionService.list_events)
+    - [`BaseSessionService.list_sessions()`](google-adk.html#google.adk.sessions.BaseSessionService.list_sessions)
+  - [`DatabaseSessionService`](google-adk.html#google.adk.sessions.DatabaseSessionService)
+    - [`DatabaseSessionService.append_event()`](google-adk.html#google.adk.sessions.DatabaseSessionService.append_event)
+    - [`DatabaseSessionService.create_session()`](google-adk.html#google.adk.sessions.DatabaseSessionService.create_session)
+    - [`DatabaseSessionService.delete_session()`](google-adk.html#google.adk.sessions.DatabaseSessionService.delete_session)
+    - [`DatabaseSessionService.get_session()`](google-adk.html#google.adk.sessions.DatabaseSessionService.get_session)
+    - [`DatabaseSessionService.list_events()`](google-adk.html#google.adk.sessions.DatabaseSessionService.list_events)
+    - [`DatabaseSessionService.list_sessions()`](google-adk.html#google.adk.sessions.DatabaseSessionService.list_sessions)
+  - [`InMemorySessionService`](google-adk.html#google.adk.sessions.InMemorySessionService)
+    - [`InMemorySessionService.append_event()`](google-adk.html#google.adk.sessions.InMemorySessionService.append_event)
+    - [`InMemorySessionService.create_session()`](google-adk.html#google.adk.sessions.InMemorySessionService.create_session)
+    - [`InMemorySessionService.delete_session()`](google-adk.html#google.adk.sessions.InMemorySessionService.delete_session)
+    - [`InMemorySessionService.get_session()`](google-adk.html#google.adk.sessions.InMemorySessionService.get_session)
+    - [`InMemorySessionService.list_events()`](google-adk.html#google.adk.sessions.InMemorySessionService.list_events)
+    - [`InMemorySessionService.list_sessions()`](google-adk.html#google.adk.sessions.InMemorySessionService.list_sessions)
+  - [`Session`](google-adk.html#google.adk.sessions.Session)
+    - [`Session.id`](google-adk.html#google.adk.sessions.Session.id)
+    - [`Session.app_name`](google-adk.html#google.adk.sessions.Session.app_name)
+    - [`Session.user_id`](google-adk.html#google.adk.sessions.Session.user_id)
+    - [`Session.state`](google-adk.html#google.adk.sessions.Session.state)
+    - [`Session.events`](google-adk.html#google.adk.sessions.Session.events)
+    - [`Session.last_update_time`](google-adk.html#google.adk.sessions.Session.last_update_time)
+    - [`Session.app_name`](google-adk.html#id36)
+    - [`Session.events`](google-adk.html#id37)
+    - [`Session.id`](google-adk.html#id38)
+    - [`Session.last_update_time`](google-adk.html#id39)
+    - [`Session.state`](google-adk.html#id40)
+    - [`Session.user_id`](google-adk.html#id41)
+  - [`State`](google-adk.html#google.adk.sessions.State)
+    - [`State.APP_PREFIX`](google-adk.html#google.adk.sessions.State.APP_PREFIX)
+    - [`State.TEMP_PREFIX`](google-adk.html#google.adk.sessions.State.TEMP_PREFIX)
+    - [`State.USER_PREFIX`](google-adk.html#google.adk.sessions.State.USER_PREFIX)
+    - [`State.get()`](google-adk.html#google.adk.sessions.State.get)
+    - [`State.has_delta()`](google-adk.html#google.adk.sessions.State.has_delta)
+    - [`State.to_dict()`](google-adk.html#google.adk.sessions.State.to_dict)
+    - [`State.update()`](google-adk.html#google.adk.sessions.State.update)
+  - [`VertexAiSessionService`](google-adk.html#google.adk.sessions.VertexAiSessionService)
+    - [`VertexAiSessionService.append_event()`](google-adk.html#google.adk.sessions.VertexAiSessionService.append_event)
+    - [`VertexAiSessionService.create_session()`](google-adk.html#google.adk.sessions.VertexAiSessionService.create_session)
+    - [`VertexAiSessionService.delete_session()`](google-adk.html#google.adk.sessions.VertexAiSessionService.delete_session)
+    - [`VertexAiSessionService.get_session()`](google-adk.html#google.adk.sessions.VertexAiSessionService.get_session)
+    - [`VertexAiSessionService.list_events()`](google-adk.html#google.adk.sessions.VertexAiSessionService.list_events)
+    - [`VertexAiSessionService.list_sessions()`](google-adk.html#google.adk.sessions.VertexAiSessionService.list_sessions)
+- [google.adk.tools package](google-adk.html#module-google.adk.tools)
+  - [`APIHubToolset`](google-adk.html#google.adk.tools.APIHubToolset)
+    - [`APIHubToolset.get_tool()`](google-adk.html#google.adk.tools.APIHubToolset.get_tool)
+    - [`APIHubToolset.get_tools()`](google-adk.html#google.adk.tools.APIHubToolset.get_tools)
+  - [`AuthToolArguments`](google-adk.html#google.adk.tools.AuthToolArguments)
+    - [`AuthToolArguments.auth_config`](google-adk.html#google.adk.tools.AuthToolArguments.auth_config)
+    - [`AuthToolArguments.function_call_id`](google-adk.html#google.adk.tools.AuthToolArguments.function_call_id)
+  - [`BaseTool`](google-adk.html#google.adk.tools.BaseTool)
+    - [`BaseTool.description`](google-adk.html#google.adk.tools.BaseTool.description)
+    - [`BaseTool.is_long_running`](google-adk.html#google.adk.tools.BaseTool.is_long_running)
+    - [`BaseTool.name`](google-adk.html#google.adk.tools.BaseTool.name)
+    - [`BaseTool.process_llm_request()`](google-adk.html#google.adk.tools.BaseTool.process_llm_request)
+    - [`BaseTool.run_async()`](google-adk.html#google.adk.tools.BaseTool.run_async)
+  - [`ExampleTool`](google-adk.html#google.adk.tools.ExampleTool)
+    - [`ExampleTool.examples`](google-adk.html#google.adk.tools.ExampleTool.examples)
+    - [`ExampleTool.process_llm_request()`](google-adk.html#google.adk.tools.ExampleTool.process_llm_request)
+  - [`FunctionTool`](google-adk.html#google.adk.tools.FunctionTool)
+    - [`FunctionTool.func`](google-adk.html#google.adk.tools.FunctionTool.func)
+    - [`FunctionTool.run_async()`](google-adk.html#google.adk.tools.FunctionTool.run_async)
+  - [`LongRunningFunctionTool`](google-adk.html#google.adk.tools.LongRunningFunctionTool)
+    - [`LongRunningFunctionTool.is_long_running`](google-adk.html#google.adk.tools.LongRunningFunctionTool.is_long_running)
+  - [`ToolContext`](google-adk.html#google.adk.tools.ToolContext)
+    - [`ToolContext.invocation_context`](google-adk.html#google.adk.tools.ToolContext.invocation_context)
+    - [`ToolContext.function_call_id`](google-adk.html#google.adk.tools.ToolContext.function_call_id)
+    - [`ToolContext.event_actions`](google-adk.html#google.adk.tools.ToolContext.event_actions)
+    - [`ToolContext.actions`](google-adk.html#google.adk.tools.ToolContext.actions)
+    - [`ToolContext.get_auth_response()`](google-adk.html#google.adk.tools.ToolContext.get_auth_response)
+    - [`ToolContext.list_artifacts()`](google-adk.html#google.adk.tools.ToolContext.list_artifacts)
+    - [`ToolContext.request_credential()`](google-adk.html#google.adk.tools.ToolContext.request_credential)
+    - [`ToolContext.search_memory()`](google-adk.html#google.adk.tools.ToolContext.search_memory)
+  - [`VertexAiSearchTool`](google-adk.html#google.adk.tools.VertexAiSearchTool)
+    - [`VertexAiSearchTool.data_store_id`](google-adk.html#google.adk.tools.VertexAiSearchTool.data_store_id)
+    - [`VertexAiSearchTool.search_engine_id`](google-adk.html#google.adk.tools.VertexAiSearchTool.search_engine_id)
+    - [`VertexAiSearchTool.process_llm_request()`](google-adk.html#google.adk.tools.VertexAiSearchTool.process_llm_request)
+  - [`exit_loop()`](google-adk.html#google.adk.tools.exit_loop)
+  - [`transfer_to_agent()`](google-adk.html#google.adk.tools.transfer_to_agent)
+  - [`ApplicationIntegrationToolset`](google-adk.html#google.adk.tools.application_integration_tool.ApplicationIntegrationToolset)
+    - [`ApplicationIntegrationToolset.get_tools()`](google-adk.html#google.adk.tools.application_integration_tool.ApplicationIntegrationToolset.get_tools)
+  - [`IntegrationConnectorTool`](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool)
+    - [`IntegrationConnectorTool.EXCLUDE_FIELDS`](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.EXCLUDE_FIELDS)
+    - [`IntegrationConnectorTool.OPTIONAL_FIELDS`](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.OPTIONAL_FIELDS)
+    - [`IntegrationConnectorTool.run_async()`](google-adk.html#google.adk.tools.application_integration_tool.IntegrationConnectorTool.run_async)
+  - [`MCPTool`](google-adk.html#google.adk.tools.mcp_tool.MCPTool)
+    - [`MCPTool.run_async()`](google-adk.html#google.adk.tools.mcp_tool.MCPTool.run_async)
+  - [`MCPToolset`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset)
+    - [`MCPToolset.connection_params`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.connection_params)
+    - [`MCPToolset.exit_stack`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.exit_stack)
+    - [`MCPToolset.session`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.session)
+    - [`MCPToolset.from_server()`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.from_server)
+    - [`MCPToolset.load_tools()`](google-adk.html#google.adk.tools.mcp_tool.MCPToolset.load_tools)
+  - [`adk_to_mcp_tool_type()`](google-adk.html#google.adk.tools.mcp_tool.adk_to_mcp_tool_type)
+  - [`gemini_to_json_schema()`](google-adk.html#google.adk.tools.mcp_tool.gemini_to_json_schema)
+  - [`OpenAPIToolset`](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset)
+    - [`OpenAPIToolset.get_tool()`](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset.get_tool)
+    - [`OpenAPIToolset.get_tools()`](google-adk.html#google.adk.tools.openapi_tool.OpenAPIToolset.get_tools)
+  - [`RestApiTool`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool)
+    - [`RestApiTool.call()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.call)
+    - [`RestApiTool.configure_auth_credential()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.configure_auth_credential)
+    - [`RestApiTool.configure_auth_scheme()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.configure_auth_scheme)
+    - [`RestApiTool.from_parsed_operation()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.from_parsed_operation)
+    - [`RestApiTool.from_parsed_operation_str()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.from_parsed_operation_str)
+    - [`RestApiTool.run_async()`](google-adk.html#google.adk.tools.openapi_tool.RestApiTool.run_async)
+  - [`BaseRetrievalTool`](google-adk.html#google.adk.tools.retrieval.BaseRetrievalTool)
+  - [`FilesRetrieval`](google-adk.html#google.adk.tools.retrieval.FilesRetrieval)
+  - [`LlamaIndexRetrieval`](google-adk.html#google.adk.tools.retrieval.LlamaIndexRetrieval)
+    - [`LlamaIndexRetrieval.run_async()`](google-adk.html#google.adk.tools.retrieval.LlamaIndexRetrieval.run_async)
+  - [`VertexAiRagRetrieval`](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval)
+    - [`VertexAiRagRetrieval.process_llm_request()`](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval.process_llm_request)
+    - [`VertexAiRagRetrieval.run_async()`](google-adk.html#google.adk.tools.retrieval.VertexAiRagRetrieval.run_async)
+
+[Next
+
+Submodules](google-adk.html)
+
+Copyright © 2025, Google
+
+Made with [Sphinx](https://www.sphinx-doc.org/) and [@pradyunsg](https://pradyunsg.me)'s
+[Furo](https://github.com/pradyunsg/furo)
+
+---
+
+
+### Python Module Index
+
+*File: docs/api-reference/python/py-modindex.html*
+
+Python Module Index - Agent Development Kit documentation
+
+body {
+--color-code-background: #f8f8f8;
+--color-code-foreground: black;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: black;
+--color-brand-content: black;
+}
+@media not print {
+body[data-theme="dark"] {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+}
+}
+
+document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+
+Contents
+
+Menu
+
+Expand
+
+Light mode
+
+Dark mode
+
+Auto light/dark, in light mode
+
+Auto light/dark, in dark mode
+
+Hide navigation sidebar
+
+Hide table of contents sidebar
+
+[Skip to content](#furo-main-content)
+
+Toggle site navigation sidebar
+
+[Agent Development Kit documentation](index.html)
+
+
+
+Toggle table of contents sidebar
+
+[Agent Development Kit documentation](index.html)
+
+- [Submodules](google-adk.html)
+- [google.adk.agents module](google-adk.html#module-google.adk.agents)
+- [google.adk.artifacts module](google-adk.html#module-google.adk.artifacts)
+- [google.adk.code\_executors module](google-adk.html#module-google.adk.code_executors)
+- [google.adk.evaluation module](google-adk.html#module-google.adk.evaluation)
+- [google.adk.events module](google-adk.html#module-google.adk.events)
+- [google.adk.examples module](google-adk.html#module-google.adk.examples)
+- [google.adk.memory module](google-adk.html#module-google.adk.memory)
+- [google.adk.models module](google-adk.html#module-google.adk.models)
+- [google.adk.planners module](google-adk.html#module-google.adk.planners)
+- [google.adk.runners module](google-adk.html#module-google.adk.runners)
+- [google.adk.sessions module](google-adk.html#module-google.adk.sessions)
+- [google.adk.tools package](google-adk.html#module-google.adk.tools)
+
+[
+
+
+
+Toggle table of contents sidebar
+
+# Python Module Index
+
+[**g**](#cap-g)
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  | **g** |  |
+| - | `google` |  |
+|  | [`google.adk.agents`](google-adk.html#module-google.adk.agents) |  |
+|  | [`google.adk.artifacts`](google-adk.html#module-google.adk.artifacts) |  |
+|  | [`google.adk.code_executors`](google-adk.html#module-google.adk.code_executors) |  |
+|  | [`google.adk.evaluation`](google-adk.html#module-google.adk.evaluation) |  |
+|  | [`google.adk.events`](google-adk.html#module-google.adk.events) |  |
+|  | [`google.adk.examples`](google-adk.html#module-google.adk.examples) |  |
+|  | [`google.adk.memory`](google-adk.html#module-google.adk.memory) |  |
+|  | [`google.adk.models`](google-adk.html#module-google.adk.models) |  |
+|  | [`google.adk.planners`](google-adk.html#module-google.adk.planners) |  |
+|  | [`google.adk.runners`](google-adk.html#module-google.adk.runners) |  |
+|  | [`google.adk.sessions`](google-adk.html#module-google.adk.sessions) |  |
+|  | [`google.adk.tools`](google-adk.html#module-google.adk.tools) |  |
+|  | [`google.adk.tools.application_integration_tool`](google-adk.html#module-google.adk.tools.application_integration_tool) |  |
+|  | [`google.adk.tools.google_api_tool`](google-adk.html#module-google.adk.tools.google_api_tool) |  |
+|  | [`google.adk.tools.mcp_tool`](google-adk.html#module-google.adk.tools.mcp_tool) |  |
+|  | [`google.adk.tools.openapi_tool`](google-adk.html#module-google.adk.tools.openapi_tool) |  |
+|  | [`google.adk.tools.retrieval`](google-adk.html#module-google.adk.tools.retrieval) |  |
+
+Copyright © 2025, Google
+
+Made with [Sphinx](https://www.sphinx-doc.org/) and [@pradyunsg](https://pradyunsg.me)'s
+[Furo](https://github.com/pradyunsg/furo)
+
+---
+
+
+### Search - Agent Development Kit  documentation
+
+*File: docs/api-reference/python/search.html*
+
+Search - Agent Development Kit documentation
+
+body {
+--color-code-background: #f8f8f8;
+--color-code-foreground: black;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: black;
+--color-brand-content: black;
+}
+@media not print {
+body[data-theme="dark"] {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+@media (prefers-color-scheme: dark) {
+body:not([data-theme="light"]) {
+--color-code-background: #202020;
+--color-code-foreground: #d0d0d0;
+--font-stack: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--font-stack--monospace: Roboto Mono, "Helvetica Neue Mono", monospace;
+--font-stack--headings: "Google Sans Text", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+--color-brand-primary: white;
+--color-brand-content: white;
+}
+}
+}
+
+document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+
+Contents
+
+Menu
+
+Expand
+
+Light mode
+
+Dark mode
+
+Auto light/dark, in light mode
+
+Auto light/dark, in dark mode
+
+Hide navigation sidebar
+
+Hide table of contents sidebar
+
+[Skip to content](#furo-main-content)
+
+Toggle site navigation sidebar
+
+[Agent Development Kit documentation](index.html)
+
+
+
+Toggle table of contents sidebar
+
+[Agent Development Kit documentation](index.html)
+
+- [Submodules](google-adk.html)
+- [google.adk.agents module](google-adk.html#module-google.adk.agents)
+- [google.adk.artifacts module](google-adk.html#module-google.adk.artifacts)
+- [google.adk.code\_executors module](google-adk.html#module-google.adk.code_executors)
+- [google.adk.evaluation module](google-adk.html#module-google.adk.evaluation)
+- [google.adk.events module](google-adk.html#module-google.adk.events)
+- [google.adk.examples module](google-adk.html#module-google.adk.examples)
+- [google.adk.memory module](google-adk.html#module-google.adk.memory)
+- [google.adk.models module](google-adk.html#module-google.adk.models)
+- [google.adk.planners module](google-adk.html#module-google.adk.planners)
+- [google.adk.runners module](google-adk.html#module-google.adk.runners)
+- [google.adk.sessions module](google-adk.html#module-google.adk.sessions)
+- [google.adk.tools package](google-adk.html#module-google.adk.tools)
+
+[
+
+
+
+Toggle table of contents sidebar
+
+Error
+
+Please activate JavaScript to enable the search functionality.
+
+Copyright © 2025, Google
+
+Made with [Sphinx](https://www.sphinx-doc.org/) and [@pradyunsg](https://pradyunsg.me)'s
+[Furo](https://github.com/pradyunsg/furo)
+
+---
+
+
+## Directory: docs/api-reference/python/_sources
+
+
+### Google Adk.Rst
+
+*File: docs/api-reference/python/_sources/google-adk.rst.txt*
+
+Submodules
+----------
+
+google.adk.agents module
+------------------------
+
+.. automodule:: google.adk.agents
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.artifacts module
+---------------------------
+
+.. automodule:: google.adk.artifacts
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.code_executors module
+--------------------------------
+
+.. automodule:: google.adk.code_executors
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.evaluation module
+----------------------------
+
+.. automodule:: google.adk.evaluation
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.events module
+------------------------
+
+.. automodule:: google.adk.events
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.examples module
+--------------------------
+
+.. automodule:: google.adk.examples
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.memory module
+------------------------
+
+.. automodule:: google.adk.memory
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.models module
+------------------------
+
+.. automodule:: google.adk.models
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.planners module
+--------------------------
+
+.. automodule:: google.adk.planners
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.runners module
+--------------------------
+
+.. automodule:: google.adk.runners
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.sessions module
+--------------------------
+
+.. automodule:: google.adk.sessions
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+google.adk.tools package
+--------------------------
+.. automodule:: google.adk.tools
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. rst-class:: sphinx-indent
+
+   google.adk.tools.application_integration_tool module
+   ----------------------------------------------------
+   .. automodule:: google.adk.tools.application_integration_tool
+       :members:
+       :undoc-members:
+       :show-inheritance:
+
+   google.adk.tools.google_api_tool module
+   ---------------------------------------
+   .. automodule:: google.adk.tools.google_api_tool
+       :members:
+       :undoc-members:
+       :show-inheritance:
+
+   google.adk.tools.mcp_tool module
+   --------------------------------
+   .. automodule:: google.adk.tools.mcp_tool
+       :members:
+       :undoc-members:
+       :show-inheritance:
+
+   google.adk.tools.openapi_tool module
+   ------------------------------------
+   .. automodule:: google.adk.tools.openapi_tool
+       :members:
+       :undoc-members:
+       :show-inheritance:
+
+   google.adk.tools.retrieval module
+   ---------------------------------
+   .. automodule:: google.adk.tools.retrieval
+       :members:
+       :undoc-members:
+       :show-inheritance:
+
+---
+
+
+### Index.Rst
+
+*File: docs/api-reference/python/_sources/index.rst.txt*
+
+google
+======
+
+.. toctree::
+   :maxdepth: 4
+
+   google-adk
+
+---
+
+
+## Directory: docs/api-reference/python/_static/scripts
+
+
+### Furo.Js.License
+
+*File: docs/api-reference/python/_static/scripts/furo.js.LICENSE.txt*
+
+/*!
+ * gumshoejs v5.1.2 (patched by @pradyunsg)
+ * A simple, framework-agnostic scrollspy script.
+ * (c) 2019 Chris Ferdinandi
+ * MIT License
+ * http://github.com/cferdinandi/gumshoe
+ */
+
+---

@@ -183,3 +183,7 @@ docs/site
 
 # Claude Code
 .claude
+
+# Ignore Code Giant output directory
+.codegiant/
+
