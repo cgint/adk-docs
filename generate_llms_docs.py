@@ -11,6 +11,8 @@ Generates:
     - llms-core.txt: Language-agnostic concepts and overview
     - llms-python.txt: Python-specific documentation 
     - llms-java.txt: Java-specific documentation
+    - llms-python-full.txt: Combined core + Python documentation
+    - llms-java-full.txt: Combined core + Java documentation
 
 Splitting Logic:
 - Core: All documentation content except language-specific API references
