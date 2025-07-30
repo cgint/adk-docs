@@ -10,6 +10,14 @@ Generates:
     - llms-python.txt: Python-specific documentation 
     - llms-java.txt: Java-specific documentation
 
+Splitting Logic:
+- Core: All documentation content except language-specific API references
+- Python: Only files in docs/api-reference/python/ directory  
+- Java: Only the index-all.html file from docs/api-reference/java/
+
+The script processes markdown, HTML, and code files, converting them to clean text
+while preserving structure and removing navigation noise.
+
 /// script
 dependencies = [
     "beautifulsoup4>=4.12.0",
@@ -18,11 +26,10 @@ dependencies = [
 ///
 """
 
-import os
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Optional, Set
+from typing import Dict, List
 import logging
 
 try:
@@ -287,7 +294,7 @@ class DocumentationGenerator:
             f.write(java_full_doc)
         
         # Print statistics
-        logger.info(f"Generated files:")
+        logger.info("Generated files:")
         logger.info(f"  llms-core.txt: {len(core_doc):,} characters")
         logger.info(f"  llms-python.txt: {len(python_doc):,} characters")
         logger.info(f"  llms-java.txt: {len(java_doc):,} characters")
