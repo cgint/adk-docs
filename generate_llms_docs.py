@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+CC0 1.0 Universal (Public Domain)
+
 Script to generate clean, language-specific documentation files for ADK.
 
 Usage:
